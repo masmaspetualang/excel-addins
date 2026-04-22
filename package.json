@@ -1,0 +1,22 @@
+{
+  "name": "excel-practice-quiz",
+  "version": "1.0.0",
+  "description": "Add-in Ujian Praktik Excel Interaktif",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "https": "^1.0.0"
+  },
+  "keywords": [
+    "excel",
+    "add-in",
+    "quiz",
+    "office"
+  ],
+  "author": "ExcelQuiz",
+  "license": "MIT"
+}
