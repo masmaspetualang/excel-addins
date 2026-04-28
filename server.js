@@ -58,7 +58,7 @@ const server = https.createServer(sslOptions, (req, res) => {
   let urlPath = req.url.split("?")[0];
   if (urlPath === "/" || urlPath === "") urlPath = "/taskpane.html";
 
-  const filePath = path.join(__dirname, urlPath);
+  const filePath = path.join(__dirname, "public", urlPath);
   const ext = path.extname(filePath).toLowerCase();
   const contentType = MIME[ext] || "application/octet-stream";
 

@@ -11,13 +11,14 @@
   <ProviderName>ExcelQuiz Pro</ProviderName>
   <DefaultLocale>id-ID</DefaultLocale>
   <DisplayName DefaultValue="ExcelQuiz Pro - Ujian Praktik"/>
-  <Description DefaultValue="Add-in untuk ujian praktik Microsoft Excel dengan sistem penilaian otomatis"/>
+  <Description DefaultValue="Add-in untuk ujian praktik Microsoft Office dengan sistem penilaian otomatis"/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://localhost:3000"/>
 
   <Hosts>
-    <Host Name="Workbook"/>
+    <Host Name="Workbook"/> <!-- Excel -->
+    <Host Name="Document"/> <!-- Word -->
   </Hosts>
 
   <DefaultSettings>
@@ -66,6 +67,45 @@
           </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
+      
+      <Host xsi:type="Document">
+        <DesktopFormFactor>
+          <GetStarted>
+            <Title resid="GetStarted.Title"/>
+            <Description resid="GetStarted.Description"/>
+            <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
+          </GetStarted>
+          <FunctionFile resid="Commands.Url"/>
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <OfficeTab id="TabHome">
+              <Group id="CommandsGroup">
+                <Label resid="CommandsGroup.Label"/>
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16x16"/>
+                  <bt:Image size="32" resid="Icon.32x32"/>
+                  <bt:Image size="80" resid="Icon.80x80"/>
+                </Icon>
+                <Control xsi:type="Button" id="TaskpaneButtonWord">
+                  <Label resid="TaskpaneButton.Label"/>
+                  <Supertip>
+                    <Title resid="TaskpaneButton.Label"/>
+                    <Description resid="TaskpaneButton.Tooltip"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16"/>
+                    <bt:Image size="32" resid="Icon.32x32"/>
+                    <bt:Image size="80" resid="Icon.80x80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>ButtonId1</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
     </Hosts>
 
     <Resources>
@@ -80,13 +120,13 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Mulai Ujian Praktik Excel!"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Mulai Ujian Praktik Office!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="ExcelQuiz Pro"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Buka Ujian"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Klik 'Buka Ujian' untuk memulai sesi ujian praktik Excel Anda."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Buka panel ujian praktik Excel dengan sistem penilaian otomatis."/>
+        <bt:String id="GetStarted.Description" DefaultValue="Klik 'Buka Ujian' untuk memulai sesi ujian praktik Anda."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Buka panel ujian praktik dengan sistem penilaian otomatis."/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

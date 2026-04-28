@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExcelQuiz Pro</title>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="taskpane.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-logo">EQ</div>
+  <div class="header-info">
+    <div class="header-title">ExcelQuiz Pro</div>
+    <div class="header-sub" id="header-sub">Pilih ujian untuk memulai</div>
+  </div>
+</div>
+
+<!-- TIMER BAR -->
+<div class="timer-bar" id="timer-bar" style="display:none">
+  <span class="timer-label">⏱ Waktu Tersisa</span>
+  <span class="timer-value" id="timer-display">00:00</span>
+</div>
+<div class="progress-bar-outer" id="progress-outer" style="display:none">
+  <div class="progress-bar-inner" id="progress-bar" style="width:0%"></div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+  <!-- ═══ WELCOME SCREEN ═══ -->
+  <div class="screen active" id="screen-welcome">
+    <div class="welcome">
+      <div class="welcome-icon">📊</div>
+      <h1>ExcelQuiz Pro</h1>
+      <p>Uji kemampuan Microsoft Excel Anda dengan soal-soal praktis. Selesaikan setiap tugas langsung di spreadsheet, lalu konfirmasi untuk penilaian otomatis.</p>
+
+      <div class="exam-selector">
+        <label>Pilih Paket Ujian</label>
+        <select id="exam-select">
+          <option value="basic">📗 Dasar — Formula & Format (15 menit)</option>
+          <option value="intermediate">📘 Menengah — Data & Fungsi (20 menit)</option>
+          <option value="advanced">📕 Lanjutan — Analisis & Visualisasi (25 menit)</option>
+        </select>
+      </div>
+
+      <div class="info-grid" id="exam-info-grid">
+        <div class="info-card">
+          <div class="info-card-label">Soal</div>
+          <div class="info-card-value" id="info-total-q">6</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">Durasi</div>
+          <div class="info-card-value" id="info-duration">15m</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">Total Poin</div>
+          <div class="info-card-value" id="info-points">100</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">Lulus ≥</div>
+          <div class="info-card-value" id="info-passing">70</div>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" id="btn-start">
+        ▶ &nbsp;Mulai Ujian
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══ TASK SCREEN ═══ -->
+  <div class="screen" id="screen-task">
+    <div class="task-header">
+      <span class="task-badge" id="task-badge">Soal 1 / 6</span>
+      <span class="task-score-badge" id="task-score-badge">+15 poin</span>
+    </div>
+
+    <div class="task-body">
+      <div class="task-number" id="task-number">TUGAS 01</div>
+      <div class="task-title" id="task-title">Membuat Formula SUM</div>
+      <div class="task-desc" id="task-desc">Deskripsi tugas...</div>
+
+      <div class="steps-label">LANGKAH-LANGKAH</div>
+      <div id="task-steps"></div>
+
+      <div class="hint-box" id="task-hint" style="display:none">
+        <span class="hint-icon">💡</span>
+        <div class="hint-text" id="task-hint-text"></div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="confirm-section">
+        <div class="confirm-label">Setelah selesai, klik tombol di bawah</div>
+        <button class="btn btn-confirm" id="btn-confirm" onclick="confirmTask()">
+          ✓ &nbsp;Saya Sudah Selesai
+        </button>
+      </div>
+    </div>
+
+    <div class="dots-nav" id="dots-nav"></div>
+
+    <div class="task-nav">
+      <button class="btn-nav" id="btn-prev" onclick="prevTask()">← Sebelumnya</button>
+      <button class="btn-nav next-btn" id="btn-next" onclick="nextTask()">Selanjutnya →</button>
+    </div>
+  </div>
+
+  <!-- ═══ RESULT SCREEN ═══ -->
+  <div class="screen" id="screen-result">
+    <div class="result-screen">
+      <div class="score-circle">
+        <svg width="120" height="120" viewBox="0 0 120 120">
+          <circle class="score-circle-track" cx="60" cy="60" r="50"/>
+          <circle class="score-circle-fill" id="score-arc" cx="60" cy="60" r="50"
+            stroke-dasharray="314" stroke-dashoffset="314"/>
+        </svg>
+        <div class="score-text">
+          <div class="score-number" id="final-score-num">0</div>
+          <div class="score-label">/ 100</div>
+        </div>
+      </div>
+
+      <div class="result-grade" id="result-grade">—</div>
+      <div class="result-message" id="result-message">Memuat hasil...</div>
+
+      <div class="result-breakdown">
+        <div class="breakdown-title">Rincian per Soal</div>
+        <div id="breakdown-list"></div>
+      </div>
+
+      <button class="btn btn-finish" onclick="exportResult()">
+        📋 &nbsp;Lihat Ringkasan Lengkap
+      </button>
+      <button class="btn btn-restart" onclick="restartExam()">
+        ↺ &nbsp;Ulangi Ujian
+      </button>
+    </div>
+  </div>
+
+</div><!-- /content -->
+
+<!-- SCORING OVERLAY -->
+<div class="scoring-overlay" id="scoring-overlay">
+  <div class="spinner"></div>
+  <div class="scoring-text">Menilai Jawaban...</div>
+  <div class="scoring-step" id="scoring-step-text">Memeriksa soal 1...</div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script src="taskpane.js"></script>
+</body>
+</html>

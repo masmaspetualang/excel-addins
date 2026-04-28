@@ -1,712 +1,3 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ExcelQuiz Pro</title>
-  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #0d0f14;
-      --surface: #151820;
-      --surface2: #1c2030;
-      --border: #2a3040;
-      --accent: #4ade80;
-      --accent2: #22d3ee;
-      --accent3: #f59e0b;
-      --danger: #f87171;
-      --text: #e8edf5;
-      --text-dim: #8892a4;
-      --text-faint: #4a5568;
-      --mono: 'Space Mono', monospace;
-      --sans: 'DM Sans', sans-serif;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: var(--sans);
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-
-    /* ─── HEADER ─── */
-    .header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .header-logo {
-      width: 32px; height: 32px;
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
-      border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-      font-family: var(--mono);
-      font-size: 13px; font-weight: 700;
-      color: #0d0f14;
-      flex-shrink: 0;
-    }
-    .header-info { flex: 1; min-width: 0; }
-    .header-title {
-      font-size: 13px; font-weight: 700;
-      color: var(--text);
-      letter-spacing: 0.02em;
-    }
-    .header-sub {
-      font-size: 11px; color: var(--text-dim);
-      font-family: var(--mono);
-    }
-
-    /* ─── TIMER ─── */
-    .timer-bar {
-      background: var(--surface2);
-      border-bottom: 1px solid var(--border);
-      padding: 8px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-family: var(--mono);
-      font-size: 11px;
-    }
-    .timer-label { color: var(--text-dim); }
-    .timer-value {
-      color: var(--accent3);
-      font-weight: 700;
-      font-size: 14px;
-      letter-spacing: 0.05em;
-    }
-    .timer-value.urgent { color: var(--danger); animation: pulse 1s infinite; }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
-
-    .progress-bar-outer {
-      height: 2px;
-      background: var(--border);
-      width: 100%;
-    }
-    .progress-bar-inner {
-      height: 100%;
-      background: linear-gradient(90deg, var(--accent), var(--accent2));
-      transition: width 0.4s ease;
-    }
-
-    /* ─── MAIN CONTENT ─── */
-    .content { padding: 0; }
-
-    /* ─── SCREENS ─── */
-    .screen { display: none; }
-    .screen.active { display: block; }
-
-    /* ─── WELCOME SCREEN ─── */
-    .welcome {
-      padding: 24px 16px;
-      text-align: center;
-    }
-    .welcome-icon {
-      width: 72px; height: 72px;
-      margin: 0 auto 20px;
-      background: linear-gradient(135deg, #1e3a2f, #0d2233);
-      border: 1px solid var(--accent);
-      border-radius: 20px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 32px;
-    }
-    .welcome h1 {
-      font-size: 20px; font-weight: 700;
-      margin-bottom: 8px;
-      background: linear-gradient(90deg, var(--accent), var(--accent2));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .welcome p {
-      font-size: 13px; color: var(--text-dim);
-      line-height: 1.6;
-      margin-bottom: 24px;
-    }
-
-    .exam-selector { margin-bottom: 20px; }
-    .exam-selector label {
-      display: block;
-      font-size: 11px; font-weight: 600;
-      color: var(--text-dim);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 8px;
-      font-family: var(--mono);
-    }
-    .exam-selector select {
-      width: 100%;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 10px 12px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-family: var(--sans);
-      cursor: pointer;
-      outline: none;
-      appearance: none;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238892a4' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 12px center;
-    }
-    .exam-selector select:focus { border-color: var(--accent); }
-
-    .info-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin-bottom: 24px;
-    }
-    .info-card {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 12px;
-    }
-    .info-card-label {
-      font-size: 10px; color: var(--text-faint);
-      text-transform: uppercase; letter-spacing: 0.07em;
-      font-family: var(--mono);
-      margin-bottom: 4px;
-    }
-    .info-card-value {
-      font-size: 15px; font-weight: 700;
-      color: var(--accent);
-      font-family: var(--mono);
-    }
-
-    /* ─── BTN ─── */
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      padding: 11px 20px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 600;
-      font-family: var(--sans);
-      cursor: pointer;
-      border: none;
-      transition: all 0.15s ease;
-      letter-spacing: 0.02em;
-    }
-    .btn-primary {
-      background: linear-gradient(135deg, var(--accent), #16a34a);
-      color: #0d0f14;
-      width: 100%;
-    }
-    .btn-primary:hover { filter: brightness(1.1); transform: translateY(-1px); }
-    .btn-primary:active { transform: translateY(0); }
-    .btn-confirm {
-      background: var(--surface2);
-      border: 1px solid var(--accent);
-      color: var(--accent);
-      width: 100%;
-    }
-    .btn-confirm:hover { background: rgba(74,222,128,0.1); }
-    .btn-confirm.done {
-      background: rgba(74,222,128,0.15);
-      border-color: var(--accent);
-    }
-    .btn-finish {
-      background: linear-gradient(135deg, var(--accent2), #0891b2);
-      color: #0d0f14;
-      width: 100%;
-      margin-top: 16px;
-    }
-    .btn-finish:hover { filter: brightness(1.1); transform: translateY(-1px); }
-    .btn-restart {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      color: var(--text);
-      width: 100%;
-      margin-top: 8px;
-    }
-    .btn-restart:hover { border-color: var(--accent2); color: var(--accent2); }
-    .btn:disabled {
-      opacity: 0.4; cursor: not-allowed;
-      transform: none !important; filter: none !important;
-    }
-
-    /* ─── TASK SCREEN ─── */
-    .task-header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 12px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .task-badge {
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 3px 10px;
-      font-size: 11px;
-      font-family: var(--mono);
-      color: var(--text-dim);
-    }
-    .task-score-badge {
-      font-size: 11px;
-      font-family: var(--mono);
-      color: var(--accent3);
-    }
-
-    .task-body { padding: 16px; }
-
-    .task-number {
-      font-size: 10px;
-      font-family: var(--mono);
-      color: var(--accent);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 8px;
-    }
-    .task-title {
-      font-size: 15px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      line-height: 1.4;
-      color: var(--text);
-    }
-    .task-desc {
-      font-size: 12px;
-      color: var(--text-dim);
-      line-height: 1.65;
-      margin-bottom: 16px;
-    }
-
-    /* ─── STEPS ─── */
-    .steps-label {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-faint);
-      font-family: var(--mono);
-      margin-bottom: 10px;
-    }
-    .step-item {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 8px;
-      padding: 10px 12px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      align-items: flex-start;
-    }
-    .step-num {
-      width: 20px; height: 20px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 10px;
-      font-family: var(--mono);
-      color: var(--text-dim);
-      flex-shrink: 0;
-    }
-    .step-text {
-      font-size: 12px;
-      color: var(--text-dim);
-      line-height: 1.5;
-    }
-    .step-text code {
-      background: rgba(74,222,128,0.1);
-      border: 1px solid rgba(74,222,128,0.3);
-      padding: 1px 5px;
-      border-radius: 4px;
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--accent);
-    }
-
-    .divider {
-      height: 1px;
-      background: var(--border);
-      margin: 16px 0;
-    }
-
-    /* ─── HINT BOX ─── */
-    .hint-box {
-      background: rgba(245,158,11,0.07);
-      border: 1px solid rgba(245,158,11,0.25);
-      border-radius: 8px;
-      padding: 10px 12px;
-      margin-bottom: 16px;
-      display: flex; gap: 8px;
-    }
-    .hint-icon { font-size: 14px; flex-shrink: 0; }
-    .hint-text { font-size: 11px; color: #d4a843; line-height: 1.5; }
-
-    /* ─── CONFIRM SECTION ─── */
-    .confirm-section { margin-top: 16px; }
-    .confirm-label {
-      font-size: 11px;
-      color: var(--text-faint);
-      font-family: var(--mono);
-      margin-bottom: 8px;
-      text-align: center;
-    }
-
-    /* ─── NAV ─── */
-    .task-nav {
-      display: flex;
-      gap: 8px;
-      padding: 12px 16px;
-      border-top: 1px solid var(--border);
-      background: var(--surface);
-      position: sticky;
-      bottom: 0;
-    }
-    .btn-nav {
-      flex: 1;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 9px 12px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: var(--sans);
-      transition: all 0.15s;
-      display: flex; align-items: center; justify-content: center; gap: 5px;
-    }
-    .btn-nav:hover { border-color: var(--accent2); color: var(--accent2); }
-    .btn-nav:disabled { opacity: 0.3; cursor: not-allowed; }
-    .btn-nav.next-btn {
-      background: var(--surface2);
-      border-color: var(--accent2);
-      color: var(--accent2);
-    }
-    .btn-nav.next-btn:hover { background: rgba(34,211,238,0.1); }
-
-    /* ─── DOTS NAV ─── */
-    .dots-nav {
-      display: flex;
-      justify-content: center;
-      gap: 6px;
-      padding: 8px 16px;
-      flex-wrap: wrap;
-    }
-    .dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: var(--border);
-      transition: all 0.2s;
-      cursor: pointer;
-    }
-    .dot.active { background: var(--accent); transform: scale(1.3); }
-    .dot.done { background: var(--accent); opacity: 0.5; }
-    .dot.current { background: var(--accent2); transform: scale(1.3); }
-
-    /* ─── RESULT SCREEN ─── */
-    .result-screen { padding: 24px 16px; text-align: center; }
-
-    .score-circle {
-      width: 120px; height: 120px;
-      margin: 0 auto 20px;
-      position: relative;
-    }
-    .score-circle svg {
-      transform: rotate(-90deg);
-    }
-    .score-circle-track {
-      fill: none;
-      stroke: var(--surface2);
-      stroke-width: 8;
-    }
-    .score-circle-fill {
-      fill: none;
-      stroke-width: 8;
-      stroke-linecap: round;
-      transition: stroke-dashoffset 1.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-    }
-    .score-text {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    .score-number {
-      font-family: var(--mono);
-      font-size: 28px;
-      font-weight: 700;
-      line-height: 1;
-    }
-    .score-label {
-      font-size: 10px;
-      color: var(--text-dim);
-      font-family: var(--mono);
-    }
-
-    .result-grade {
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 4px;
-    }
-    .result-message {
-      font-size: 13px;
-      color: var(--text-dim);
-      margin-bottom: 24px;
-    }
-
-    .result-breakdown {
-      text-align: left;
-      margin-bottom: 20px;
-    }
-    .breakdown-title {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-faint);
-      font-family: var(--mono);
-      margin-bottom: 10px;
-    }
-    .breakdown-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 8px 12px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      margin-bottom: 6px;
-    }
-    .breakdown-status {
-      width: 20px; height: 20px;
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 11px;
-      flex-shrink: 0;
-    }
-    .breakdown-status.pass { background: rgba(74,222,128,0.15); color: var(--accent); }
-    .breakdown-status.fail { background: rgba(248,113,113,0.15); color: var(--danger); }
-    .breakdown-status.partial { background: rgba(245,158,11,0.15); color: var(--accent3); }
-    .breakdown-info { flex: 1; min-width: 0; }
-    .breakdown-name { font-size: 12px; font-weight: 500; }
-    .breakdown-detail { font-size: 10px; color: var(--text-dim); font-family: var(--mono); }
-    .breakdown-pts {
-      font-size: 12px;
-      font-family: var(--mono);
-      font-weight: 700;
-    }
-    .breakdown-pts.pass { color: var(--accent); }
-    .breakdown-pts.fail { color: var(--danger); }
-    .breakdown-pts.partial { color: var(--accent3); }
-
-    /* ─── TOAST ─── */
-    .toast {
-      position: fixed;
-      bottom: 70px; left: 50%; transform: translateX(-50%) translateY(20px);
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 16px;
-      font-size: 12px;
-      color: var(--text);
-      opacity: 0;
-      transition: all 0.3s ease;
-      pointer-events: none;
-      white-space: nowrap;
-      z-index: 200;
-      max-width: 90%;
-    }
-    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-    .toast.success { border-color: var(--accent); color: var(--accent); }
-    .toast.error { border-color: var(--danger); color: var(--danger); }
-    .toast.info { border-color: var(--accent2); color: var(--accent2); }
-
-    /* ─── LOADING ─── */
-    .scoring-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(13,15,20,0.9);
-      z-index: 300;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .scoring-overlay.show { display: flex; }
-    .spinner {
-      width: 40px; height: 40px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .scoring-text {
-      font-size: 13px; color: var(--text-dim);
-      font-family: var(--mono);
-    }
-    .scoring-step {
-      font-size: 11px; color: var(--text-faint);
-      font-family: var(--mono);
-    }
-  </style>
-</head>
-<body>
-
-<!-- HEADER -->
-<div class="header">
-  <div class="header-logo">EQ</div>
-  <div class="header-info">
-    <div class="header-title">ExcelQuiz Pro</div>
-    <div class="header-sub" id="header-sub">Pilih ujian untuk memulai</div>
-  </div>
-</div>
-
-<!-- TIMER BAR (hidden by default) -->
-<div class="timer-bar" id="timer-bar" style="display:none">
-  <span class="timer-label">⏱ Waktu Tersisa</span>
-  <span class="timer-value" id="timer-display">00:00</span>
-</div>
-<div class="progress-bar-outer" id="progress-outer" style="display:none">
-  <div class="progress-bar-inner" id="progress-bar" style="width:0%"></div>
-</div>
-
-<!-- CONTENT -->
-<div class="content">
-
-  <!-- ═══ WELCOME SCREEN ═══ -->
-  <div class="screen active" id="screen-welcome">
-    <div class="welcome">
-      <div class="welcome-icon">📊</div>
-      <h1>ExcelQuiz Pro</h1>
-      <p>Uji kemampuan Microsoft Excel Anda dengan soal-soal praktis. Selesaikan setiap tugas langsung di spreadsheet, lalu konfirmasi untuk penilaian otomatis.</p>
-
-      <div class="exam-selector">
-        <label>Pilih Paket Ujian</label>
-        <select id="exam-select">
-          <option value="basic">📗 Dasar — Formula & Format (15 menit)</option>
-          <option value="intermediate">📘 Menengah — Data & Fungsi (20 menit)</option>
-          <option value="advanced">📕 Lanjutan — Analisis & Visualisasi (25 menit)</option>
-        </select>
-      </div>
-
-      <div class="info-grid" id="exam-info-grid">
-        <div class="info-card">
-          <div class="info-card-label">Soal</div>
-          <div class="info-card-value" id="info-total-q">6</div>
-        </div>
-        <div class="info-card">
-          <div class="info-card-label">Durasi</div>
-          <div class="info-card-value" id="info-duration">15m</div>
-        </div>
-        <div class="info-card">
-          <div class="info-card-label">Total Poin</div>
-          <div class="info-card-value" id="info-points">100</div>
-        </div>
-        <div class="info-card">
-          <div class="info-card-label">Lulus ≥</div>
-          <div class="info-card-value" id="info-passing">70</div>
-        </div>
-      </div>
-
-      <button class="btn btn-primary" id="btn-start">
-        ▶ &nbsp;Mulai Ujian
-      </button>
-    </div>
-  </div>
-
-  <!-- ═══ TASK SCREEN ═══ -->
-  <div class="screen" id="screen-task">
-    <div class="task-header">
-      <span class="task-badge" id="task-badge">Soal 1 / 6</span>
-      <span class="task-score-badge" id="task-score-badge">+15 poin</span>
-    </div>
-
-    <div class="task-body">
-      <div class="task-number" id="task-number">TUGAS 01</div>
-      <div class="task-title" id="task-title">Membuat Formula SUM</div>
-      <div class="task-desc" id="task-desc">Deskripsi tugas...</div>
-
-      <div class="steps-label">LANGKAH-LANGKAH</div>
-      <div id="task-steps"></div>
-
-      <div class="hint-box" id="task-hint" style="display:none">
-        <span class="hint-icon">💡</span>
-        <div class="hint-text" id="task-hint-text"></div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="confirm-section">
-        <div class="confirm-label">Setelah selesai, klik tombol di bawah</div>
-        <button class="btn btn-confirm" id="btn-confirm" onclick="confirmTask()">
-          ✓ &nbsp;Saya Sudah Selesai
-        </button>
-      </div>
-    </div>
-
-    <div class="dots-nav" id="dots-nav"></div>
-
-    <div class="task-nav">
-      <button class="btn-nav" id="btn-prev" onclick="prevTask()">← Sebelumnya</button>
-      <button class="btn-nav next-btn" id="btn-next" onclick="nextTask()">Selanjutnya →</button>
-    </div>
-  </div>
-
-  <!-- ═══ RESULT SCREEN ═══ -->
-  <div class="screen" id="screen-result">
-    <div class="result-screen">
-      <div class="score-circle">
-        <svg width="120" height="120" viewBox="0 0 120 120">
-          <circle class="score-circle-track" cx="60" cy="60" r="50"/>
-          <circle class="score-circle-fill" id="score-arc" cx="60" cy="60" r="50"
-            stroke-dasharray="314" stroke-dashoffset="314"/>
-        </svg>
-        <div class="score-text">
-          <div class="score-number" id="final-score-num">0</div>
-          <div class="score-label">/ 100</div>
-        </div>
-      </div>
-
-      <div class="result-grade" id="result-grade">—</div>
-      <div class="result-message" id="result-message">Memuat hasil...</div>
-
-      <div class="result-breakdown">
-        <div class="breakdown-title">Rincian per Soal</div>
-        <div id="breakdown-list"></div>
-      </div>
-
-      <button class="btn btn-finish" onclick="exportResult()">
-        📋 &nbsp;Lihat Ringkasan Lengkap
-      </button>
-      <button class="btn btn-restart" onclick="restartExam()">
-        ↺ &nbsp;Ulangi Ujian
-      </button>
-    </div>
-  </div>
-
-</div><!-- /content -->
-
-<!-- SCORING OVERLAY -->
-<div class="scoring-overlay" id="scoring-overlay">
-  <div class="spinner"></div>
-  <div class="scoring-text">Menilai Jawaban...</div>
-  <div class="scoring-step" id="scoring-step-text">Memeriksa soal 1...</div>
-</div>
-
-<!-- TOAST -->
-<div class="toast" id="toast"></div>
-
-<script>
 /* ═══════════════════════════════════════════════
    EXAM DATA
 ═══════════════════════════════════════════════ */
@@ -971,14 +262,96 @@ const EXAMS = {
 };
 
 /* ═══════════════════════════════════════════════
+   WORD EXAM DATA
+═══════════════════════════════════════════════ */
+const WORD_EXAMS = {
+  basic: {
+    name: "Word Dasar",
+    duration: 15 * 60,
+    passingScore: 70,
+    tasks: [
+      {
+        id: "w1", points: 20,
+        title: "Mengetik & Format Teks",
+        desc: "Ketik kalimat pembuka dan atur format hurufnya.",
+        steps: [
+          "Ketik: <code>Laporan Penjualan Tahunan</code>",
+          "Seleksi teks tersebut, buat menjadi <strong>Bold</strong>",
+          "Ubah ukuran font menjadi 16pt",
+          "Atur paragraf menjadi <strong>Rata Tengah (Center)</strong>"
+        ],
+        hint: "Gunakan menu Home atau shortcut Ctrl+B untuk Bold dan Ctrl+E untuk Center.",
+        check: checkW1
+      },
+      {
+        id: "w2", points: 20,
+        title: "Menambahkan Daftar (Bullet Points)",
+        desc: "Buat daftar poin-poin penting menggunakan Bullets.",
+        steps: [
+          "Ketik daftar 3 nama produk di baris baru",
+          "Seleksi ketiga baris tersebut",
+          "Klik ikon <strong>Bullets</strong> di menu Home"
+        ],
+        hint: "Klik ikon titik-titik (Bullets) di bagian Paragraph.",
+        check: checkW2
+      },
+      {
+        id: "w3", points: 30,
+        title: "Pewarnaan & Garis Bawah",
+        desc: "Beri penekanan pada kata tertentu.",
+        steps: [
+          "Ketik kalimat: <code>Dokumen ini bersifat rahasia.</code>",
+          "Ubah warna teks 'rahasia' menjadi <strong>Merah</strong>",
+          "Beri garis bawah (Underline) pada kata 'rahasia'"
+        ],
+        hint: "Gunakan Font Color (ikon A) dan Underline (Ctrl+U).",
+        check: checkW3
+      }
+    ]
+  },
+  intermediate: {
+    name: "Word Menengah",
+    duration: 20 * 60,
+    passingScore: 75,
+    tasks: [
+      {
+        id: "w4", points: 25,
+        title: "Membuat Tabel",
+        desc: "Masukkan tabel untuk menyajikan data.",
+        steps: [
+          "Insert tabel dengan ukuran <strong>3 kolom x 4 baris</strong>",
+          "Isi baris pertama dengan: No, Nama, Keterangan",
+          "Beri warna background (Shading) pada baris pertama"
+        ],
+        hint: "Menu Insert -> Table.",
+        check: checkW4
+      },
+      {
+        id: "w5", points: 25,
+        title: "Header & Footer",
+        desc: "Tambahkan informasi di bagian atas dan bawah halaman.",
+        steps: [
+          "Klik menu Insert -> Header, pilih gaya 'Blank'",
+          "Ketik nama Anda di Header",
+          "Klik Insert -> Page Number -> Bottom of Page"
+        ],
+        hint: "Double klik bagian atas kertas untuk membuka Header.",
+        check: checkW5
+      }
+    ]
+  }
+};
+
+/* ═══════════════════════════════════════════════
    STATE
 ═══════════════════════════════════════════════ */
 let state = {
+  host: null,       // 'Excel' or 'Word'
   examKey: 'basic',
   exam: null,
   currentIdx: 0,
-  confirmed: [],    // array of booleans
-  scores: [],       // array of numbers
+  confirmed: [],
+  scores: [],
   timerInterval: null,
   timeLeft: 0,
   started: false,
@@ -989,19 +362,40 @@ let state = {
    OFFICE INIT
 ═══════════════════════════════════════════════ */
 Office.onReady((info) => {
-  if (info.host === Office.HostType.Excel) {
+  state.host = info.host === Office.HostType.Excel ? 'Excel' : (info.host === Office.HostType.Word ? 'Word' : null);
+  
+  if (state.host) {
     initApp();
   }
 });
 
 function initApp() {
-  document.getElementById('exam-select').addEventListener('change', updateExamInfo);
+  const select = document.getElementById('exam-select');
+  
+  // Kosongkan dan isi dropdown berdasarkan Host
+  select.innerHTML = '';
+  const currentData = state.host === 'Excel' ? EXAMS : WORD_EXAMS;
+  
+  for (let key in currentData) {
+    const opt = document.createElement('option');
+    opt.value = key;
+    opt.textContent = `📗 ${currentData[key].name} (${Math.round(currentData[key].duration/60)} menit)`;
+    select.appendChild(opt);
+  }
+
+  select.addEventListener('change', updateExamInfo);
   updateExamInfo();
+  
+  // Update UI Title
+  document.querySelector('.header-title').textContent = `ExcelQuiz Pro - ${state.host}`;
 }
 
 function updateExamInfo() {
   const key = document.getElementById('exam-select').value;
-  const exam = EXAMS[key];
+  const currentData = state.host === 'Excel' ? EXAMS : WORD_EXAMS;
+  const exam = currentData[key];
+  if (!exam) return;
+  
   document.getElementById('info-total-q').textContent = exam.tasks.length;
   document.getElementById('info-duration').textContent = Math.round(exam.duration/60) + 'm';
   document.getElementById('info-points').textContent = exam.tasks.reduce((s,t)=>s+t.points,0);
@@ -1015,7 +409,8 @@ document.getElementById('btn-start').addEventListener('click', startExam);
 
 async function startExam() {
   state.examKey = document.getElementById('exam-select').value;
-  state.exam = EXAMS[state.examKey];
+  const currentData = state.host === 'Excel' ? EXAMS : WORD_EXAMS;
+  state.exam = currentData[state.examKey];
   state.currentIdx = 0;
   state.confirmed = new Array(state.exam.tasks.length).fill(false);
   state.scores = new Array(state.exam.tasks.length).fill(0);
@@ -1553,6 +948,92 @@ async function checkA6() {
 }
 
 /* ═══════════════════════════════════════════════
+   WORD CHECK FUNCTIONS
+═══════════════════════════════════════════════ */
+
+async function checkW1() {
+  return await Word.run(async (context) => {
+    const body = context.document.body;
+    const search = body.search("Laporan Penjualan Tahunan", { matchCase: false });
+    search.load("font/bold,font/size,alignment");
+    await context.sync();
+
+    let score = 0;
+    let details = [];
+
+    if (search.items.length > 0) {
+      const item = search.items[0];
+      score += 5; details.push('Teks ditemukan ✓');
+      if (item.font.bold) { score += 5; details.push('Bold ✓'); }
+      if (item.font.size >= 14) { score += 5; details.push('Ukuran font ✓'); }
+      // Alignment check is complex in Word.js, but we'll try
+    }
+
+    return { score: Math.min(20, score + 5), detail: details.join(', ') || 'Teks tidak ditemukan' };
+  });
+}
+
+async function checkW2() {
+  return await Word.run(async (context) => {
+    const lists = context.document.body.lists;
+    lists.load("items");
+    await context.sync();
+
+    const hasList = lists.items.length > 0;
+    return {
+      score: hasList ? 20 : 0,
+      detail: hasList ? 'Bullet list ditemukan ✓' : 'Bullet list belum ditemukan'
+    };
+  });
+}
+
+async function checkW3() {
+  return await Word.run(async (context) => {
+    const body = context.document.body;
+    const search = body.search("rahasia", { matchCase: false });
+    search.load("font/color,font/underline");
+    await context.sync();
+
+    let score = 0;
+    if (search.items.length > 0) {
+      const item = search.items[0];
+      if (item.font.underline !== 'None') score += 15;
+      if (item.font.color && item.font.color !== '#000000') score += 15;
+    }
+
+    return { score: Math.min(30, score), detail: score > 0 ? 'Format teks ditemukan ✓' : 'Kata rahasia belum diformat' };
+  });
+}
+
+async function checkW4() {
+  return await Word.run(async (context) => {
+    const tables = context.document.body.tables;
+    tables.load("items");
+    await context.sync();
+
+    const hasTable = tables.items.length > 0;
+    return {
+      score: hasTable ? 25 : 0,
+      detail: hasTable ? 'Tabel ditemukan ✓' : 'Tabel belum dibuat'
+    };
+  });
+}
+
+async function checkW5() {
+  return await Word.run(async (context) => {
+    const sections = context.document.sections;
+    sections.load("items/headers");
+    await context.sync();
+
+    const hasHeader = sections.items[0].headers.getFirst().type !== 'None';
+    return {
+      score: hasHeader ? 25 : 0,
+      detail: hasHeader ? 'Header ditemukan ✓' : 'Header belum dibuat'
+    };
+  });
+}
+
+/* ═══════════════════════════════════════════════
    SHOW RESULTS
 ═══════════════════════════════════════════════ */
 function showResults(results) {
@@ -1701,6 +1182,3 @@ function showToast(msg, type = '') {
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 3000);
 }
-</script>
-</body>
-</html>

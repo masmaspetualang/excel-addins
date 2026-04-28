@@ -4,7 +4,10 @@
   "description": "Add-in Ujian Praktik Excel Interaktif",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start:excel": "office-addin-debugging start manifest.xml desktop --app excel",
+    "start:word": "office-addin-debugging start manifest.xml desktop --app word",
+    "stop": "office-addin-debugging stop manifest.xml"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
@@ -18,5 +21,9 @@
     "office"
   ],
   "author": "ExcelQuiz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "office-addin-debugging": "^6.0.7",
+    "office-addin-manifest": "^2.1.3"
+  }
 }
