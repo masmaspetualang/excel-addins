@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Login — ExcelQuiz Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <style>
+    /* Admin login uses gold accent — override brand button */
+    #admin-logo-icon {
+      background: linear-gradient(135deg, #c9a84c, #a8893a) !important;
+      color: #142b26 !important;
+    }
+    #btn-admin-login {
+      background: linear-gradient(135deg, #c9a84c, #a8893a) !important;
+      color: #142b26 !important;
+      box-shadow: 0 3px 12px rgba(201,168,76,0.35) !important;
+    }
+    #btn-admin-login:hover:not(:disabled) {
+      box-shadow: 0 8px 20px rgba(201,168,76,0.4) !important;
+    }
+  </style>
+</head>
+<body>
+<div class="login-wrapper">
+  <div class="logo-block">
+    <div class="logo-icon" id="admin-logo-icon">AD</div>
+    <div class="logo-title">Admin Panel</div>
+    <div class="logo-sub">Monitoring & Manajemen Ujian</div>
+  </div>
+
+  <div class="login-card">
+    <div class="admin-badge">ADMINISTRATION ACCESS</div>
+    <form id="form-admin-login">
+      <div class="form-group">
+        <label class="form-label">Email Admin</label>
+        <input type="email" id="admin-email" class="form-input" placeholder="admin@email.com" required/>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Password</label>
+        <input type="password" id="admin-password" class="form-input" placeholder="••••••••" required/>
+      </div>
+      <button type="submit" class="btn-submit" id="btn-admin-login">
+        <span class="btn-text">🔒 Masuk ke Dashboard</span>
+      </button>
+    </form>
+  </div>
+
+  <div class="card-footer">
+    Bukan admin? <a class="footer-link" href="login.html">Login Peserta →</a>
+  </div>
+</div>
+
+<script>
+  document.getElementById('form-admin-login').onsubmit = async (e) => {
+    e.preventDefault();
+    const email = document.getElementById('admin-email').value;
+    const pw = document.getElementById('admin-password').value;
+    const btn = document.getElementById('btn-admin-login');
+    
+    btn.disabled = true;
+    btn.innerHTML = 'Memverifikasi...';
+
+    try {
+      const { user } = await SupabaseClient.signIn(email, pw);
+      const profile = await SupabaseClient.getUserProfile(user.id);
+
+      if (profile && profile.role === 'admin') {
+        Swal.fire({ icon: 'success', title: 'Akses Diterima', text: 'Membuka Dashboard...', timer: 1500, showConfirmButton: false });
+        setTimeout(() => window.location.href = 'dashboard.html', 1500);
+      } else {
+        await SupabaseClient.signOut(); // Logout if not admin
+        Swal.fire({ icon: 'error', title: 'Akses Ditolak', text: 'Akun ini bukan akun Admin.' });
+        btn.disabled = false;
+        btn.innerHTML = '🔒 Masuk ke Dashboard';
+      }
+    } catch(err) {
+      Swal.fire({ icon: 'error', title: 'Gagal', text: err.message });
+      btn.disabled = false;
+      btn.innerHTML = '🔒 Masuk ke Dashboard';
+    }
+  };
+</script>
+</body>
+</html>

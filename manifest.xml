@@ -7,7 +7,7 @@
   xsi:type="TaskPaneApp">
 
   <Id>12345678-1234-1234-1234-123456789012</Id>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.0.2</Version>
   <ProviderName>ExcelQuiz Pro</ProviderName>
   <DefaultLocale>id-ID</DefaultLocale>
   <DisplayName DefaultValue="ExcelQuiz Pro - Ujian Praktik"/>
@@ -17,8 +17,9 @@
   <SupportUrl DefaultValue="https://localhost:3000"/>
 
   <Hosts>
-    <Host Name="Workbook"/> <!-- Excel -->
-    <Host Name="Document"/> <!-- Word -->
+    <Host Name="Workbook"/>    <!-- Excel -->
+    <Host Name="Document"/>    <!-- Word -->
+    <Host Name="Presentation"/> <!-- PowerPoint -->
   </Hosts>
 
   <DefaultSettings>
@@ -29,6 +30,8 @@
 
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
     <Hosts>
+
+      <!-- ═══ EXCEL (Workbook) ═══ -->
       <Host xsi:type="Workbook">
         <DesktopFormFactor>
           <GetStarted>
@@ -39,14 +42,14 @@
           <FunctionFile resid="Commands.Url"/>
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <OfficeTab id="TabHome">
-              <Group id="CommandsGroup">
+              <Group id="ExcelGroup">
                 <Label resid="CommandsGroup.Label"/>
                 <Icon>
                   <bt:Image size="16" resid="Icon.16x16"/>
                   <bt:Image size="32" resid="Icon.32x32"/>
                   <bt:Image size="80" resid="Icon.80x80"/>
                 </Icon>
-                <Control xsi:type="Button" id="TaskpaneButton">
+                <Control xsi:type="Button" id="ExcelTaskpaneBtn">
                   <Label resid="TaskpaneButton.Label"/>
                   <Supertip>
                     <Title resid="TaskpaneButton.Label"/>
@@ -58,7 +61,7 @@
                     <bt:Image size="80" resid="Icon.80x80"/>
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
-                    <TaskpaneId>ButtonId1</TaskpaneId>
+                    <TaskpaneId>ExcelTaskpane</TaskpaneId>
                     <SourceLocation resid="Taskpane.Url"/>
                   </Action>
                 </Control>
@@ -67,7 +70,8 @@
           </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
-      
+
+      <!-- ═══ WORD (Document) ═══ -->
       <Host xsi:type="Document">
         <DesktopFormFactor>
           <GetStarted>
@@ -78,14 +82,14 @@
           <FunctionFile resid="Commands.Url"/>
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <OfficeTab id="TabHome">
-              <Group id="CommandsGroup">
+              <Group id="WordGroup">
                 <Label resid="CommandsGroup.Label"/>
                 <Icon>
                   <bt:Image size="16" resid="Icon.16x16"/>
                   <bt:Image size="32" resid="Icon.32x32"/>
                   <bt:Image size="80" resid="Icon.80x80"/>
                 </Icon>
-                <Control xsi:type="Button" id="TaskpaneButtonWord">
+                <Control xsi:type="Button" id="WordTaskpaneBtn">
                   <Label resid="TaskpaneButton.Label"/>
                   <Supertip>
                     <Title resid="TaskpaneButton.Label"/>
@@ -97,7 +101,7 @@
                     <bt:Image size="80" resid="Icon.80x80"/>
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
-                    <TaskpaneId>ButtonId1</TaskpaneId>
+                    <TaskpaneId>WordTaskpane</TaskpaneId>
                     <SourceLocation resid="Taskpane.Url"/>
                   </Action>
                 </Control>
@@ -106,6 +110,47 @@
           </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
+
+      <!-- ═══ POWERPOINT (Presentation) ═══ -->
+      <Host xsi:type="Presentation">
+        <DesktopFormFactor>
+          <GetStarted>
+            <Title resid="GetStarted.Title"/>
+            <Description resid="GetStarted.Description"/>
+            <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
+          </GetStarted>
+          <FunctionFile resid="Commands.Url"/>
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <OfficeTab id="TabHome">
+              <Group id="PPTGroup">
+                <Label resid="CommandsGroup.Label"/>
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16x16"/>
+                  <bt:Image size="32" resid="Icon.32x32"/>
+                  <bt:Image size="80" resid="Icon.80x80"/>
+                </Icon>
+                <Control xsi:type="Button" id="PPTTaskpaneBtn">
+                  <Label resid="TaskpaneButton.Label"/>
+                  <Supertip>
+                    <Title resid="TaskpaneButton.Label"/>
+                    <Description resid="TaskpaneButton.Tooltip"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16"/>
+                    <bt:Image size="32" resid="Icon.32x32"/>
+                    <bt:Image size="80" resid="Icon.80x80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>PPTTaskpane</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+
     </Hosts>
 
     <Resources>
@@ -130,4 +175,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
+
 </OfficeApp>

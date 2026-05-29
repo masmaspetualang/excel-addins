@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Nilai — ExcelQuiz Pro</title>
+  <meta name="description" content="Dashboard laporan nilai ujian praktik Microsoft Office"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css"/>
+  <!-- React Icons via CDN (unpkg) -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <!-- Use lucide-react as a standalone icon library via CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+</head>
+<body>
+
+<!-- Loading -->
+<div class="loading-overlay" id="loading-overlay">
+  <div class="spinner-lg"></div>
+  <div class="loading-text">Memuat data...</div>
+</div>
+
+<!-- HEADER -->
+<header class="dash-header">
+  <div class="dash-logo">
+    <div class="dash-logo-icon">EQ</div>
+    <div class="dash-logo-text">ExcelQuiz Pro</div>
+    <div class="dash-logo-badge">Admin</div>
+  </div>
+  <div class="dash-header-right">
+    <div class="user-chip">
+      <i data-lucide="user" style="width:14px;height:14px;"></i>
+      <strong id="header-username">—</strong>
+    </div>
+    <button class="btn-header" id="btn-signout" onclick="handleSignOut()">
+      <i data-lucide="log-out" style="width:14px;height:14px;"></i>
+      Keluar
+    </button>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="dash-main">
+  <div class="page-title">
+    <i data-lucide="layout-dashboard" style="width:26px;height:26px;"></i>
+    Dashboard Nilai Ujian
+  </div>
+  <div class="page-sub" id="dash-sub">Lembaga Sistem Informasi — Universitas Muhammadiyah Yogyakarta</div>
+
+  <!-- TABS -->
+  <div class="dash-tabs">
+    <button class="dash-tab active" id="tab-exams" onclick="switchDashboardTab('exams')">
+      <i data-lucide="bar-chart-2" style="width:15px;height:15px;"></i>
+      Hasil Ujian &amp; Soal
+    </button>
+    <button class="dash-tab" id="tab-participants" onclick="switchDashboardTab('participants')">
+      <i data-lucide="users" style="width:15px;height:15px;"></i>
+      Manajemen Peserta
+    </button>
+  </div>
+
+  <!-- TAB CONTENT: EXAMS -->
+  <div class="tab-content active" id="section-exams">
+    <!-- Stats -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon cyan">
+          <i data-lucide="users" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Total Peserta</div>
+          <div class="stat-value cyan" id="stat-total">0</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon green">
+          <i data-lucide="trending-up" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Rata-rata Nilai</div>
+          <div class="stat-value green" id="stat-avg">0</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon green">
+          <i data-lucide="check-circle-2" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Lulus</div>
+          <div class="stat-value green" id="stat-pass">0</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon red">
+          <i data-lucide="x-circle" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Tidak Lulus</div>
+          <div class="stat-value red" id="stat-fail">0</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon yellow">
+          <i data-lucide="file-text" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Ujian Word</div>
+          <div class="stat-value yellow" id="stat-word">0</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon green">
+          <i data-lucide="table-2" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Ujian Excel</div>
+          <div class="stat-value green" id="stat-excel">0</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon red">
+          <i data-lucide="presentation" style="width:22px;height:22px;"></i>
+        </div>
+        <div class="stat-info">
+          <div class="stat-label">Ujian PPT</div>
+          <div class="stat-value red" id="stat-ppt">0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <input type="text" class="search-input" id="search-input" placeholder="Cari nama peserta..." oninput="filterAndRender()"/>
+      <select class="filter-select" id="filter-type" onchange="filterAndRender()" title="Filter Jenis Ujian">
+        <option value="">Semua Ujian</option>
+        <option value="word">Microsoft Word</option>
+        <option value="excel">Microsoft Excel</option>
+        <option value="ppt">PowerPoint</option>
+      </select>
+      <select class="filter-select" id="filter-status" onchange="filterAndRender()" title="Filter Status Kelulusan">
+        <option value="">Semua Status</option>
+        <option value="lulus">Lulus</option>
+        <option value="tidak_lulus">Tidak Lulus</option>
+      </select>
+      <button class="btn-export" onclick="exportCSV()">
+        <i data-lucide="download" style="width:14px;height:14px;"></i>
+        Export CSV
+      </button>
+      <button class="btn-add-user" onclick="showAddParticipantModal()">
+        <i data-lucide="user-plus" style="width:14px;height:14px;"></i>
+        Tambah Peserta
+      </button>
+    </div>
+
+    <!-- MANAJEMEN SOAL (CMS) -->
+    <div class="cms-section">
+      <div class="cms-header">
+        <h3>
+          <i data-lucide="folder-open" style="width:18px;height:18px;"></i>
+          Manajemen File Soal
+        </h3>
+        <p>Unggah file soal (docx/xlsx/pptx) untuk bisa diunduh oleh peserta.</p>
+      </div>
+      <div class="cms-grid" id="cms-grid">
+        <!-- Loading placeholder -->
+        <div class="cms-card loading">Memuat status file...</div>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-wrap">
+      <table class="data-table" id="results-table">
+        <thead>
+          <tr>
+            <th onclick="sortBy('no')">No <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('name')">Nama Peserta <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('nim')">NIM <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('exam_type')">Jenis Ujian <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('level')">Level <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('total_score')">Skor <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('pct')">% <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('status')">Status <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('started_at')">Tanggal <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr>
+            <td colspan="9">
+              <div class="empty-state">
+                <div class="empty-state-icon">
+                  <i data-lucide="clipboard-list" style="width:40px;height:40px;opacity:0.4;"></i>
+                </div>
+                <div class="empty-state-text">Memuat data...</div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </div>
+
+  <!-- TAB CONTENT: PARTICIPANTS -->
+  <div class="tab-content" id="section-participants" style="display: none;">
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <input type="text" class="search-input" id="search-participant" placeholder="Cari nama atau NIM peserta..." oninput="filterAndRenderParticipants()"/>
+      <button class="btn-add-user" onclick="showAddParticipantModal()">
+        <i data-lucide="user-plus" style="width:14px;height:14px;"></i>
+        Tambah Peserta
+      </button>
+    </div>
+
+    <!-- Table -->
+    <div class="table-wrap">
+      <table class="data-table" id="participants-table">
+        <thead>
+          <tr>
+            <th style="width: 80px;">No</th>
+            <th>Nama Lengkap</th>
+            <th>NIM</th>
+            <th>ID Pengguna (UUID)</th>
+            <th style="width: 150px; text-align: center;">Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="participant-table-body">
+          <tr>
+            <td colspan="5">
+              <div class="empty-state">
+                <div class="empty-state-icon">
+                  <i data-lucide="users" style="width:40px;height:40px;opacity:0.4;"></i>
+                </div>
+                <div class="empty-state-text">Memuat data peserta...</div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="js/dashboard.js"></script>
+<script>
+  // Initialize Lucide icons
+  lucide.createIcons();
+  
+  // Re-initialize icons after dynamic content updates
+  const _origCreateIcons = lucide.createIcons;
+  window._reinitIcons = function() { lucide.createIcons(); };
+</script>
+</body>
+</html>

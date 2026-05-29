@@ -6,10 +6,13 @@
     "start": "node server.js",
     "dev": "node server.js",
     "start:excel": "office-addin-debugging start manifest.xml desktop --app excel",
+    "start:excel:file": "office-addin-debugging start manifest.xml desktop --app excel",
     "start:word": "office-addin-debugging start manifest.xml desktop --app word",
+    "start:powerpoint": "office-addin-debugging start manifest.xml desktop --app powerpoint",
     "stop": "office-addin-debugging stop manifest.xml"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
     "dotenv": "^17.4.2",
     "express": "^4.18.2",
     "https": "^1.0.0"
