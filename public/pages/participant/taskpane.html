@@ -13,11 +13,16 @@
     rel="stylesheet">
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-  <link rel="stylesheet" href="taskpane.css">
-  <script src="js/config.js?v=1.1.0"></script>
-  <script src="js/supabase-client.js?v=1.1.0"></script>
-  <script src="js/checkers.js?v=1.1.0"></script>
-  <script src="js/exams.js?v=1.1.0"></script>
+  <link rel="stylesheet" href="../../styles/taskpane.css">
+  <script src="/js/config/app.config.js"></script>
+  <script src="../../js/core/supabase.js?v=1.1.0"></script>
+  <script src="../../js/core/auth.js?v=1.1.0"></script>
+  <script src="../../js/modules/exam/exam-api.js?v=1.1.0"></script>
+  <script src="../../js/modules/dashboard/dashboard-api.js?v=1.1.0"></script>
+  <script src="../../js/utils/api.js?v=1.1.0"></script>
+  <script src="../../js/utils/error-handler.js?v=1.1.0"></script>
+  <script src="../../js/modules/exam/checkers.js?v=1.1.0"></script>
+  <script src="../../js/modules/exam/exams-loader.js?v=1.2.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
@@ -254,7 +259,7 @@
   <!-- TOAST -->
   <div class="toast" id="toast"></div>
 
-  <script src="taskpane.js?v=1.1.0"></script>
+  <script src="../../js/modules/exam/taskpane.js?v=1.1.0"></script>
   <script>
     // Initialize Lucide icons after DOM is ready
     lucide.createIcons();

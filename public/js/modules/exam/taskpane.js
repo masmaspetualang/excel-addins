@@ -28,6 +28,13 @@ Office.onReady(async (info) => {
   else if (info.host === Office.HostType.Word) state.host = 'Word';
   else if (info.host === Office.HostType.PowerPoint) state.host = 'PowerPoint';
 
+  try {
+    await ExamsLoader.loadExamsData();
+  } catch (err) {
+    console.error('[ExcelQuiz] Gagal memuat soal:', err);
+    document.getElementById('header-sub').textContent = 'Gagal memuat data soal';
+  }
+
   // Force Logout on fresh start to ensure "Login First" requirement
   await SupabaseClient.signOut();
   showScreen('login');
@@ -39,7 +46,7 @@ function onAuthReady() {
   document.getElementById('header-actions').style.display = 'flex';
 
   if (currentProfile && currentProfile.role === 'admin') {
-    window.location.href = 'dashboard.html';
+    window.location.href = '../admin/dashboard.html';
     return;
   }
 

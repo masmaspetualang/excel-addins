@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
+    "build:config": "node scripts/generate-client-config.js",
+    "manifest:set": "node scripts/update-manifest.js",
+    "seed": "node scripts/seed-questions.js",
+    "test": "node --test tests/unit/checkers.test.js tests/integration/supabase.test.js",
     "start:excel": "office-addin-debugging start manifest.xml desktop --app excel",
     "start:excel:file": "office-addin-debugging start manifest.xml desktop --app excel",
     "start:word": "office-addin-debugging start manifest.xml desktop --app word",

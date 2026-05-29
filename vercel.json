@@ -1,6 +1,8 @@
 {
   "version": 2,
-  "public": true,
+  "buildCommand": "node scripts/generate-client-config.js",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
   "headers": [
     {
       "source": "/(.*)",
@@ -16,18 +18,23 @@
         {
           "key": "Access-Control-Allow-Headers",
           "value": "Content-Type"
-        },
+        }
+      ]
+    },
+    {
+      "source": "/js/config/app.config.js",
+      "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
+          "value": "no-store"
         }
       ]
     }
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/$1"
+      "source": "/js/config/app.config.js",
+      "destination": "/api/app-config"
     }
   ]
 }

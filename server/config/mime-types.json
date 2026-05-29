@@ -1,0 +1,17 @@
+{
+  ".html":  "text/html",
+  ".js":    "application/javascript",
+  ".css":   "text/css",
+  ".json":  "application/json",
+  ".xml":   "application/xml",
+  ".ico":   "image/x-icon",
+  ".png":   "image/png",
+  ".jpg":   "image/jpeg",
+  ".svg":   "image/svg+xml",
+  ".docx":  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  ".xlsx":  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  ".pptx":  "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  ".pdf":   "application/pdf",
+  ".woff2": "font/woff2",
+  ".woff":  "font/woff"
+}
