@@ -19,20 +19,94 @@
       "dest": "/api/app-config"
     },
     {
-      "src": "/taskpane.html",
+      "src": "/app",
       "dest": "/pages/participant/taskpane.html"
     },
     {
-      "src": "/login.html",
+      "src": "/login",
       "dest": "/pages/participant/login.html"
     },
     {
-      "src": "/commands.html",
+      "src": "/admin/login",
+      "dest": "/pages/admin/admin-login.html"
+    },
+    {
+      "src": "/admin/commands",
       "dest": "/pages/admin/commands.html"
     },
     {
-      "src": "/dashboard.html",
+      "src": "/admin",
       "dest": "/pages/admin/dashboard.html"
+    },
+    {
+      "src": "/pages/participant/taskpane.html",
+      "status": 308,
+      "headers": {
+        "Location": "/app"
+      }
+    },
+    {
+      "src": "/pages/participant/login.html",
+      "status": 308,
+      "headers": {
+        "Location": "/login"
+      }
+    },
+    {
+      "src": "/pages/admin/admin-login.html",
+      "status": 308,
+      "headers": {
+        "Location": "/admin/login"
+      }
+    },
+    {
+      "src": "/pages/admin/dashboard.html",
+      "status": 308,
+      "headers": {
+        "Location": "/admin"
+      }
+    },
+    {
+      "src": "/pages/admin/commands.html",
+      "status": 308,
+      "headers": {
+        "Location": "/admin/commands"
+      }
+    },
+    {
+      "src": "/taskpane.html",
+      "status": 308,
+      "headers": {
+        "Location": "/app"
+      }
+    },
+    {
+      "src": "/login.html",
+      "status": 308,
+      "headers": {
+        "Location": "/login"
+      }
+    },
+    {
+      "src": "/admin-login.html",
+      "status": 308,
+      "headers": {
+        "Location": "/admin/login"
+      }
+    },
+    {
+      "src": "/dashboard.html",
+      "status": 308,
+      "headers": {
+        "Location": "/admin"
+      }
+    },
+    {
+      "src": "/commands.html",
+      "status": 308,
+      "headers": {
+        "Location": "/admin/commands"
+      }
     },
     {
       "handle": "filesystem"

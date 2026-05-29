@@ -46,7 +46,7 @@ function onAuthReady() {
   document.getElementById('header-actions').style.display = 'flex';
 
   if (currentProfile && currentProfile.role === 'admin') {
-    window.location.href = '../admin/dashboard.html';
+    window.location.href = '/admin';
     return;
   }
 
@@ -391,7 +391,7 @@ window.handleLpLogin = async function () {
 
 window.handleSignOut = function () {
   SupabaseClient.signOut().then(() => {
-    window.location.href = 'login.html';
+    window.location.href = '/login';
   });
 };
 

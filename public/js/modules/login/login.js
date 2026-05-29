@@ -6,7 +6,7 @@
 (async () => {
   const session = await SupabaseClient.getSession();
   if (session) {
-    const redirect = new URLSearchParams(window.location.search).get('redirect') || 'taskpane.html';
+    const redirect = new URLSearchParams(window.location.search).get('redirect') || '/app';
     window.location.href = redirect;
   }
 })();
@@ -73,7 +73,7 @@ async function handleLogin(e) {
     });
 
     setTimeout(() => {
-      const redirect = new URLSearchParams(window.location.search).get('redirect') || 'taskpane.html';
+      const redirect = new URLSearchParams(window.location.search).get('redirect') || '/app';
       window.location.href = redirect;
     }, 1500);
   } catch (err) {

@@ -13,9 +13,9 @@
   <DefaultLocale>id-ID</DefaultLocale>
   <DisplayName DefaultValue="ExcelQuiz Pro - Ujian Praktik"/>
   <Description DefaultValue="Add-in untuk ujian praktik Microsoft Office dengan sistem penilaian otomatis"/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://localhost:3000"/>
+  <IconUrl DefaultValue="https://quiz-addins-v1.vercel.app/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://quiz-addins-v1.vercel.app/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="https://quiz-addins-v1.vercel.app"/>
 
   <Hosts>
     <Host Name="Workbook"/>    <!-- Excel -->
@@ -24,7 +24,7 @@
   </Hosts>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://localhost:3000/pages/participant/taskpane.html"/>
+    <SourceLocation DefaultValue="https://quiz-addins-v1.vercel.app/app"/>
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
@@ -156,14 +156,14 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://quiz-addins-v1.vercel.app/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://quiz-addins-v1.vercel.app/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://quiz-addins-v1.vercel.app/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/pages/admin/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/pages/participant/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://quiz-addins-v1.vercel.app/admin/commands"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://quiz-addins-v1.vercel.app/app"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Mulai Ujian Praktik Office!"/>

@@ -34,7 +34,7 @@
   }
 
   async function requireAuth(redirectUrl) {
-    redirectUrl = redirectUrl || '/pages/participant/login.html';
+    redirectUrl = redirectUrl || '/login';
     const session = await getSession();
     if (!session) {
       window.location.href = redirectUrl;

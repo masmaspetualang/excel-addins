@@ -20,7 +20,7 @@ async function init() {
 
   // Jika tidak ada sesi, lempar ke login khusus admin
   if (!session) {
-    window.location.href = 'admin-login.html';
+    window.location.href = '/admin/login';
     return;
   }
 
@@ -30,7 +30,7 @@ async function init() {
   if (!profile || profile.role !== 'admin') {
     console.warn('Akses ditolak: User bukan admin');
     await SupabaseClient.signOut();
-    window.location.href = 'admin-login.html?error=unauthorized';
+    window.location.href = '/admin/login?error=unauthorized';
     return;
   }
 
@@ -291,7 +291,7 @@ function exportCSV() {
 
 async function handleSignOut() {
   await SupabaseClient.signOut();
-  window.location.href = 'admin-login.html';
+  window.location.href = '/admin/login';
 }
 
 function showLoading(v) { document.getElementById('loading-overlay').classList.toggle('show', v); }

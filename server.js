@@ -28,8 +28,8 @@ const server = https.createServer(sslOptions, app);
 server.listen(env.port, env.host, () => {
   const baseUrl = `https://${env.host}:${env.port}`;
   logger.info(`Excel Quiz Add-in Server running at ${baseUrl}`);
-  logger.info(`Taskpane: ${baseUrl}/pages/participant/taskpane.html`);
-  logger.info(`Dashboard: ${baseUrl}/pages/admin/dashboard.html`);
+  logger.info(`App:     ${baseUrl}/app`);
+  logger.info(`Admin:   ${baseUrl}/admin`);
   logger.info(`Manifest: ${baseUrl}/manifest.xml`);
 });
 

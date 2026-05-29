@@ -37,18 +37,22 @@ Pastikan **tidak** ter-commit: `.env`, `public/js/config/app.config.js`
 
 > Jika build gagal "No entrypoint found": pastikan `package.json` memiliki script `"vercel-build"` dan `vercel.json` memakai `@vercel/static-build`.
 
-### 3. Environment Variables (wajib)
+### 3. Environment Variables (wajib — isi SEBELUM redeploy)
 
 Di halaman project → **Settings** → **Environment Variables**, tambahkan:
 
 | Name | Value |
 |------|--------|
-| `SUPABASE_URL` | URL project Supabase Anda |
-| `SUPABASE_ANON_KEY` | Anon/public key Supabase |
+| `SUPABASE_URL` | URL project Supabase Anda (contoh: `https://xxxxx.supabase.co`) |
+| `SUPABASE_ANON_KEY` | Anon/public key dari Supabase → Settings → API |
 
 **Jangan** tambahkan `SUPABASE_SERVICE_KEY` di Vercel.
 
-Centang environment: **Production**, **Preview**, **Development** → Save.
+Centang **Production**, **Preview**, dan **Development** → klik **Save**.
+
+> Supabase Dashboard → Project Settings → **API** → copy **Project URL** dan **anon public** key.
+
+Setelah menambah env vars, klik **Redeploy** (deploy ulang) agar build memakai nilai baru.
 
 ### 4. Deploy
 
@@ -61,7 +65,10 @@ Catat URL production, contoh:
 
 Buka (ganti dengan URL Anda):
 
-- `https://NAMA-PROJECT.vercel.app/pages/participant/taskpane.html`
+- `https://NAMA-PROJECT.vercel.app/app`
+- `https://NAMA-PROJECT.vercel.app/login`
+- `https://NAMA-PROJECT.vercel.app/admin`
+- `https://NAMA-PROJECT.vercel.app/admin/login`
 - `https://NAMA-PROJECT.vercel.app/js/config/app.config.js` (harus menampilkan `window.APP_CONFIG = {...}`)
 
 ### 6. Update manifest.xml (setelah punya URL Vercel)
