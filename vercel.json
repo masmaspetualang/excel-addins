@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "buildCommand": "node scripts/generate-client-config.js",
-  "outputDirectory": "public",
-  "installCommand": "npm install",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    },
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/js/config/app.config.js",
+      "dest": "/api/app-config"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -29,12 +52,6 @@
           "value": "no-store"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/js/config/app.config.js",
-      "destination": "/api/app-config"
     }
   ]
 }

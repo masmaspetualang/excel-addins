@@ -33,7 +33,9 @@ Pastikan **tidak** ter-commit: `.env`, `public/js/config/app.config.js`
 2. Import repo GitHub Anda
 3. **Framework Preset:** Other
 4. **Root Directory:** biarkan `.` (root project)
-5. Vercel akan membaca `vercel.json` otomatis
+5. Vercel akan membaca `vercel.json` (static build + API function, **bukan** server Express)
+
+> Jika build gagal "No entrypoint found": pastikan `package.json` memiliki script `"vercel-build"` dan `vercel.json` memakai `@vercel/static-build`.
 
 ### 3. Environment Variables (wajib)
 
