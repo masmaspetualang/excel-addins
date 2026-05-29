@@ -19,11 +19,23 @@
       "dest": "/api/app-config"
     },
     {
-      "handle": "filesystem"
+      "src": "/taskpane.html",
+      "dest": "/pages/participant/taskpane.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "/login.html",
+      "dest": "/pages/participant/login.html"
+    },
+    {
+      "src": "/commands.html",
+      "dest": "/pages/admin/commands.html"
+    },
+    {
+      "src": "/dashboard.html",
+      "dest": "/pages/admin/dashboard.html"
+    },
+    {
+      "handle": "filesystem"
     }
   ],
   "headers": [
