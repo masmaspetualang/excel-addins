@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Admin Login — ExcelQuiz Pro</title>
+  <title>Admin Login — ExamQuiz</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/login.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/js/lib/supabase.js"></script>
+  <script src="/js/lib/sweetalert2.js"></script>
   <script src="/js/config/app.config.js"></script>
   <script src="/js/core/supabase.js"></script>
   <script src="/js/core/auth.js"></script>
@@ -57,9 +57,6 @@
     </form>
   </div>
 
-  <div class="card-footer">
-    Bukan admin? <a class="footer-link" href="/login">Login Peserta →</a>
-  </div>
 </div>
 
 <script>
@@ -86,7 +83,17 @@
         btn.innerHTML = '🔒 Masuk ke Dashboard';
       }
     } catch(err) {
-      Swal.fire({ icon: 'error', title: 'Gagal', text: err.message });
+      let msg = err.message || 'Login gagal';
+      if (msg.includes('Invalid login credentials') || msg.includes('Invalid login') || msg.includes('invalid_credentials')) {
+        msg = 'Email atau password salah. Silakan periksa kembali data Anda.';
+      } else if (msg.includes('Email not confirmed')) {
+        msg = 'Email Anda belum dikonfirmasi. Silakan verifikasi email Anda terlebih dahulu.';
+      } else if (msg.includes('rate limit') || msg.includes('Rate limit exceeded')) {
+        msg = 'Terlalu banyak percobaan login. Silakan tunggu beberapa menit sebelum mencoba lagi.';
+      } else if (msg.includes('network') || msg.includes('Failed to fetch')) {
+        msg = 'Gagal terhubung ke server/jaringan. Silakan periksa koneksi internet Anda.';
+      }
+      Swal.fire({ icon: 'error', title: 'Login Gagal', text: msg });
       btn.disabled = false;
       btn.innerHTML = '🔒 Masuk ke Dashboard';
     }

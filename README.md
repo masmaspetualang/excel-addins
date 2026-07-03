@@ -1,4 +1,4 @@
-# ExcelQuiz Pro — Excel Practice Exam Add-in
+# ExamQuiz — Excel Practice Exam Add-in
 
 Add-in Microsoft Excel untuk ujian praktik interaktif dengan sistem penilaian otomatis.
 
@@ -43,7 +43,7 @@ Server akan jalan di `https://localhost:3000` (bisa diubah via `.env`).
 ### Langkah 2 — Sideload ke Excel Desktop (Windows)
 1. File → Options → Trust Center → Trust Center Settings
 2. Trusted Add-in Catalogs → masukkan path folder
-3. Restart Excel → Insert → My Add-ins → Shared Folder → ExcelQuiz Pro
+3. Restart Excel → Insert → My Add-ins → Shared Folder → ExamQuiz
 
 ### Excel Desktop (Mac)
 Copy manifest.xml ke: ~/Library/Containers/com.microsoft.Excel/Data/Documents/wef/

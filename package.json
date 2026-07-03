@@ -20,7 +20,8 @@
     "@supabase/supabase-js": "^2.105.1",
     "dotenv": "^17.4.2",
     "express": "^4.18.2",
-    "https": "^1.0.0"
+    "https": "^1.0.0",
+    "xendit-node": "^7.0.0"
   },
   "keywords": [
     "excel",
@@ -28,7 +29,7 @@
     "quiz",
     "office"
   ],
-  "author": "ExcelQuiz",
+  "author": "ExamQuiz",
   "license": "MIT",
   "devDependencies": {
     "office-addin-debugging": "^6.0.7",

@@ -1,5 +1,5 @@
 /**
- * ExcelQuiz Pro — Office Verification Logic
+ * ExamQuiz — Office Verification Logic
  * Contains check functions for Excel, Word, and PowerPoint.
  */
 
@@ -321,11 +321,21 @@ const OfficeCheckers = {
   checkE5_New: async () => {
     return await Excel.run(async (context) => {
       const sheet = context.workbook.worksheets.getActiveWorksheet();
+      
+      // Pastikan data soal sudah dimuat (sel A4 atau B4 berisi teks "Item")
+      const itemCell = sheet.getRange("A4:B4");
+      itemCell.load("values");
+      await context.sync();
+      const hasItemText = itemCell.values.flat().some(v => String(v || "").toLowerCase().trim() === "item");
+      if (!hasItemText) {
+        return { score: 0, detail: "Silakan buka/download file soal terlebih dahulu" };
+      }
+
       const range = sheet.getRange("A4:F4");
       range.load("format/horizontalAlignment");
       await context.sync();
-      const ok = range.format.horizontalAlignment === "Left" || range.format.horizontalAlignment === "General";
-      return { score: ok ? 100 : 0, detail: ok ? "Rata Kiri ✓" : "A4:F4 harus rata kiri" };
+      const ok = range.format.horizontalAlignment === "Left";
+      return { score: ok ? 100 : 0, detail: ok ? "Rata Kiri ✓" : "A4:F4 harus diatur rata kiri (saat ini: " + range.format.horizontalAlignment + ")" };
     });
   },
 
@@ -346,12 +356,22 @@ const OfficeCheckers = {
   checkE7_New: async () => {
     return await Excel.run(async (context) => {
       const sheet = context.workbook.worksheets.getActiveWorksheet();
+
+      // Pastikan data soal sudah dimuat (sel A4 atau B4 berisi teks "Item")
+      const itemCell = sheet.getRange("A4:B4");
+      itemCell.load("values");
+      await context.sync();
+      const hasItemText = itemCell.values.flat().some(v => String(v || "").toLowerCase().trim() === "item");
+      if (!hasItemText) {
+        return { score: 0, detail: "Silakan buka/download file soal terlebih dahulu" };
+      }
+
       const range = sheet.getRange("F:F");
       range.load("format/fill/color");
       await context.sync();
       const color = range.format.fill.color;
       const ok = color === "#FFFFFF" || color === "" || color === "none";
-      return { score: ok ? 100 : 0, detail: "No Fill pada kolom F ✓" };
+      return { score: ok ? 100 : 0, detail: ok ? "No Fill pada kolom F ✓" : "Kolom F masih memiliki warna fill" };
     });
   },
 

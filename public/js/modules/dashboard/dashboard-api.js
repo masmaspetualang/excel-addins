@@ -9,36 +9,84 @@
   const Supabase = window.SupabaseClient;
 
   async function getAllParticipants() {
-    console.log('[DashboardAPI] Fetching all participants...');
-    const sb = Supabase.getClient();
-    if (!sb) return [];
-    
-    const { data, error } = await sb
-      .from('pengguna')
-      .select('*')
-      .eq('peran', 'participant')
-      .order('nama_lengkap', { ascending: true });
-      
-    if (error) {
-      console.error('[DashboardAPI] Error fetching participants:', error);
-      throw error;
+    console.log('[DashboardAPI] Fetching all participants with email via API...');
+    try {
+      const response = await fetch('/api/participants-with-email');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const json = await response.json();
+      return json.data || [];
+    } catch (err) {
+      console.error('[DashboardAPI] Error fetching participants via API:', err);
+      throw err;
     }
-    return (data || []).map(p => ({
-      id: p.id_pengguna,
-      full_name: p.nama_lengkap,
-      nim: p.nim,
-      role: p.peran
-    }));
   }
 
-  async function updateParticipant(id, fullName, nim) {
+  async function getSessionReport(sessionId) {
+    console.log('[DashboardAPI] Fetching session report directly via Supabase client for:', sessionId);
+    const sb = Supabase.getClient();
+    if (!sb) throw new Error('Klien utama Supabase tidak siap');
+
+    // Get session info
+    const { data: session, error: sErr } = await sb
+      .from('sesi_ujian')
+      .select('*, pengguna(nama_lengkap, nim)')
+      .eq('id_sesi', sessionId)
+      .single();
+    if (sErr) throw sErr;
+
+    // Get session answers
+    const { data: answers, error: aErr } = await sb
+      .from('evaluasi_jawaban')
+      .select('*, butir_soal(judul_tugas, bobot_nilai)')
+      .eq('id_sesi', sessionId)
+      .order('id_evaluasi', { ascending: true });
+    if (aErr) throw aErr;
+
+    return {
+      id: session.id_sesi,
+      exam_type: session.jenis_aplikasi,
+      level: session.kategori_ujian,
+      total_score: session.skor_diperoleh,
+      max_score: session.skor_maksimum,
+      status: session.status_kelulusan,
+      started_at: session.waktu_mulai,
+      finished_at: session.waktu_selesai,
+      candidate: session.pengguna ? {
+        name: session.pengguna.nama_lengkap,
+        nim: session.pengguna.nim
+      } : null,
+      answers: (answers || []).map((a, i) => {
+        // Parse title dari catatan_sistem jika join butir_soal tidak tersedia
+        // Format: "TITLE::Judul Soal|DETAIL::..."
+        let parsedTitle = null;
+        if (a.catatan_sistem && a.catatan_sistem.includes('TITLE::')) {
+          const titleMatch = a.catatan_sistem.match(/TITLE::([^|]+)/);
+          if (titleMatch && titleMatch[1]) {
+            parsedTitle = titleMatch[1].trim();
+          }
+        }
+
+        return {
+          no: i + 1,
+          title: (a.butir_soal && a.butir_soal.judul_tugas) ? a.butir_soal.judul_tugas : (parsedTitle || `Soal ${i + 1}`),
+          score: a.skor_diperoleh,
+          max: (a.butir_soal && a.butir_soal.bobot_nilai) ? a.butir_soal.bobot_nilai : 10,
+          detail: a.catatan_sistem
+        };
+      })
+    };
+  }
+
+  async function updateParticipant(id, fullName, nim, allowedExams) {
     console.log('[DashboardAPI] Updating participant:', id);
     const sb = Supabase.getClient();
     if (!sb) throw new Error('Klien utama Supabase tidak siap');
     
     const { data, error } = await sb
       .from('pengguna')
-      .update({ nama_lengkap: fullName, nim: nim })
+      .update({ nama_lengkap: fullName, nim: nim, allowed_exams: allowedExams })
       .eq('id_pengguna', id);
       
     if (error) {
@@ -206,15 +254,97 @@
     return true;
   }
 
+  async function deleteExamSession(sessionId) {
+    console.log('[DashboardAPI] Deleting exam session:', sessionId);
+    const sb = Supabase.getClient();
+    if (!sb) throw new Error('Klien utama Supabase tidak siap');
+
+    // 1. Hapus evaluasi_jawaban yang berelasi dengan id_sesi
+    const { error: answersErr } = await sb
+      .from('evaluasi_jawaban')
+      .delete()
+      .eq('id_sesi', sessionId);
+
+    if (answersErr) {
+      console.error('[DashboardAPI] Error deleting answers for session:', answersErr);
+      throw answersErr;
+    }
+
+    // 2. Hapus sesi_ujian
+    const { error: sessionErr } = await sb
+      .from('sesi_ujian')
+      .delete()
+      .eq('id_sesi', sessionId);
+
+    if (sessionErr) {
+      console.error('[DashboardAPI] Error deleting exam session:', sessionErr);
+      throw sessionErr;
+    }
+
+    return true;
+  }
+
+  async function deleteAllExamSessions() {
+    console.log('[DashboardAPI] Deleting all exam sessions...');
+    const sb = Supabase.getClient();
+    if (!sb) throw new Error('Klien utama Supabase tidak siap');
+
+    // 1. Hapus seluruh data evaluasi_jawaban
+    const { error: answersErr } = await sb
+      .from('evaluasi_jawaban')
+      .delete()
+      .gt('id_evaluasi', 0);
+
+    if (answersErr) {
+      console.error('[DashboardAPI] Error deleting all answers:', answersErr);
+      throw answersErr;
+    }
+
+    // 2. Hapus seluruh data sesi_ujian
+    const { error: sessionsErr } = await sb
+      .from('sesi_ujian')
+      .delete()
+      .neq('id_sesi', '00000000-0000-0000-0000-000000000000');
+
+    if (sessionsErr) {
+      console.error('[DashboardAPI] Error deleting all sessions:', sessionsErr);
+      throw sessionsErr;
+    }
+
+    return true;
+  }
+
+  async function updateParticipantPassword(userId, newPassword) {
+    console.log('[DashboardAPI] Updating participant password for:', userId);
+    const response = await fetch('/api/update-participant-password', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ userId, newPassword })
+    });
+    
+    if (!response.ok) {
+      const errData = await response.json();
+      throw new Error(errData.error || 'Gagal mengubah password.');
+    }
+    return await response.json();
+  }
+
   // Extend window.SupabaseClient
   window.SupabaseClient = window.SupabaseClient || {};
   Object.assign(window.SupabaseClient, {
     getAllParticipants,
+    getSessionReport,
     updateParticipant,
+    updateParticipantPassword,
     deleteParticipant,
     getAllResults,
     getExamFiles,
     uploadExamFile,
-    deleteExamFile
+    deleteExamFile,
+    deleteExamSession,
+    deleteAllExamSessions
   });
 })();
+

@@ -1,11 +1,12 @@
 /**
- * ExcelQuiz Pro — Taskpane Main Logic
+ * ExamQuiz — Taskpane Main Logic
  * Refactored Version
  */
 
 let currentUser = null;
 let currentProfile = null;
 let examSessionId = null;
+let _lastResults = null; // for report download
 
 let state = {
   host: null,
@@ -31,7 +32,7 @@ Office.onReady(async (info) => {
   try {
     await ExamsLoader.loadExamsData();
   } catch (err) {
-    console.error('[ExcelQuiz] Gagal memuat soal:', err);
+    console.error('[ExamQuiz] Gagal memuat soal:', err);
     document.getElementById('header-sub').textContent = 'Gagal memuat data soal';
   }
 
@@ -66,7 +67,21 @@ async function loadWebChooser() {
     const files = await SupabaseClient.getExamFiles();
     const iconMap = { word: '📝', excel: '📊', ppt: '📽' };
 
-    grid.innerHTML = files.map(f => `
+    const allowed = (currentProfile && currentProfile.allowed_exams)
+      ? currentProfile.allowed_exams.split(',').map(s => s.trim().toLowerCase())
+      : ['word', 'excel', 'ppt'];
+
+    const filteredFiles = files.filter(f => {
+      const type = f.exam_type.toLowerCase() === 'ppt' ? 'ppt' : f.exam_type.toLowerCase();
+      return allowed.includes(type);
+    });
+
+    if (filteredFiles.length === 0) {
+      grid.innerHTML = `<div class="cms-card warning" style="text-align: center; padding: 20px; color: var(--text-dim); background: rgba(224, 160, 64, 0.1); border: 1px solid var(--warning); border-radius: 8px;">Anda tidak memiliki akses ke kuis apa pun saat ini.</div>`;
+      return;
+    }
+
+    grid.innerHTML = filteredFiles.map(f => `
       <div class="chooser-card">
         <div class="chooser-card-icon">${iconMap[f.exam_type] || '📄'}</div>
         <h3>${f.display_name}</h3>
@@ -83,6 +98,37 @@ async function loadWebChooser() {
 }
 
 function initApp() {
+  const hostLower = state.host.toLowerCase() === 'powerpoint' ? 'ppt' : state.host.toLowerCase();
+  const allowed = (currentProfile && currentProfile.allowed_exams)
+    ? currentProfile.allowed_exams.split(',').map(s => s.trim().toLowerCase())
+    : ['word', 'excel', 'ppt'];
+
+  const accessDeniedEl = document.getElementById('welcome-access-denied');
+  const examSelectorEl = document.querySelector('.exam-selector');
+  const infoGridEl = document.getElementById('exam-info-grid');
+  const btnStartEl = document.getElementById('btn-start');
+
+  if (!allowed.includes(hostLower)) {
+    if (accessDeniedEl) {
+      accessDeniedEl.classList.remove('d-none');
+      accessDeniedEl.textContent = `Maaf, Anda tidak memiliki akses untuk ujian Microsoft ${state.host}.`;
+    }
+    if (examSelectorEl) examSelectorEl.style.display = 'none';
+    if (infoGridEl) infoGridEl.style.display = 'none';
+    if (btnStartEl) btnStartEl.style.display = 'none';
+
+    document.getElementById('welcome-title').textContent = `Ujian Microsoft ${state.host} Terbatas`;
+    document.getElementById('welcome-icon').textContent = '⚠️';
+    document.getElementById('header-title').textContent = `ExamQuiz — Terbatas`;
+    showScreen('welcome');
+    return;
+  } else {
+    if (accessDeniedEl) accessDeniedEl.classList.add('d-none');
+    if (examSelectorEl) examSelectorEl.style.display = 'block';
+    if (infoGridEl) infoGridEl.style.display = 'grid';
+    if (btnStartEl) btnStartEl.style.display = 'inline-flex';
+  }
+
   const select = document.getElementById('exam-select');
   select.innerHTML = '';
 
@@ -103,7 +149,7 @@ function initApp() {
 
   document.getElementById('welcome-icon').textContent = icon || '📋';
   document.getElementById('welcome-title').textContent = `Ujian Microsoft ${state.host}`;
-  document.getElementById('header-title').textContent = `ExcelQuiz Pro — ${state.host}`;
+  document.getElementById('header-title').textContent = `ExamQuiz — ${state.host}`;
 
   showScreen('welcome');
 }
@@ -313,30 +359,105 @@ async function finishExam() {
 
   // Save Results
   const total = results.reduce((s, r) => s + r.pts, 0);
-  await SupabaseClient.saveExamResults(examSessionId, total, 100, results.map(r => ({ questionId: r.task.id, score: r.pts, status: r.status, detail: r.detail })));
+  await SupabaseClient.saveExamResults(examSessionId, total, 100, results.map(r => ({ questionId: r.task.id, title: r.task.title, score: r.pts, status: r.status, detail: r.detail })));
 
   overlay.classList.remove('show');
   showResults(results, total);
 }
 
 function showResults(results, total) {
+  _lastResults = results;
+  const maxScore = 100;
+  const passed = total >= 70;
+
+  // Summary bar
   document.getElementById('final-score-num').textContent = total;
-  document.getElementById('result-grade').textContent = total >= 70 ? 'LULUS' : 'TIDAK LULUS';
+  const gradeEl = document.getElementById('result-grade');
+  gradeEl.textContent = passed ? 'LULUS' : 'TIDAK LULUS';
+  gradeEl.style.color = passed ? '#16a34a' : '#dc2626';
 
-  const statusIcon = { pass: '✓', fail: '✗', partial: '!' };
+  // Build clean, sidebar-friendly breakdown list
+  const reportArea = document.getElementById('result-report-area');
+  if (reportArea) {
+    // Style the container to be transparent and fit the taskpane list design
+    reportArea.style.background = 'transparent';
+    reportArea.style.border = 'none';
+    reportArea.style.boxShadow = 'none';
+    reportArea.style.maxHeight = 'none';
+    reportArea.style.overflow = 'visible';
+    reportArea.style.padding = '0';
 
-  document.getElementById('breakdown-list').innerHTML = results.map(r => `
-    <div class="breakdown-item">
-      <div class="breakdown-status ${r.status}">${statusIcon[r.status] || '•'}</div>
-      <div class="breakdown-info">
-        <div class="breakdown-name">${r.task.title}</div>
-        <div class="breakdown-detail">${r.detail}</div>
+    const examType = state.host ? state.host.toLowerCase() : 'excel';
+    const answers = results.map((r, i) => ({
+      no: i + 1,
+      title: r.task.title,
+      score: r.pts,
+      max: r.task.points,
+      detail: r.detail
+    }));
+
+    const categories = window.ReportGenerator.groupByCategory(answers, examType);
+
+    const breakdownHTML = `
+      <div class="result-breakdown" style="margin-bottom: 0;">
+        <div class="breakdown-title" style="font-size: 11px; font-weight: 700; color: var(--text-dim); margin-bottom: 12px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.08em;">
+          Rincian Hasil Pengerjaan
+        </div>
+        ${categories.map((cat, i) => {
+          const catPct = cat.max > 0 ? Math.round((cat.score / cat.max) * 100) : 0;
+          let statusClass = 'fail';
+          let icon = '❌';
+          if (catPct >= 70) {
+            statusClass = 'pass';
+            icon = '✓';
+          } else if (cat.score > 0) {
+            statusClass = 'partial';
+            icon = '⚠';
+          }
+
+          const subItemsHTML = cat.items.map(item => {
+            let itemColor = 'var(--danger)';
+            let itemIcon = '❌';
+            if (item.score >= item.max) {
+              itemColor = 'var(--success)';
+              itemIcon = '✓';
+            } else if (item.score > 0) {
+              itemColor = 'var(--warning)';
+              itemIcon = '⚠';
+            }
+            return `
+              <div style="margin-top: 4px; padding-left: 8px; border-left: 2px solid ${itemColor === 'var(--success)' ? 'rgba(46,158,107,0.3)' : (itemColor === 'var(--warning)' ? 'rgba(224,160,64,0.3)' : 'rgba(224,82,82,0.3)')};">
+                <div style="display: flex; justify-content: space-between; font-size: 11px;">
+                  <span style="font-weight: 500; color: var(--text-dim);">${item.title}</span>
+                  <span style="font-family: var(--mono); font-weight: bold; color: ${itemColor};">${item.score}/${item.max}</span>
+                </div>
+                <div style="font-size: 9px; color: var(--text-faint); margin-top: 1px; font-family: var(--mono);">${item.detail || 'Tidak dikerjakan'}</div>
+              </div>
+            `;
+          }).join('');
+
+          return `
+            <div class="breakdown-item" style="margin-bottom: 8px; display: block; padding: 10px 12px;">
+              <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
+                <div class="breakdown-status ${statusClass}">${icon}</div>
+                <div class="breakdown-info" style="flex: 1; min-width: 0;">
+                  <div class="breakdown-name" style="font-size: 12px; font-weight: 700; color: var(--text); line-height: 1.2;">${cat.name}</div>
+                </div>
+                <div class="breakdown-pts ${statusClass}" style="font-size: 12px; font-family: var(--mono); font-weight: 700;">${cat.score} / ${cat.max}</div>
+              </div>
+              <div class="breakdown-subitems" style="display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--border-light); padding-top: 6px; margin-top: 6px;">
+                ${subItemsHTML}
+              </div>
+            </div>
+          `;
+        }).join('')}
       </div>
-      <div class="breakdown-pts ${r.status}">${r.pts} pts</div>
-    </div>
-  `).join('');
+    `;
+    reportArea.innerHTML = breakdownHTML;
+  }
 
   showScreen('result');
+  if (window._reinitIcons) window._reinitIcons();
 }
 
 /* ═══════════════════════════════════════════════
@@ -384,7 +505,17 @@ window.handleLpLogin = async function () {
     Swal.fire({ icon: 'success', title: 'Berhasil', text: 'Login berhasil!', timer: 1000, showConfirmButton: false });
     setTimeout(() => onAuthReady(), 1000);
   } catch (e) {
-    Swal.fire({ icon: 'error', title: 'Gagal', text: e.message });
+    let msg = e.message || 'Login gagal';
+    if (msg.includes('Invalid login credentials') || msg.includes('Invalid login') || msg.includes('invalid_credentials')) {
+      msg = 'Email atau password salah. Silakan periksa kembali data Anda.';
+    } else if (msg.includes('Email not confirmed')) {
+      msg = 'Email Anda belum dikonfirmasi. Silakan verifikasi email Anda terlebih dahulu.';
+    } else if (msg.includes('rate limit') || msg.includes('Rate limit exceeded')) {
+      msg = 'Terlalu banyak percobaan login. Silakan tunggu beberapa menit sebelum mencoba lagi.';
+    } else if (msg.includes('network') || msg.includes('Failed to fetch')) {
+      msg = 'Gagal terhubung ke server/jaringan. Silakan periksa koneksi internet Anda.';
+    }
+    Swal.fire({ icon: 'error', title: 'Login Gagal', text: msg });
     if (btn) btn.disabled = false;
   }
 };
@@ -398,3 +529,28 @@ window.handleSignOut = function () {
 window.showTask = showTask;
 window.restartExam = () => window.location.reload();
 window.exportResult = () => Swal.fire('Info', 'Fitur ini akan segera hadir!', 'info');
+
+window.downloadResultReport = function () {
+  if (!_lastResults || !window.ReportGenerator) {
+    Swal.fire('Gagal', 'Data laporan belum tersedia.', 'error');
+    return;
+  }
+  const total = _lastResults.reduce((s, r) => s + r.pts, 0);
+  const answers = _lastResults.map((r, i) => ({
+    no: i + 1,
+    title: r.task.title,
+    score: r.pts,
+    max: r.task.points
+  }));
+  ReportGenerator.printReport({
+    sessionId: examSessionId,
+    candidateName: currentProfile ? currentProfile.full_name : (currentUser ? currentUser.email : '—'),
+    candidateNim: currentProfile ? (currentProfile.nim || '—') : '—',
+    totalScore: total,
+    maxScore: 100,
+    examType: state.host ? state.host.toLowerCase() : 'excel',
+    level: state.examKey || 'basic',
+    date: new Date().toISOString(),
+    answers
+  });
+};

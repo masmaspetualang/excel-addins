@@ -184,3 +184,2580 @@
 [2026-05-29T03:56:07.537Z] [REQ] 304 GET /js/utils/api.js — ::1
 [2026-05-29T03:56:07.538Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
 [2026-05-29T03:56:07.539Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-05T08:34:12.303Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-05T08:34:12.304Z] [INFO] App:     https://localhost:3000/app
+[2026-06-05T08:34:12.304Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-05T08:34:12.304Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-05T08:35:28.059Z] [REQ] 302 GET / — ::1
+[2026-06-05T08:35:28.132Z] [REQ] 200 GET /app — ::1
+[2026-06-05T08:35:28.144Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-05T08:35:28.150Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T08:35:28.158Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.159Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.159Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.161Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.161Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.163Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.164Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T08:35:28.165Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T08:35:28.165Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T08:35:29.082Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-05T08:35:29.081Z] [WARN] 404 — GET /favicon.ico
+[2026-06-05T08:35:29.085Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-05T08:35:57.247Z] [REQ] 200 GET /app — ::1
+[2026-06-05T08:35:57.302Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T08:35:57.310Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-05T08:35:57.316Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.316Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.318Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.319Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.319Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.318Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.321Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T08:35:57.321Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.327Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T08:35:57.929Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-05T08:35:58.364Z] [WARN] 404 — GET /favicon.ico
+[2026-06-05T08:35:58.365Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-05T08:35:59.355Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T08:35:59.356Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.357Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.358Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.359Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.360Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.361Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.362Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T08:35:59.363Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T08:35:59.364Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.732Z] [REQ] 200 GET /app — ::1
+[2026-06-05T08:39:51.768Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T08:39:51.771Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.775Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.778Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.778Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.781Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.784Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.786Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.787Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-05T08:39:51.788Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T08:39:51.788Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T08:39:52.569Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-05T08:39:53.844Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T08:39:53.845Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.845Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.846Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.847Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.848Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.848Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.849Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.850Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T08:39:53.850Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T08:45:03.686Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-05T08:45:03.688Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-05T08:45:03.688Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-05T08:45:03.687Z] [INFO] App:     https://localhost:3000/app
+[2026-06-05T10:13:04.062Z] [REQ] 200 GET /app — ::1
+[2026-06-05T10:13:04.086Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T10:13:04.087Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-05T10:13:04.094Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.101Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.101Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.102Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T10:13:04.101Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.102Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.105Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.105Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.107Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T10:13:04.479Z] [WARN] 404 — GET /favicon.ico
+[2026-06-05T10:13:04.480Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-05T10:13:04.483Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-05T10:13:52.645Z] [REQ] 200 GET /admin — ::1
+[2026-06-05T10:13:52.654Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T10:13:52.654Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-05T10:13:52.657Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-05T10:13:52.665Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-05T10:13:52.665Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-05T10:13:52.665Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-05T10:13:52.665Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-05T10:13:52.667Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-05T10:13:52.670Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-05T10:13:53.361Z] [REQ] 200 GET /admin/login?error=unauthorized — ::1
+[2026-06-05T10:13:53.369Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T10:13:53.371Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-05T10:13:53.371Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-05T10:13:53.373Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-05T10:13:53.373Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-05T10:13:53.374Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-05T10:13:53.375Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-05T10:13:53.374Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-05T10:14:01.796Z] [REQ] 304 GET /admin — ::1
+[2026-06-05T10:14:01.808Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T10:14:01.817Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-05T10:14:01.819Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-05T10:14:01.819Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-05T10:14:01.822Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-05T10:14:01.822Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-05T10:14:01.822Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-05T10:14:01.822Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-05T10:14:01.823Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-05T10:23:25.368Z] [REQ] 304 GET /app — ::1
+[2026-06-05T10:23:25.406Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-05T10:23:25.406Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-05T10:23:25.409Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.409Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.417Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.417Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.421Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.421Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.422Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.423Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-05T10:23:25.424Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-05T10:23:25.598Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-07T08:10:22.389Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-07T08:10:22.390Z] [INFO] App:     https://localhost:3000/app
+[2026-06-07T08:10:22.390Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-07T08:10:22.390Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-07T08:29:19.738Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-07T08:29:19.739Z] [INFO] App:     https://localhost:3000/app
+[2026-06-07T08:29:19.739Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-07T08:29:19.739Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-07T08:38:54.927Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-07T08:38:54.929Z] [INFO] App:     https://localhost:3000/app
+[2026-06-07T08:38:54.929Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-07T08:38:54.929Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-07T08:41:54.857Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.860Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:41:54.861Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.859Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.861Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.862Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:41:54.861Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:41:54.859Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:41:54.864Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.864Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:41:54.865Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.865Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:41:54.869Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.869Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:41:54.870Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.870Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:41:54.871Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.872Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:41:54.872Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.872Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:41:54.873Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:41:54.874Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:41:54.879Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:41:54.880Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:41:54.880Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.879Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.881Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:41:54.881Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:41:54.882Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.882Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.883Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:41:54.884Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:41:54.887Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.888Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.888Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:41:54.887Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:41:54.889Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:54.889Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:54.890Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:41:54.890Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:41:54.891Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:41:54.891Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:41:57.683Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:41:57.683Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:41:58.682Z] [REQ] 200 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-07T08:41:58.708Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T08:41:58.708Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-07T08:41:58.716Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.717Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.716Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.720Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.722Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-07T08:41:58.722Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.722Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.725Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-07T08:41:58.725Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-07T08:41:59.281Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-07T08:41:59.343Z] [WARN] 404 — GET /favicon.ico
+[2026-06-07T08:41:59.344Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-07T08:42:26.106Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.107Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:42:26.108Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.107Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:42:26.108Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:42:26.108Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:42:26.108Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.107Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.110Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.111Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.111Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:42:26.112Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:42:26.153Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:42:26.154Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.154Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:42:26.154Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.155Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.155Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:42:26.156Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:42:26.156Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.157Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:42:26.157Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:42:26.188Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.189Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:42:26.189Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.189Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:42:26.190Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.190Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.191Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:42:26.191Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:42:26.192Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:42:26.192Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:42:26.231Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.232Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.232Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:26.232Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:26.232Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-07T08:42:26.233Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-07T08:42:26.233Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-07T08:42:26.234Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-07T08:42:26.235Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-07T08:42:26.235Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-07T08:42:33.859Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-07T08:42:33.860Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-07T08:42:35.301Z] [REQ] 200 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-07T08:42:35.319Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-07T08:42:35.320Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T08:42:35.321Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.323Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.327Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.332Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.334Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.335Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.335Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.336Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-07T08:42:35.336Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.1.0 — ::1
+[2026-06-07T08:42:35.664Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-07T09:00:08.111Z] [REQ] 200 GET /admin — ::1
+[2026-06-07T09:00:08.127Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:00:08.131Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:00:08.143Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:00:08.143Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:00:08.145Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:00:08.145Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:00:08.145Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:00:08.146Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-07T09:00:08.147Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:00:08.462Z] [REQ] 200 GET /admin/login — ::1
+[2026-06-07T09:00:08.474Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:00:08.475Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-07T09:00:08.477Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:00:08.477Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:00:08.478Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:00:08.478Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:00:08.479Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:00:08.480Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:00:08.523Z] [WARN] 404 — GET /favicon.ico
+[2026-06-07T09:00:08.523Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-07T09:00:18.419Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:00:18.432Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:00:18.432Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:00:18.441Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:00:18.444Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:00:18.445Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:00:18.444Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:00:18.445Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:00:18.444Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:00:18.445Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:40:38.996Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:40:39.005Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:40:39.006Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:40:39.011Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:40:39.017Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:40:39.017Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:40:39.017Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:40:39.019Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:40:39.019Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:40:39.020Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:47:58.177Z] [REQ] 200 GET /admin — ::1
+[2026-06-07T09:47:58.187Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:47:58.188Z] [REQ] 200 GET /styles/dashboard.css — ::1
+[2026-06-07T09:47:58.199Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:47:58.200Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:47:58.200Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:47:58.203Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:47:58.204Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:47:58.205Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:47:58.205Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-07T09:47:58.206Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:48:01.844Z] [WARN] 404 — GET /api/session-report/c67ea078-c6ca-483e-bcc6-961c073562c8
+[2026-06-07T09:48:01.845Z] [REQ] 404 GET /api/session-report/c67ea078-c6ca-483e-bcc6-961c073562c8 — ::1
+[2026-06-07T09:48:08.216Z] [WARN] 404 — GET /api/participants-with-email
+[2026-06-07T09:48:08.217Z] [REQ] 404 GET /api/participants-with-email — ::1
+[2026-06-07T09:48:12.090Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:48:12.103Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:48:12.103Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:48:12.114Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:48:12.114Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:48:12.117Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:48:12.117Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:48:12.117Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T09:48:12.117Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:48:12.118Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:48:12.119Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:48:13.969Z] [WARN] 404 — GET /api/participants-with-email
+[2026-06-07T09:48:13.969Z] [REQ] 404 GET /api/participants-with-email — ::1
+[2026-06-07T09:48:17.233Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:48:17.299Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-07T09:48:17.300Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-07T09:49:10.153Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-07T09:49:10.154Z] [INFO] App:     https://localhost:3000/app
+[2026-06-07T09:49:10.155Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-07T09:49:10.155Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-07T09:49:15.809Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:49:15.820Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:49:15.819Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:49:15.830Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:49:15.831Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:49:15.835Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:49:15.836Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:49:15.837Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:49:15.836Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T09:49:15.839Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:49:15.839Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:49:15.850Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-07T09:49:15.851Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-07T09:49:17.903Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T09:50:41.310Z] [REQ] 500 GET /api/session-report/c67ea078-c6ca-483e-bcc6-961c073562c8 — ::1
+[2026-06-07T09:50:55.364Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T09:52:24.133Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:52:24.144Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:52:24.145Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:52:24.156Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:52:24.155Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:52:24.156Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:52:24.159Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T09:52:24.159Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:52:24.161Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:52:24.161Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:52:24.161Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:52:25.855Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T09:56:08.428Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:56:08.441Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:56:08.441Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:56:08.452Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:56:08.452Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:56:08.452Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T09:56:08.452Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:56:08.454Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:56:08.455Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:56:08.455Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:56:08.455Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:56:10.486Z] [REQ] 200 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-07T09:57:03.973Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T09:57:06.350Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T09:57:06.364Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T09:57:06.364Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T09:57:06.374Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T09:57:06.375Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T09:57:06.375Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T09:57:06.376Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T09:57:06.375Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T09:57:06.375Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T09:57:06.377Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T09:57:06.378Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T09:57:08.251Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T10:03:48.861Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T10:03:48.873Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T10:03:48.874Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T10:03:48.876Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T10:03:48.885Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T10:03:48.886Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T10:03:48.887Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T10:03:48.887Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T10:03:48.887Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T10:03:48.888Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T10:03:48.888Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T10:03:51.282Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T10:03:55.980Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-07T10:36:50.230Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T10:36:51.998Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T10:36:52.008Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T10:36:52.009Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T10:36:52.010Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T10:36:52.014Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T10:36:52.016Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-07T10:36:52.016Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T10:36:52.021Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-07T10:36:52.021Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T10:36:52.022Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T10:36:52.022Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T10:36:53.803Z] [REQ] 500 GET /api/participants-with-email — ::1
+[2026-06-07T10:36:59.704Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T10:36:59.729Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-07T10:36:59.729Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-07T10:39:22.673Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-07T10:39:22.675Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-07T10:39:22.674Z] [INFO] App:     https://localhost:3000/app
+[2026-06-07T10:39:22.675Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-07T10:39:34.480Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-07T10:39:43.793Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-07T10:40:43.816Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-07T10:40:53.873Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-07T10:45:15.830Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-07T10:45:15.832Z] [INFO] App:     https://localhost:3000/app
+[2026-06-07T10:45:15.832Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-07T10:45:15.832Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-07T10:45:19.349Z] [REQ] 304 GET /admin — ::1
+[2026-06-07T10:45:19.364Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-07T10:45:19.364Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-07T10:45:19.370Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-07T10:45:19.371Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-07T10:45:19.371Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-07T10:45:19.371Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-07T10:45:19.376Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-07T10:45:19.376Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-07T10:45:19.376Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-07T10:45:19.379Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-07T10:45:21.320Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T01:22:33.798Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T01:22:33.811Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T01:22:33.811Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T01:22:33.821Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T01:22:33.821Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T01:22:33.821Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T01:22:33.822Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T01:22:33.825Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T01:22:33.826Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T01:22:33.826Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T01:22:33.827Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T01:22:37.992Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T03:10:46.203Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-08T03:10:46.204Z] [INFO] App:     https://localhost:3000/app
+[2026-06-08T03:10:46.205Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-08T03:10:46.205Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-08T03:10:48.957Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T03:10:48.973Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:10:48.973Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:10:48.985Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:10:48.986Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:10:48.991Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:10:48.992Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:10:48.993Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:10:48.993Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:10:48.995Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:10:48.995Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:10:49.301Z] [WARN] 404 — GET /favicon.ico
+[2026-06-08T03:10:49.301Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-08T03:10:55.771Z] [REQ] 304 GET /admin/login — ::1
+[2026-06-08T03:10:55.786Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:10:55.787Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-08T03:10:55.798Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:10:55.799Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:10:55.799Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:10:55.800Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:10:55.802Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:10:55.802Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:11:05.617Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T03:11:05.629Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:11:05.630Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:11:05.639Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:11:05.640Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:11:05.645Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:11:05.645Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:11:05.646Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:11:05.647Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:11:05.647Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:11:05.648Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:35:56.043Z] [REQ] 200 GET /app — ::1
+[2026-06-08T03:35:56.082Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:35:56.087Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-08T03:35:56.106Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.107Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.109Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.110Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.110Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-08T03:35:56.112Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.114Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-08T03:35:56.116Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-08T03:35:56.119Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.117Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-08T03:35:56.456Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-08T03:36:08.998Z] [REQ] 304 GET /app — ::1
+[2026-06-08T03:36:09.010Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:36:09.013Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-08T03:36:09.021Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.025Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.025Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.026Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.027Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.027Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.028Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-08T03:36:09.029Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-08T03:36:09.029Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-08T03:36:09.030Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-08T03:36:09.044Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-08T03:36:22.358Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-08T03:36:22.385Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-08T03:36:22.387Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-08T03:37:33.291Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:37:38.214Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:46:37.863Z] [REQ] 200 GET /app — ::1
+[2026-06-08T03:46:37.870Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:46:37.874Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-08T03:46:37.878Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.881Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.883Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.884Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.884Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.884Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.886Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-08T03:46:37.887Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-08T03:46:37.887Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-08T03:46:37.888Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-08T03:46:37.989Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-08T03:46:49.517Z] [REQ] 200 GET /admin — ::1
+[2026-06-08T03:46:49.530Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:46:49.530Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:46:49.539Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:46:49.539Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:46:49.541Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:46:49.542Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:46:49.543Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:46:49.543Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-08T03:46:49.544Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:46:49.545Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:46:49.927Z] [REQ] 200 GET /admin/login?error=unauthorized — ::1
+[2026-06-08T03:46:49.937Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:46:49.939Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-08T03:46:49.939Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:46:49.940Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:46:49.942Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:46:49.942Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:46:49.943Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:46:49.942Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:46:56.766Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T03:46:56.780Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:46:56.780Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:46:56.791Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:46:56.791Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:46:56.792Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:46:56.792Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:46:56.794Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:46:56.794Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:46:56.795Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:46:56.796Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:46:58.545Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:47:10.773Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:47:16.411Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T03:47:16.423Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:47:16.423Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:47:16.431Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:47:16.431Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:47:16.433Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:47:16.434Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:47:16.435Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:47:16.434Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:47:16.435Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:47:16.435Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:47:18.230Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:47:23.220Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:47:30.394Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:47:30.419Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-08T03:47:30.420Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-08T03:48:07.244Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T03:48:07.256Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:48:07.257Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:48:07.265Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:48:07.265Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:48:07.266Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:48:07.266Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:48:07.266Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:48:07.268Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:48:07.269Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:48:07.269Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:48:09.292Z] [REQ] 304 GET /api/participants-with-email — ::1
+[2026-06-08T03:49:19.137Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T03:50:17.550Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-08T03:50:17.551Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-08T03:50:17.551Z] [INFO] App:     https://localhost:3000/app
+[2026-06-08T03:50:17.551Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-08T03:50:20.840Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T03:50:20.853Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T03:50:20.853Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T03:50:20.860Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T03:50:20.860Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T03:50:20.860Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T03:50:20.860Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T03:50:20.864Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T03:50:20.864Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T03:50:20.865Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T03:50:20.865Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T03:50:23.241Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T03:50:28.334Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T03:50:32.982Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T04:06:06.402Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T04:42:08.168Z] [REQ] 304 GET /admin/login — ::1
+[2026-06-08T04:42:08.179Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T04:42:08.186Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-08T04:42:08.194Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T04:42:08.194Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T04:42:08.190Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T04:42:08.195Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T04:42:08.195Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T04:42:08.195Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T04:51:20.538Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T04:51:20.548Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T04:51:20.548Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T04:51:20.557Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T04:51:20.557Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T04:51:20.561Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T04:51:20.561Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T04:51:20.563Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T04:51:20.563Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T04:51:20.564Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T04:51:20.564Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T04:55:54.759Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T09:18:04.618Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-08T09:18:04.619Z] [INFO] App:     https://localhost:3000/app
+[2026-06-08T09:18:04.619Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-08T09:18:04.619Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-08T09:18:55.307Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T09:18:55.318Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T09:18:55.321Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T09:18:55.331Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T09:18:55.335Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T09:18:55.336Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T09:18:55.336Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T09:18:55.336Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T09:18:55.337Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T09:18:55.338Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T09:18:55.339Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T09:18:55.711Z] [WARN] 404 — GET /favicon.ico
+[2026-06-08T09:18:55.711Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-08T09:19:08.391Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T09:42:02.290Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T09:42:02.300Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T09:42:02.303Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T09:42:02.302Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T09:42:02.360Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T09:42:02.360Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T09:42:02.360Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T09:42:02.360Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T09:42:02.361Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T09:42:02.363Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T09:42:02.364Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T09:42:07.797Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T09:42:13.965Z] [REQ] 304 GET /admin/login — ::1
+[2026-06-08T09:42:13.974Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T09:42:13.974Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-08T09:42:13.984Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T09:42:13.984Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T09:42:13.984Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T09:42:13.986Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T09:42:13.987Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T09:42:13.986Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T09:42:31.410Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-08T09:42:31.411Z] [INFO] App:     https://localhost:3000/app
+[2026-06-08T09:42:31.411Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-08T09:42:31.411Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-08T09:42:43.316Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T09:42:43.331Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T09:42:43.332Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T09:42:43.339Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T09:42:43.340Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T09:42:43.339Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T09:42:43.340Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T09:42:43.349Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T09:42:43.349Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T09:42:43.349Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T09:42:43.350Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T09:42:47.614Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T09:44:32.681Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-08T09:44:32.682Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-08T09:44:32.682Z] [INFO] App:     https://localhost:3000/app
+[2026-06-08T09:44:32.682Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-08T09:44:43.121Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T09:44:43.157Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T09:44:43.158Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T09:44:43.170Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T09:44:43.170Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T09:44:43.174Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T09:44:43.175Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T09:44:43.175Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-08T09:44:43.175Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T09:44:43.177Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T09:44:43.177Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T09:44:47.232Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T09:46:53.282Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T09:49:31.604Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-08T10:01:04.783Z] [REQ] 304 GET /admin — ::1
+[2026-06-08T10:01:04.795Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-08T10:01:04.795Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-08T10:01:04.804Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-08T10:01:04.805Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-08T10:01:04.805Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-08T10:01:04.809Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-08T10:01:04.809Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-08T10:01:04.810Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-08T10:01:04.810Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-08T10:01:04.812Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-08T10:01:08.024Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-08T10:02:24.831Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-14T14:46:13.988Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-14T14:46:13.989Z] [INFO] App:     https://localhost:3000/app
+[2026-06-14T14:46:13.990Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-14T14:46:13.990Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-14T14:46:32.832Z] [REQ] 302 GET / — ::1
+[2026-06-14T14:46:32.847Z] [REQ] 200 GET /app — ::1
+[2026-06-14T14:46:32.887Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:46:32.897Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-14T14:46:32.900Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.901Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.904Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.904Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.906Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.907Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.909Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T14:46:32.910Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T14:46:32.911Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T14:46:32.911Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T14:46:33.543Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T14:46:34.118Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T14:46:34.119Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T14:46:34.939Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.940Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:46:34.942Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.943Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.945Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.946Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.948Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.949Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T14:46:34.951Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T14:46:34.953Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T14:46:34.954Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T14:49:57.177Z] [REQ] 302 GET / — ::1
+[2026-06-14T14:49:57.190Z] [REQ] 304 GET /app — ::1
+[2026-06-14T14:49:57.227Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:49:57.229Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T14:49:57.230Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T14:49:57.231Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T14:49:57.237Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T14:49:57.238Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T14:49:57.239Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T14:49:57.242Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T14:49:57.242Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T14:49:57.243Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T14:49:57.243Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T14:49:57.243Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T14:49:58.115Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T14:49:59.317Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:49:59.320Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T14:49:59.320Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T14:49:59.320Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T14:49:59.320Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T14:49:59.320Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T14:49:59.322Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T14:49:59.323Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T14:49:59.323Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T14:49:59.323Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T14:49:59.323Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T14:51:04.462Z] [REQ] 200 GET /admin — ::1
+[2026-06-14T14:51:04.500Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:51:04.502Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-14T14:51:04.504Z] [REQ] 200 GET /styles/dashboard.css — ::1
+[2026-06-14T14:51:04.505Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:51:04.515Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:51:04.516Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-14T14:51:04.516Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-14T14:51:04.517Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:51:04.517Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-14T14:51:04.518Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-14T14:51:05.376Z] [REQ] 200 GET /admin/login — ::1
+[2026-06-14T14:51:05.426Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:51:05.428Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:51:05.428Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:51:05.428Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:51:05.428Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:51:05.429Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:51:05.430Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:51:05.430Z] [REQ] 200 GET /styles/login.css — ::1
+[2026-06-14T14:51:06.587Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:51:06.589Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-14T14:51:06.590Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:51:06.591Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:51:06.592Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-14T14:51:06.592Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-14T14:51:06.593Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:51:06.594Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-14T14:51:06.594Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:51:06.595Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:51:06.595Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:51:06.596Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:51:06.596Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:51:06.596Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-14T14:51:06.597Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:51:06.597Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:51:19.884Z] [REQ] 304 GET /admin — ::1
+[2026-06-14T14:51:19.926Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:51:19.928Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:51:19.929Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:51:19.932Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:51:19.934Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-14T14:51:19.935Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:51:19.935Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-14T14:51:19.935Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T14:51:19.936Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:51:19.936Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:51:21.989Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:51:21.992Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:51:21.992Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:51:21.992Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-14T14:51:21.992Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:51:21.993Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T14:51:21.994Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:51:21.995Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:51:21.995Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:52:35.554Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-14T14:53:48.670Z] [REQ] 200 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T14:54:57.030Z] [REQ] 304 GET /admin/login — ::1
+[2026-06-14T14:54:57.068Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:54:57.069Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:54:57.070Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:54:57.076Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:54:57.076Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:54:57.078Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:54:57.078Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:54:57.079Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-14T14:54:59.138Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:54:59.140Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:54:59.140Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:54:59.140Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:54:59.140Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:54:59.140Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:54:59.141Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:56:03.135Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-14T14:56:03.136Z] [INFO] App:     https://localhost:3000/app
+[2026-06-14T14:56:03.137Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-14T14:56:03.137Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-14T14:56:07.427Z] [REQ] 200 GET /admin/login — ::1
+[2026-06-14T14:56:07.459Z] [REQ] 304 GET /styles/login.css — ::1
+[2026-06-14T14:56:07.462Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:56:07.468Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:56:07.469Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:56:07.471Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:56:07.473Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:56:07.473Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:56:07.474Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:56:09.526Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T14:56:09.529Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-14T14:56:09.530Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-14T14:56:09.530Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-14T14:56:09.530Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-14T14:56:09.530Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-14T14:56:09.530Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-14T14:59:31.103Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-14T14:59:31.105Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-14T14:59:31.104Z] [INFO] App:     https://localhost:3000/app
+[2026-06-14T14:59:31.105Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-14T15:02:13.548Z] [REQ] 302 GET / — ::1
+[2026-06-14T15:02:13.553Z] [REQ] 200 GET /app — ::1
+[2026-06-14T15:02:13.596Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:02:13.607Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:02:13.607Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-14T15:02:13.609Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:02:13.610Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:02:13.609Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:02:13.611Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:02:13.613Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:02:13.614Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:02:13.615Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:02:13.615Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:02:13.617Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:02:14.766Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:28:25.860Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-14T15:28:25.862Z] [INFO] App:     https://localhost:3000/app
+[2026-06-14T15:28:25.862Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-14T15:28:25.862Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-14T15:28:39.768Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:28:39.772Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.774Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:28:39.771Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.772Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:28:39.774Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.775Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.775Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:28:39.784Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.784Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:28:39.785Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.786Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:28:39.916Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.916Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:28:39.917Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.917Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:28:39.920Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:28:39.921Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:28:39.920Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.921Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.923Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:28:39.923Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:28:39.928Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.928Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:28:39.929Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.929Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:28:39.931Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.932Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:28:39.933Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.933Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:28:39.934Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:28:39.935Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:28:39.940Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.941Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.944Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:28:39.943Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:28:39.945Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:28:39.944Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:39.946Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:28:39.946Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:39.947Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:28:39.948Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:28:49.159Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:28:49.160Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:28:50.908Z] [REQ] 200 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:28:50.950Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:28:50.958Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.959Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-14T15:28:50.967Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.967Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.981Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.981Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.986Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.986Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:28:50.987Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:28:50.991Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:28:50.993Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:28:51.125Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T15:28:51.125Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T15:29:24.108Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:29:24.186Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:29:24.187Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:34:22.161Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.162Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:34:22.163Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.164Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:34:22.162Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:34:22.164Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:34:22.163Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.164Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.166Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.167Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.167Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:34:22.168Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:34:22.178Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:34:22.180Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:34:22.182Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:34:22.183Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:34:22.184Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.186Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.185Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.187Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.188Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:34:22.189Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:34:22.244Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.244Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.245Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.246Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.247Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:34:22.247Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:34:22.248Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:34:22.248Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:34:22.249Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:34:22.250Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:34:22.268Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.269Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T15:34:22.270Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.269Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:22.270Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:22.271Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T15:34:22.272Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T15:34:22.272Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T15:34:22.273Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T15:34:22.274Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T15:34:29.073Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:34:29.073Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:34:30.643Z] [REQ] 200 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:34:30.674Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:34:30.676Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:34:30.679Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.682Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.688Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.692Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.694Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.695Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.696Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:34:30.695Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:34:30.696Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:34:30.697Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:37:51.285Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:37:51.286Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:37:52.657Z] [REQ] 200 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:37:52.684Z] [REQ] 200 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:37:52.694Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:37:52.695Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.695Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:37:52.699Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.699Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.701Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.702Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.704Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.708Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:37:52.708Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:37:52.708Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:37:52.709Z] [REQ] 200 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:37:52.710Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:37:52.713Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:37:53.391Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:37:55.605Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:37:55.643Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:37:55.644Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:37:55.914Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:37:55.915Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:40:11.201Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T15:40:11.201Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T15:40:12.876Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:40:12.906Z] [REQ] 200 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:40:12.915Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:40:12.916Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:40:12.921Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.922Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.922Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.928Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.928Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.932Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.933Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:40:12.935Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:40:12.937Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:40:12.938Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:40:12.941Z] [REQ] 200 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:40:12.942Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:40:13.097Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:40:15.874Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:40:15.906Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:40:15.906Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:40:16.312Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:40:16.313Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:40:39.742Z] [REQ] 200 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T15:43:24.933Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:43:24.957Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:43:24.960Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:43:24.969Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:43:24.970Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.972Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.973Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:43:24.974Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.974Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.983Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.983Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.984Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:43:24.984Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:43:24.985Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:43:24.982Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:43:24.988Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:43:24.997Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:43:24.998Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:43:25.136Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:43:25.137Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:43:25.145Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:46:41.418Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:46:41.442Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:46:41.444Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:46:41.459Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:46:41.459Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:46:41.461Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.461Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.460Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.466Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.465Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.466Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.469Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:46:41.469Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:46:41.472Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:46:41.472Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:46:41.474Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:46:41.475Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:46:41.475Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:46:41.566Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:46:41.566Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:46:41.599Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:48:36.610Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:48:36.638Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:48:36.649Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:48:36.653Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:48:36.657Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:48:36.657Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.657Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.658Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.657Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.659Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.662Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.665Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:48:36.665Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:48:36.668Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:48:36.669Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:48:36.670Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:48:36.674Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:48:36.675Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:48:36.763Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:48:36.763Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:48:36.790Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:49:11.351Z] [REQ] 200 GET /print-report.html?_host_Info=Excel$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T15:49:11.428Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-14T15:49:11.480Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T15:49:11.481Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T15:50:50.485Z] [REQ] 200 GET /print-report.html?_host_Info=Excel$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T15:50:50.586Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-14T15:50:50.646Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T15:50:50.647Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T15:50:53.812Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:50:53.840Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:50:53.851Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:50:53.855Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:50:53.856Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:50:53.858Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.859Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.859Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.859Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.861Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.862Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.865Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:50:53.865Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:50:53.867Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:50:53.868Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:50:53.869Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:50:53.871Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:50:53.870Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:50:53.961Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:50:53.962Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:50:53.996Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:51:09.347Z] [REQ] 200 GET /print-report.html?sessionId=88b9b548-8722-4804-aab6-270507e31074&_host_Info=Excel$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T15:51:09.433Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T15:51:09.567Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T15:51:09.568Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T15:51:09.922Z] [REQ] 200 GET /api/session-report/88b9b548-8722-4804-aab6-270507e31074 — ::1
+[2026-06-14T15:51:09.932Z] [REQ] 200 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T15:51:28.943Z] [REQ] 304 GET /print-report.html?sessionId=88b9b548-8722-4804-aab6-270507e31074&_host_Info=Excel$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T15:51:29.024Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T15:51:29.077Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T15:51:29.078Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T15:51:29.354Z] [REQ] 304 GET /api/session-report/88b9b548-8722-4804-aab6-270507e31074 — ::1
+[2026-06-14T15:51:29.361Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T15:52:57.970Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:52:58.004Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:52:58.005Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:52:58.007Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:52:58.011Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:52:58.020Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:52:58.033Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:52:58.039Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.040Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.045Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.046Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.048Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.047Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.052Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:52:58.051Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:52:58.057Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:52:58.057Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:52:58.060Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:52:58.170Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:52:58.171Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:52:58.206Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T15:53:43.026Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T15:53:43.057Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T15:53:43.060Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T15:53:43.059Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T15:53:43.076Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T15:53:43.077Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T15:53:43.076Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T15:53:43.081Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.081Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.082Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.086Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.085Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.086Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.088Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T15:53:43.089Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T15:53:43.089Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T15:53:43.090Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T15:53:43.092Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T15:53:43.175Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T15:53:43.176Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T15:53:43.212Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T16:11:54.351Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:11:54.352Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:11:55.896Z] [REQ] 200 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T16:11:55.937Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T16:11:55.941Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T16:11:55.944Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T16:11:55.944Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T16:11:55.948Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.949Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.951Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.952Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.954Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.958Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.959Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T16:11:55.961Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T16:11:55.970Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T16:11:55.971Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T16:11:55.973Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T16:11:56.448Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T16:12:16.929Z] [REQ] 200 GET /print-report.html?sessionId=8de0744a-cd79-4d9a-ab81-a21b784c14ce&_host_Info=Word$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:12:17.026Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:12:17.090Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T16:12:17.091Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T16:12:17.445Z] [REQ] 200 GET /api/session-report/8de0744a-cd79-4d9a-ab81-a21b784c14ce — ::1
+[2026-06-14T16:12:17.453Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T16:12:45.415Z] [REQ] 200 GET /print-report.html?sessionId=fe7557be-a53c-40c5-ba77-0fd8de483eee&_host_Info=Excel$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:12:45.509Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:12:45.556Z] [WARN] 404 — GET /favicon.ico
+[2026-06-14T16:12:45.558Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-14T16:12:45.903Z] [REQ] 200 GET /api/session-report/fe7557be-a53c-40c5-ba77-0fd8de483eee — ::1
+[2026-06-14T16:12:45.910Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T16:12:58.178Z] [REQ] 304 GET /print-report.html?sessionId=8de0744a-cd79-4d9a-ab81-a21b784c14ce&_host_Info=Word$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:12:58.251Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:12:58.604Z] [REQ] 304 GET /api/session-report/8de0744a-cd79-4d9a-ab81-a21b784c14ce — ::1
+[2026-06-14T16:12:58.611Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T16:17:51.382Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T16:17:51.409Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T16:17:51.411Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T16:17:51.420Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T16:17:51.427Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.426Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T16:17:51.427Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.431Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.432Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.434Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.434Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.435Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T16:17:51.437Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T16:17:51.437Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T16:17:51.438Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T16:17:51.439Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T16:17:51.532Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T16:18:32.518Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T16:18:32.546Z] [WARN] 404 — GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-06-14T16:18:32.547Z] [REQ] 404 GET /.well-known/appspecific/com.chrome.devtools.json — ::1
+[2026-06-14T16:18:33.024Z] [WARN] 404 — GET /js/lib/lucide.js.map
+[2026-06-14T16:18:33.024Z] [REQ] 404 GET /js/lib/lucide.js.map — ::1
+[2026-06-14T16:22:31.309Z] [REQ] 200 GET /print-report.html?sessionId=6e4d5914-b355-45c8-bf63-9163c484c4c9&_host_Info=Word$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:22:31.399Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:22:31.775Z] [REQ] 200 GET /api/session-report/6e4d5914-b355-45c8-bf63-9163c484c4c9 — ::1
+[2026-06-14T16:22:31.781Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T16:24:19.729Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T16:24:19.729Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.730Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T16:24:19.730Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T16:24:19.731Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.730Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.731Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T16:24:19.729Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.734Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.735Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.736Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T16:24:19.737Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T16:24:19.742Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.741Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.743Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T16:24:19.743Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T16:24:19.744Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T16:24:19.744Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T16:24:19.745Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.746Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.747Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T16:24:19.748Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T16:24:19.753Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.754Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T16:24:19.754Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.755Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T16:24:19.756Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.757Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.757Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T16:24:19.759Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T16:24:19.760Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T16:24:19.760Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T16:24:19.765Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-14T16:24:19.767Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.766Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.766Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-14T16:24:19.768Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:19.768Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:19.769Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-14T16:24:19.770Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-14T16:24:19.771Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-14T16:24:19.771Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-14T16:24:21.646Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-14T16:24:21.647Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-14T16:24:23.228Z] [REQ] 200 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-14T16:24:23.263Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-14T16:24:23.261Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-14T16:24:23.265Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-14T16:24:23.265Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-14T16:24:23.267Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.270Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.270Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.270Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.276Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.282Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.282Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-14T16:24:23.282Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-14T16:24:23.283Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-14T16:24:23.283Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-14T16:24:23.281Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-14T16:24:23.677Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-14T16:24:43.771Z] [REQ] 200 GET /print-report.html?sessionId=61c7858f-27e5-45db-8669-3f966791814c&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:24:43.877Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:24:44.321Z] [REQ] 200 GET /api/session-report/61c7858f-27e5-45db-8669-3f966791814c — ::1
+[2026-06-14T16:24:44.327Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T16:25:04.582Z] [REQ] 304 GET /print-report.html?sessionId=6e4d5914-b355-45c8-bf63-9163c484c4c9&_host_Info=Word$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:25:04.661Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:25:04.989Z] [REQ] 304 GET /api/session-report/6e4d5914-b355-45c8-bf63-9163c484c4c9 — ::1
+[2026-06-14T16:25:04.997Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-14T16:25:30.048Z] [REQ] 304 GET /print-report.html?sessionId=61c7858f-27e5-45db-8669-3f966791814c&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-14T16:25:30.144Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-14T16:25:30.478Z] [REQ] 304 GET /api/session-report/61c7858f-27e5-45db-8669-3f966791814c — ::1
+[2026-06-14T16:25:30.484Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-15T02:46:49.337Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-15T02:46:49.338Z] [INFO] App:     https://localhost:3000/app
+[2026-06-15T02:46:49.338Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-15T02:46:49.338Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-15T02:47:10.172Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.175Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-15T02:47:10.176Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.175Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-15T02:47:10.176Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.177Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-15T02:47:10.177Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-15T02:47:10.177Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.180Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.181Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.181Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-15T02:47:10.182Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-15T02:47:10.196Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.196Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.197Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-15T02:47:10.198Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-15T02:47:10.200Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-15T02:47:10.200Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.201Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-15T02:47:10.201Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.202Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-15T02:47:10.202Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-15T02:47:10.268Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-15T02:47:10.269Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-15T02:47:10.269Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.269Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-15T02:47:10.270Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-15T02:47:10.270Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.270Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.271Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.272Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-15T02:47:10.272Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-15T02:47:10.299Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.300Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-15T02:47:10.301Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-15T02:47:10.300Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.302Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-15T02:47:10.302Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:10.302Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-15T02:47:10.303Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:10.303Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-15T02:47:10.304Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-15T02:47:36.527Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-15T02:47:36.528Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-15T02:47:38.749Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-15T02:47:38.767Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-15T02:47:38.773Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-15T02:47:38.776Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-15T02:47:38.776Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-15T02:47:38.776Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.778Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.778Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.779Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.781Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.781Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.781Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-15T02:47:38.782Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-15T02:47:38.783Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-15T02:47:38.783Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-15T02:47:38.783Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-15T02:47:39.061Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-15T02:47:39.105Z] [WARN] 404 — GET /favicon.ico
+[2026-06-15T02:47:39.106Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-15T02:51:25.821Z] [REQ] 200 GET /print-report.html?sessionId=1a42a763-2ef6-422c-9a62-aa721adb2d39&_host_Info=Word$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-15T02:51:25.882Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-15T02:51:25.990Z] [WARN] 404 — GET /favicon.ico
+[2026-06-15T02:51:25.991Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-15T02:51:26.612Z] [REQ] 200 GET /api/session-report/1a42a763-2ef6-422c-9a62-aa721adb2d39 — ::1
+[2026-06-15T02:51:26.618Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-17T04:20:29.601Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-17T04:20:29.603Z] [INFO] App:     https://localhost:3000/app
+[2026-06-17T04:20:29.603Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-17T04:20:29.604Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-17T04:49:42.448Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-17T04:49:42.451Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.455Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-17T04:49:42.453Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.456Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.452Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-17T04:49:42.456Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-17T04:49:42.457Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.461Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.462Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.463Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-17T04:49:42.463Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-17T04:49:42.468Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.469Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.469Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-17T04:49:42.468Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-17T04:49:42.470Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.472Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.472Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-17T04:49:42.474Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-17T04:49:42.474Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-17T04:49:42.475Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-17T04:49:42.479Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.480Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.481Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.480Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.481Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-17T04:49:42.482Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-17T04:49:42.483Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-17T04:49:42.484Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-17T04:49:42.483Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-17T04:49:42.485Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-17T04:49:42.489Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-17T04:49:42.490Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.489Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.490Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-17T04:49:42.492Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-17T04:49:42.491Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-17T04:49:42.493Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:42.492Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:42.494Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-17T04:49:42.494Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-17T04:49:48.269Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-17T04:49:48.270Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-17T04:49:50.444Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-17T04:49:50.479Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-17T04:49:50.479Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-17T04:49:50.484Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-17T04:49:50.491Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-17T04:49:50.497Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.497Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.497Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.501Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.502Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.502Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.504Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-17T04:49:50.504Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-17T04:49:50.504Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-17T04:49:50.506Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-17T04:49:50.506Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-17T04:49:51.064Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-17T04:49:51.101Z] [WARN] 404 — GET /favicon.ico
+[2026-06-17T04:49:51.102Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-20T08:13:45.500Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-20T08:13:45.501Z] [INFO] App:     https://localhost:3000/app
+[2026-06-20T08:13:45.501Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-20T08:13:45.501Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-20T08:13:59.003Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.006Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.006Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.007Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-20T08:13:59.007Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-20T08:13:59.008Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.008Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-20T08:13:59.008Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-20T08:13:59.010Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.010Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.010Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-20T08:13:59.011Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-20T08:13:59.014Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.014Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.014Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-20T08:13:59.015Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-20T08:13:59.015Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-20T08:13:59.016Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.016Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-20T08:13:59.017Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.017Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-20T08:13:59.017Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-20T08:13:59.021Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.021Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-20T08:13:59.022Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.022Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-20T08:13:59.022Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-20T08:13:59.023Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-20T08:13:59.023Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.023Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.024Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-20T08:13:59.024Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-20T08:13:59.026Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-20T08:13:59.027Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-20T08:13:59.027Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.028Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.028Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:13:59.028Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-20T08:13:59.029Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:13:59.029Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-20T08:13:59.029Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-20T08:13:59.030Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-20T08:14:04.011Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:14:04.012Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:14:05.789Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-20T08:14:05.808Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:14:05.808Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:14:05.814Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:14:05.814Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-20T08:14:05.817Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.817Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.820Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.820Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.820Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.821Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.822Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-20T08:14:05.823Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-20T08:14:05.823Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-20T08:14:05.824Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:14:05.824Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-20T08:14:06.188Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-20T08:14:06.230Z] [WARN] 404 — GET /favicon.ico
+[2026-06-20T08:14:06.231Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-20T08:14:36.044Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-20T08:14:36.058Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:14:36.060Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:14:36.063Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-20T08:14:36.066Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:14:36.068Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.068Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.068Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.068Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.068Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.069Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.071Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-20T08:14:36.071Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-20T08:14:36.072Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:14:36.072Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-20T08:14:36.073Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-20T08:14:36.143Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-20T08:15:49.003Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-20T08:15:49.004Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-20T08:15:50.509Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-20T08:15:50.528Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:15:50.528Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:15:50.532Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:15:50.532Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-20T08:15:50.532Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.535Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.538Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.537Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.538Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.538Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.538Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-20T08:15:50.540Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-20T08:15:50.540Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-20T08:15:50.541Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-20T08:15:50.540Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:15:50.587Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-20T08:16:36.007Z] [REQ] 200 GET /admin — ::1
+[2026-06-20T08:16:36.041Z] [REQ] 200 GET /styles/dashboard.css — ::1
+[2026-06-20T08:16:36.051Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:16:36.053Z] [REQ] 200 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:16:36.055Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-20T08:16:36.056Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-20T08:16:36.058Z] [REQ] 200 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:16:36.058Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:16:36.060Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:16:36.061Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:16:36.061Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-20T08:16:36.062Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-20T08:16:36.062Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:16:36.063Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-20T08:16:37.151Z] [WARN] 404 — GET /favicon.ico
+[2026-06-20T08:16:37.151Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-20T08:16:37.235Z] [REQ] 200 GET /admin/login — ::1
+[2026-06-20T08:16:37.313Z] [REQ] 200 GET /styles/login.css — ::1
+[2026-06-20T08:16:37.315Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:16:37.315Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:16:37.315Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:16:37.317Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-20T08:16:37.318Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:16:37.318Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-20T08:16:37.318Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:16:37.318Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-20T08:16:37.319Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:16:38.124Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:16:38.128Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-20T08:16:38.128Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-20T08:16:38.130Z] [REQ] 200 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:16:38.131Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:16:38.132Z] [REQ] 200 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:16:38.133Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:16:38.134Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-20T08:16:38.135Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:16:38.135Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-20T08:16:38.136Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-20T08:16:38.136Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:16:38.137Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-20T08:16:38.138Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:16:38.138Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-20T08:16:38.139Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:16:38.139Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:16:38.140Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:16:38.140Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:16:38.140Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:16:38.140Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-20T08:16:53.982Z] [REQ] 304 GET /admin — ::1
+[2026-06-20T08:16:54.022Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:16:54.024Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:16:54.026Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:16:54.032Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:16:54.032Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:16:54.033Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-20T08:16:54.033Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-20T08:16:54.035Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-20T08:16:54.035Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-20T08:16:54.035Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:16:54.036Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-20T08:16:54.036Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:16:54.035Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-20T08:16:56.113Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:16:56.117Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:16:56.117Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:16:56.117Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:16:56.117Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:16:56.117Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-20T08:16:56.118Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-20T08:16:56.119Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-20T08:16:56.119Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-20T08:16:56.120Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:16:56.120Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-20T08:16:56.120Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:32:04.205Z] [REQ] 200 GET /admin — ::1
+[2026-06-20T08:32:04.283Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:32:04.288Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:32:04.294Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:32:04.295Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:32:04.296Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-20T08:32:04.296Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-20T08:32:04.298Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:32:04.298Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-20T08:32:04.298Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-20T08:32:04.298Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:32:04.299Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:32:04.300Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-20T08:32:04.300Z] [REQ] 200 GET /styles/dashboard.css — ::1
+[2026-06-20T08:32:06.402Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-20T08:32:06.404Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-20T08:32:06.404Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-20T08:32:06.405Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-20T08:32:06.406Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-20T08:32:06.406Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-20T08:32:06.406Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-20T08:32:06.407Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-20T08:32:06.410Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-20T08:32:06.408Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-20T08:32:06.410Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-20T08:32:06.409Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-20T08:33:49.466Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:33:59.890Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:35:15.946Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:36:02.016Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:36:39.613Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:37:04.151Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:37:47.924Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:38:22.722Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:38:55.480Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:39:26.198Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:59:16.929Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-20T08:59:27.276Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-21T04:27:16.470Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-21T04:27:16.471Z] [INFO] App:     https://localhost:3000/app
+[2026-06-21T04:27:16.471Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-21T04:27:16.471Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-21T04:27:22.644Z] [REQ] 304 GET /admin — ::1
+[2026-06-21T04:27:22.768Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-21T04:27:22.782Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-21T04:27:22.783Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-21T04:27:22.783Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-21T04:27:22.785Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-21T04:27:22.785Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-21T04:27:22.787Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-21T04:27:22.787Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-21T04:27:22.787Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-21T04:27:22.789Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-21T04:27:22.789Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-21T04:27:22.790Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-21T04:27:22.790Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-21T04:27:25.029Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-21T04:27:25.034Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-21T04:27:25.034Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-21T04:27:25.035Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-21T04:27:25.038Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-21T04:27:25.039Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-21T04:27:25.039Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-21T04:27:25.042Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-21T04:27:25.042Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-21T04:27:25.044Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-21T04:27:25.044Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-21T04:27:25.044Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-21T04:27:49.763Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-25T06:14:57.305Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-25T06:14:57.306Z] [INFO] App:     https://localhost:3000/app
+[2026-06-25T06:14:57.307Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-25T06:14:57.307Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-25T06:15:05.057Z] [REQ] 200 GET /app — ::1
+[2026-06-25T06:15:05.121Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:15:05.135Z] [REQ] 200 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:15:05.136Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.137Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.137Z] [REQ] 200 GET /styles/taskpane.css — ::1
+[2026-06-25T06:15:05.145Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.150Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.151Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.151Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.153Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-25T06:15:05.161Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-25T06:15:05.160Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-25T06:15:05.163Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-25T06:15:05.164Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-25T06:15:05.166Z] [REQ] 200 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:15:05.361Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-25T06:15:05.708Z] [WARN] 404 — GET /favicon.ico
+[2026-06-25T06:15:05.710Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-25T06:15:07.182Z] [REQ] 200 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:15:07.184Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:15:07.187Z] [REQ] 200 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.190Z] [REQ] 200 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.193Z] [REQ] 200 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.196Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.203Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-25T06:15:07.207Z] [REQ] 200 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.210Z] [REQ] 200 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.212Z] [REQ] 200 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-25T06:15:07.214Z] [REQ] 200 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-25T06:15:07.217Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-25T06:15:07.220Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-25T06:15:07.223Z] [REQ] 200 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:32:43.043Z] [REQ] 200 GET /admin — ::1
+[2026-06-25T06:32:43.082Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-25T06:32:43.084Z] [REQ] 200 GET /styles/dashboard.css — ::1
+[2026-06-25T06:32:43.088Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:32:43.089Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:32:43.092Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:32:43.097Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-25T06:32:43.097Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-25T06:32:43.097Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-25T06:32:43.100Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-25T06:32:43.100Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-25T06:32:43.102Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-25T06:32:43.104Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-25T06:32:43.104Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-25T06:32:44.149Z] [REQ] 200 GET /admin/login — ::1
+[2026-06-25T06:32:44.427Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:32:44.428Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:32:44.428Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-25T06:32:44.428Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:32:44.430Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-25T06:32:44.431Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-25T06:32:44.432Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-25T06:32:44.432Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-25T06:32:44.432Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-25T06:32:44.437Z] [REQ] 200 GET /styles/login.css — ::1
+[2026-06-25T06:32:45.189Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:32:45.192Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-25T06:32:45.193Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:32:45.195Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-25T06:32:45.196Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-25T06:32:45.196Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-25T06:32:45.198Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-25T06:32:45.201Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:32:45.200Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:32:45.201Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-25T06:32:45.201Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-25T06:32:45.204Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:32:45.205Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-25T06:32:45.205Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-25T06:32:45.205Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-25T06:32:45.205Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-25T06:32:45.206Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-25T06:32:45.208Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-25T06:32:45.208Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:32:45.208Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-25T06:32:45.209Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-25T06:33:04.041Z] [REQ] 304 GET /admin — ::1
+[2026-06-25T06:33:04.086Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-25T06:33:04.089Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:33:04.091Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:33:04.093Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:33:04.095Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-25T06:33:04.095Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-25T06:33:04.098Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-25T06:33:04.102Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-25T06:33:04.102Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-25T06:33:04.102Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-25T06:33:04.103Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-25T06:33:04.103Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-25T06:33:04.103Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-25T06:33:06.167Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-25T06:33:06.167Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-25T06:33:06.167Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-25T06:33:06.168Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-25T06:33:06.171Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-25T06:33:06.171Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-25T06:33:06.171Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-25T06:33:06.171Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-25T06:33:06.171Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-25T06:33:06.172Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-25T06:33:06.174Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-25T06:33:06.174Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-25T06:39:42.011Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:11:45.542Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-06-30T08:11:45.544Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-06-30T08:11:45.544Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-06-30T08:11:45.544Z] [INFO] App:     https://localhost:3000/app
+[2026-06-30T08:11:54.659Z] [REQ] 200 GET /admin — ::1
+[2026-06-30T08:11:54.711Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:11:54.712Z] [REQ] 200 GET /styles/dashboard.css — ::1
+[2026-06-30T08:11:54.722Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:11:54.725Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-30T08:11:54.725Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-30T08:11:54.726Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:11:54.728Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:11:54.731Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:11:54.732Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:11:54.733Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-30T08:11:54.734Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:11:54.734Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:11:54.736Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:11:55.807Z] [WARN] 404 — GET /favicon.ico
+[2026-06-30T08:11:55.808Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-30T08:11:56.831Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:11:56.836Z] [REQ] 200 GET /js/core/auth.js — ::1
+[2026-06-30T08:11:56.837Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:11:56.840Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:11:56.841Z] [REQ] 200 GET /js/core/supabase.js — ::1
+[2026-06-30T08:11:56.841Z] [REQ] 200 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:11:56.844Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:11:56.844Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:11:56.844Z] [REQ] 200 GET /js/utils/api.js — ::1
+[2026-06-30T08:11:56.845Z] [REQ] 200 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:11:56.847Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:11:56.854Z] [REQ] 200 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:18:03.273Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:18:21.054Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:18:21.054Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:18:23.065Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:18:23.083Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:18:23.083Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:18:23.086Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:18:23.090Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:18:23.093Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.093Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.093Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.097Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.097Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.099Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.099Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:18:23.099Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:18:23.103Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:18:23.103Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:18:23.103Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:18:23.809Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:18:23.895Z] [WARN] 404 — GET /favicon.ico
+[2026-06-30T08:18:23.896Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-30T08:19:42.947Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:19:42.960Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:19:42.966Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:19:42.968Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:19:42.968Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:19:42.969Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.969Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.969Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.970Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.971Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.971Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.972Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:19:42.972Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:19:42.973Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:19:42.973Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:19:42.973Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:19:43.045Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:20:03.779Z] [REQ] 304 GET /admin — ::1
+[2026-06-30T08:20:03.813Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:20:03.817Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:20:03.819Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:20:03.823Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:20:03.825Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:20:03.825Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:20:03.825Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:20:03.825Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:20:03.826Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:20:03.827Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:20:03.828Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:20:03.828Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:20:03.828Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-30T08:20:05.899Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:20:05.901Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:20:05.901Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:20:05.901Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:20:05.901Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:20:05.901Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:20:05.903Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:20:05.904Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:20:05.904Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:20:05.904Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:20:05.904Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:20:05.904Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:21:56.425Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:21:56.426Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:21:56.426Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:21:56.427Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.426Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.427Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:21:56.427Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.426Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.428Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.429Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.429Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:21:56.429Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:21:56.432Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.432Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.433Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:21:56.433Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:21:56.433Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:21:56.434Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.434Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:21:56.434Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.435Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:21:56.435Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:21:56.438Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.438Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.439Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:21:56.439Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.440Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:21:56.440Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:21:56.440Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.440Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:21:56.441Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:21:56.441Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:21:56.444Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:21:56.444Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.444Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.444Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:21:56.445Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:21:56.445Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:21:56.446Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:21:56.446Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:21:56.446Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:21:56.447Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:22:09.581Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:22:09.582Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:22:11.172Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:22:11.190Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:22:11.190Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:22:11.193Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:22:11.197Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.196Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:22:11.197Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.199Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.199Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.200Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.200Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.201Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:22:11.202Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:22:11.203Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:22:11.203Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:22:11.204Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:22:11.774Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:22:18.891Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:22:42.756Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:22:42.769Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:22:42.773Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:22:42.777Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:22:42.778Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:22:42.779Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.779Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.780Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.781Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.781Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.782Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.782Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:22:42.782Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:22:42.782Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:22:42.785Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:22:42.786Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:22:42.853Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:23:28.365Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.366Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:23:28.366Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.366Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:23:28.366Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:23:28.367Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:23:28.367Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.367Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.368Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.369Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.369Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:23:28.369Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:23:28.372Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.372Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.373Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:23:28.373Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:23:28.373Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:23:28.373Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:23:28.374Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.374Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.375Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:23:28.375Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:23:28.378Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.378Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:23:28.379Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:23:28.379Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.379Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:23:28.380Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:23:28.380Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.380Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.381Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:23:28.381Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:23:28.384Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.384Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.385Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:28.385Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-06-30T08:23:28.385Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:28.386Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-06-30T08:23:28.386Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-06-30T08:23:28.386Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-06-30T08:23:28.387Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-06-30T08:23:28.387Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-06-30T08:23:34.806Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:23:34.807Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:23:36.224Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:23:36.241Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:23:36.241Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:23:36.246Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:23:36.249Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:23:36.249Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.251Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.251Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.252Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.253Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.253Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.253Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:23:36.255Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:23:36.255Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:23:36.256Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:23:36.256Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:23:36.415Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:24:12.077Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:24:12.091Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:24:12.093Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:24:12.097Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:24:12.098Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:24:12.100Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.100Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.101Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.101Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.101Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.101Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.103Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:24:12.103Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:24:12.105Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:24:12.104Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:24:12.105Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:24:12.157Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:24:29.996Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:24:30.009Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:24:30.015Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:24:30.017Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:24:30.017Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:24:30.018Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.018Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.018Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.018Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.019Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.019Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.021Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:24:30.023Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:24:30.023Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:24:30.023Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:24:30.024Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:24:30.064Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:24:57.528Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:24:57.539Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:24:57.545Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:24:57.546Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:24:57.547Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:24:57.548Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.548Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.548Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.548Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.550Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.550Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.551Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:24:57.551Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:24:57.551Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:24:57.551Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:24:57.552Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:24:57.602Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:26:07.931Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-06-30T08:26:07.932Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-06-30T08:26:09.442Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:26:09.459Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:26:09.460Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:26:09.464Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:26:09.464Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:26:09.467Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.467Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.468Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.468Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.468Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.468Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.471Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:26:09.471Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:26:09.471Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:26:09.471Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:26:09.472Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:26:09.532Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:26:37.686Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:26:37.702Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:26:37.703Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:26:37.707Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.706Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:26:37.707Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:26:37.707Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.710Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.710Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.711Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.710Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.711Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:26:37.712Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:26:37.712Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:26:37.713Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:26:37.713Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:26:37.756Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:26:58.958Z] [REQ] 304 GET /admin — ::1
+[2026-06-30T08:26:58.991Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:26:58.992Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:26:58.994Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:26:58.996Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:26:58.997Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:26:59.000Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:26:59.000Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:26:59.000Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:26:59.001Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:26:59.002Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:26:59.003Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:26:59.003Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-30T08:26:59.003Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:27:01.066Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:27:01.069Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:27:01.069Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:27:01.070Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:27:01.071Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:27:01.071Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:27:01.072Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:27:01.072Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:27:01.072Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:27:01.073Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:27:01.074Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:27:01.074Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:27:37.748Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:28:11.129Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:28:35.567Z] [REQ] 200 GET /print-report.html?sessionId=e07ff5d2-34a1-44ff-91e0-6b9a807bdbc8&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-06-30T08:28:35.682Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:28:35.715Z] [WARN] 404 — GET /favicon.ico
+[2026-06-30T08:28:35.716Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-06-30T08:28:35.864Z] [REQ] 200 GET /api/session-report/e07ff5d2-34a1-44ff-91e0-6b9a807bdbc8 — ::1
+[2026-06-30T08:28:35.877Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-06-30T08:29:11.817Z] [REQ] 304 GET /admin — ::1
+[2026-06-30T08:29:11.852Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:29:11.853Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:29:11.855Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:29:11.861Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:29:11.858Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:29:11.861Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:29:11.865Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:29:11.865Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:29:11.865Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:29:11.865Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:29:11.866Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:29:11.866Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:29:11.867Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-30T08:29:13.931Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:29:13.932Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:29:13.932Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:29:13.933Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:29:13.934Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:29:13.934Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:29:13.935Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:29:13.935Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:29:13.936Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:29:13.936Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:29:13.937Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:29:13.937Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:32:03.596Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:32:22.585Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:32:23.381Z] [REQ] 304 GET /admin — ::1
+[2026-06-30T08:32:23.416Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:32:23.421Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:32:23.425Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:32:23.428Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:32:23.428Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:32:23.429Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:32:23.429Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:32:23.429Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:32:23.431Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:32:23.433Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:32:23.433Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:32:23.433Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-30T08:32:23.434Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:32:25.473Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:32:25.473Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:32:25.474Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:32:25.474Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:32:25.475Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:32:25.476Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:32:25.476Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:32:25.476Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:32:25.477Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:32:25.478Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:32:25.478Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:32:25.478Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:32:31.684Z] [REQ] 304 GET /admin — ::1
+[2026-06-30T08:32:31.721Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:32:31.723Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:32:31.725Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:32:31.725Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:32:31.727Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:32:31.727Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:32:31.729Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:32:31.729Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:32:31.730Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:32:31.732Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:32:31.732Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-30T08:32:31.732Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:32:31.732Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:32:33.795Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:32:33.797Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:32:33.797Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:32:33.797Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:32:33.798Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:32:33.798Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:32:33.801Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:32:33.800Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:32:33.801Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:32:33.801Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:32:33.801Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:32:33.801Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:32:42.967Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:33:24.701Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-06-30T08:33:33.919Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:33:33.932Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:33:33.937Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:33:33.939Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:33:33.939Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:33:33.941Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.941Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.941Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.941Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.942Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.942Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.943Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:33:33.943Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:33:33.943Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:33:33.944Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:33:33.944Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:33:33.997Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:34:01.171Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-06-30T08:34:01.183Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:34:01.184Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:34:01.189Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-06-30T08:34:01.189Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:34:01.191Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.192Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.192Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.193Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.193Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.193Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.194Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-06-30T08:34:01.195Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-06-30T08:34:01.195Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-06-30T08:34:01.195Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:34:01.195Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-06-30T08:34:01.239Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-06-30T08:34:10.340Z] [REQ] 304 GET /admin — ::1
+[2026-06-30T08:34:10.373Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:34:10.375Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:34:10.378Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:34:10.381Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:34:10.381Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:34:10.385Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:34:10.385Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:34:10.386Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:34:10.386Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:34:10.387Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:34:10.388Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-06-30T08:34:10.387Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:34:10.388Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-06-30T08:34:12.466Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-06-30T08:34:12.468Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-06-30T08:34:12.468Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-06-30T08:34:12.469Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-06-30T08:34:12.469Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-06-30T08:34:12.471Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-06-30T08:34:12.471Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-06-30T08:34:12.472Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-06-30T08:34:12.472Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-06-30T08:34:12.472Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-06-30T08:34:12.472Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-06-30T08:34:12.473Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T08:21:28.733Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-03T08:21:28.734Z] [INFO] App:     https://localhost:3000/app
+[2026-07-03T08:21:28.735Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-03T08:21:28.735Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-03T08:51:06.286Z] [REQ] 304 GET /admin — ::1
+[2026-07-03T08:51:06.358Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T08:51:06.365Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-07-03T08:51:06.374Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T08:51:06.375Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T08:51:06.394Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T08:51:06.395Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T08:51:06.394Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-07-03T08:51:06.400Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T08:51:06.401Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T08:51:06.403Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T08:51:06.404Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T08:51:06.404Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T08:51:06.405Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T08:51:08.455Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T08:51:08.457Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T08:51:08.459Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T08:51:08.462Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T08:51:08.463Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-07-03T08:51:08.466Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T08:51:08.467Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T08:51:08.469Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T08:51:08.470Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T08:51:08.472Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T08:51:08.474Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T08:51:08.476Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T08:51:28.215Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T08:51:45.571Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T08:52:44.432Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T08:52:44.433Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.434Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.435Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T08:52:44.437Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T08:52:44.438Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.439Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T08:52:44.438Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.440Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.442Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T08:52:44.443Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.443Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T08:52:44.449Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.451Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.450Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T08:52:44.451Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T08:52:44.452Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T08:52:44.454Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T08:52:44.453Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.454Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.456Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T08:52:44.457Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T08:52:44.461Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.462Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.462Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T08:52:44.464Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T08:52:44.464Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T08:52:44.465Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T08:52:44.466Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.467Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.467Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T08:52:44.469Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T08:52:44.473Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T08:52:44.474Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T08:52:44.475Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.476Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.477Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T08:52:44.478Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T08:52:44.479Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:52:44.480Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:52:44.481Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T08:52:44.482Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T08:53:03.840Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T08:53:03.841Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T08:53:07.197Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T08:53:07.228Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T08:53:07.229Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T08:53:07.248Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-07-03T08:53:07.249Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.249Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.249Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T08:53:07.254Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.255Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.257Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.258Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.258Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-07-03T08:53:07.258Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-07-03T08:53:07.260Z] [REQ] 304 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-07-03T08:53:07.262Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T08:53:07.262Z] [REQ] 304 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-07-03T08:53:07.649Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-07-03T08:53:07.692Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T08:53:07.693Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T08:53:56.533Z] [REQ] 200 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T08:59:47.511Z] [REQ] 304 GET /admin — ::1
+[2026-07-03T08:59:47.562Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T08:59:47.566Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T08:59:47.571Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T08:59:47.571Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T08:59:47.573Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T08:59:47.584Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T08:59:47.584Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T08:59:47.585Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T08:59:47.585Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T08:59:47.585Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T08:59:47.587Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T08:59:47.587Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-07-03T08:59:47.587Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-07-03T08:59:49.645Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T08:59:49.649Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T08:59:49.649Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T08:59:49.652Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T08:59:49.651Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T08:59:49.652Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T08:59:49.654Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T08:59:49.655Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T08:59:49.655Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T08:59:49.655Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T08:59:49.656Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T08:59:49.656Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-07-03T08:59:52.560Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T09:00:00.258Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T09:01:53.282Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T09:01:56.880Z] [REQ] 304 GET /admin — ::1
+[2026-07-03T09:01:56.922Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:01:56.922Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:01:56.925Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:01:56.928Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:01:56.935Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:01:56.935Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:01:56.936Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:01:56.936Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:01:56.936Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:01:56.938Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:01:56.938Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-07-03T09:01:56.939Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-07-03T09:01:56.939Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T09:01:59.001Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:01:59.003Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:01:59.004Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:01:59.004Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:01:59.005Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:01:59.005Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:01:59.006Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:01:59.006Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:01:59.007Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:01:59.007Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:01:59.008Z] [REQ] 200 GET /js/utils/report-generator.js — ::1
+[2026-07-03T09:01:59.009Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T09:02:00.222Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T09:02:02.033Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T09:02:17.374Z] [REQ] 304 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T09:02:47.620Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T09:05:48.926Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T09:05:48.927Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T09:05:50.505Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T09:05:50.525Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:05:50.525Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:05:50.527Z] [REQ] 304 GET /styles/taskpane.css — ::1
+[2026-07-03T09:05:50.528Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:05:50.529Z] [REQ] 304 GET /js/core/supabase.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.533Z] [REQ] 304 GET /js/core/auth.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.533Z] [REQ] 304 GET /js/modules/exam/exam-api.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.533Z] [REQ] 304 GET /js/utils/api.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.533Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.535Z] [REQ] 304 GET /js/utils/error-handler.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.536Z] [REQ] 304 GET /js/modules/exam/checkers.js?v=1.1.0 — ::1
+[2026-07-03T09:05:50.538Z] [REQ] 304 GET /js/modules/exam/exams-loader.js?v=1.2.0 — ::1
+[2026-07-03T09:05:50.538Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:05:50.540Z] [REQ] 200 GET /js/utils/report-generator.js?v=1.0.0 — ::1
+[2026-07-03T09:05:50.540Z] [REQ] 200 GET /js/modules/exam/taskpane.js?v=1.2.0 — ::1
+[2026-07-03T09:05:50.616Z] [REQ] 200 GET /js/modules/exam/exams.json — ::1
+[2026-07-03T09:05:50.655Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T09:05:50.655Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T09:25:22.766Z] [REQ] 200 GET /admin/login — ::1
+[2026-07-03T09:25:22.803Z] [REQ] 200 GET /styles/login.css — ::1
+[2026-07-03T09:25:22.806Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:25:22.812Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:25:22.812Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:25:22.814Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:25:22.815Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:25:22.816Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:25:22.816Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:25:22.816Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:25:22.817Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:25:24.883Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:25:24.885Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:25:24.885Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:25:24.885Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:25:24.885Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:25:24.886Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:25:24.887Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:25:24.888Z] [REQ] 200 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:25:24.887Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:42:37.748Z] [REQ] 304 GET /admin — ::1
+[2026-07-03T09:42:37.797Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:42:37.799Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:42:37.801Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:42:37.801Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:42:37.803Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:42:37.816Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:42:37.817Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:42:37.817Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:42:37.817Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:42:37.817Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:42:37.819Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-07-03T09:42:37.820Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-07-03T09:42:37.822Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T09:42:39.878Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:42:39.878Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:42:39.879Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:42:39.879Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:42:39.879Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:42:39.880Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:42:39.881Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:42:39.881Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:42:39.882Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:42:39.882Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:42:39.883Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-07-03T09:42:39.883Z] [REQ] 200 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T09:42:41.027Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T09:42:56.600Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T09:43:08.377Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T09:43:15.532Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:43:15.615Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:43:15.615Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:43:15.616Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:43:15.616Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:43:15.616Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:43:15.618Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:43:15.618Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:43:15.618Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:43:15.618Z] [REQ] 304 GET /js/utils/api.js — ::1

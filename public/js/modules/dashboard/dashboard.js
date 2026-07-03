@@ -1,5 +1,5 @@
 /**
- * ExcelQuiz Pro — Dashboard Logic
+ * ExamQuiz — Dashboard Logic
  */
 
 let allResults = [];
@@ -217,7 +217,7 @@ function renderTable() {
   const page = filtered.slice(start, start + PAGE_SIZE);
 
   if (!filtered.length) {
-    tbody.innerHTML = '<tr><td colspan="9"><div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">Tidak ada data</div></div></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="10"><div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">Tidak ada data</div></div></td></tr>';
     return;
   }
 
@@ -239,6 +239,19 @@ function renderTable() {
     const statusInfo = statusMap[r.status] || { class: '', label: '—' };
     const col = r.pct >= 70 ? 'var(--accent)' : r.pct >= 50 ? 'var(--accent3)' : 'var(--danger)';
     const dt = r.started_at ? new Date(r.started_at).toLocaleString('id-ID', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—';
+    
+    // Action column: report and delete
+    const hasReport = r.status === 'lulus' || r.status === 'tidak_lulus';
+    const reportBtn = hasReport 
+      ? `<button class="btn-action btn-action-report" onclick="viewReport('${r.id}')" title="Lihat Laporan">
+          <i data-lucide="eye" style="width:12px;height:12px;"></i> Laporan
+         </button>` 
+      : `<span style="color:var(--text-faint);font-size:11px;font-style:italic;margin-right:8px;">Belum Selesai</span>`;
+
+    const deleteBtn = `<button class="btn-action btn-action-delete" onclick="deleteExamConfirm('${r.id}', '${x(r.name)}', '${x(typeInfo.label)}')" title="Hapus Ujian">
+        <i data-lucide="trash-2" style="width:12px;height:12px;"></i> Hapus
+       </button>`;
+
     return `<tr>
       <td style="color:var(--text-faint);font-family:var(--mono)">${start + i + 1}</td>
       <td><strong>${x(r.name)}</strong></td>
@@ -249,8 +262,15 @@ function renderTable() {
       <td style="font-family:var(--mono);font-weight:700;color:${col}">${r.pct}%</td>
       <td><span class="status-badge ${statusInfo.class}">${statusInfo.label}</span></td>
       <td style="font-size:11px;color:var(--text-dim);font-family:var(--mono)">${dt}</td>
+      <td>
+        <div class="action-cell">
+          ${reportBtn}
+          ${deleteBtn}
+        </div>
+      </td>
     </tr>`;
   }).join('');
+  if (window._reinitIcons) window._reinitIcons();
 }
 
 function renderPagination() {
@@ -296,7 +316,7 @@ async function handleSignOut() {
 
 function showLoading(v) { document.getElementById('loading-overlay').classList.toggle('show', v); }
 function showEmptyState(msg) {
-  document.getElementById('table-body').innerHTML = `<tr><td colspan="9"><div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">${x(msg)}</div></div></td></tr>`;
+  document.getElementById('table-body').innerHTML = `<tr><td colspan="10"><div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">${x(msg)}</div></div></td></tr>`;
 }
 function showToast(msg, type) {
   const t = document.getElementById('toast');
@@ -329,6 +349,20 @@ async function showAddParticipantModal() {
             <button type="button" style="background: #252d3d; border: 1px solid #4a5568; border-radius: 8px; color: #e8edf5; padding: 0 12px; cursor: pointer; font-size: 13px;" onclick="document.getElementById('swal-password').value = Math.random().toString(36).slice(-8)">🎲 Acak</button>
           </div>
         </div>
+        <div style="margin-bottom: 14px;">
+          <label style="display: block; font-size: 11px; font-weight: 600; color: #8892a4; text-transform: uppercase; margin-bottom: 6px; font-family: 'Space Mono', monospace;">Akses Ujian</label>
+          <div style="display: flex; gap: 16px; margin-top: 6px; color: #e8edf5;">
+            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+              <input type="checkbox" id="add-swal-exam-word" value="word" checked style="cursor: pointer; width: 16px; height: 16px;"> Word
+            </label>
+            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+              <input type="checkbox" id="add-swal-exam-excel" value="excel" checked style="cursor: pointer; width: 16px; height: 16px;"> Excel
+            </label>
+            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+              <input type="checkbox" id="add-swal-exam-ppt" value="ppt" checked style="cursor: pointer; width: 16px; height: 16px;"> PPT
+            </label>
+          </div>
+        </div>
       </div>
     `,
     background: '#131720',
@@ -345,6 +379,11 @@ async function showAddParticipantModal() {
       const email = document.getElementById('swal-email').value.trim();
       const password = document.getElementById('swal-password').value;
 
+      const allowed = [];
+      if (document.getElementById('add-swal-exam-word').checked) allowed.push('word');
+      if (document.getElementById('add-swal-exam-excel').checked) allowed.push('excel');
+      if (document.getElementById('add-swal-exam-ppt').checked) allowed.push('ppt');
+
       if (!name || !email || !password) {
         Swal.showValidationMessage('Nama Lengkap, Email, dan Password wajib diisi!');
         return false;
@@ -353,7 +392,11 @@ async function showAddParticipantModal() {
         Swal.showValidationMessage('Password minimal 6 karakter!');
         return false;
       }
-      return { name, nim, email, password };
+      if (allowed.length === 0) {
+        Swal.showValidationMessage('Pilih minimal satu akses ujian!');
+        return false;
+      }
+      return { name, nim, email, password, allowedExams: allowed.join(',') };
     }
   });
 
@@ -364,7 +407,8 @@ async function showAddParticipantModal() {
         formValues.email,
         formValues.password,
         formValues.name,
-        formValues.nim
+        formValues.nim,
+        formValues.allowedExams
       );
 
       Swal.fire({
@@ -454,27 +498,114 @@ function renderParticipantsTable() {
   if (!tbody) return;
   
   if (!filteredParticipants.length) {
-    tbody.innerHTML = '<tr><td colspan="5"><div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">Tidak ada data peserta</div></div></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6"><div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">Tidak ada data peserta</div></div></td></tr>';
     return;
   }
   
-  tbody.innerHTML = filteredParticipants.map((p, i) => `
-    <tr>
-      <td style="color:var(--text-faint);font-family:var(--mono)">${i + 1}</td>
-      <td><strong>${x(p.full_name)}</strong></td>
-      <td style="font-family:var(--mono);font-size:12px;color:var(--text-dim)">${x(p.nim)}</td>
-      <td style="font-family:var(--mono);font-size:11px;color:var(--text-faint)">${p.id}</td>
-      <td>
-        <div class="action-cell">
-          <button class="btn-action btn-action-edit" onclick="editParticipant('${p.id}', '${x(p.full_name)}', '${x(p.nim)}')">✏️ Edit</button>
-          <button class="btn-action btn-action-delete" onclick="deleteParticipantConfirm('${p.id}', '${x(p.full_name)}')">🗑️ Hapus</button>
-        </div>
-      </td>
-    </tr>
-  `).join('');
+  const typeMap = {
+    word: { class: 'badge-word', label: 'Word' },
+    excel: { class: 'badge-excel', label: 'Excel' },
+    ppt: { class: 'badge-ppt', label: 'PowerPoint' },
+    powerpoint: { class: 'badge-ppt', label: 'PowerPoint' }
+  };
+
+  tbody.innerHTML = filteredParticipants.map((p, i) => {
+    const allowed = p.allowed_exams ? p.allowed_exams.split(',').map(s => s.trim().toLowerCase()) : ['word', 'excel', 'ppt'];
+    const badgeHtml = allowed.map(type => {
+      const typeInfo = typeMap[type] || { class: '', label: type.toUpperCase() };
+      return `<span class="badge ${typeInfo.class}" style="margin-right: 4px; font-size: 10px; padding: 2px 6px;">${typeInfo.label}</span>`;
+    }).join('');
+
+    return `
+      <tr>
+        <td style="color:var(--text-faint);font-family:var(--mono)">${i + 1}</td>
+        <td><strong>${x(p.full_name)}</strong></td>
+        <td style="font-family:var(--mono);font-size:12px;color:var(--text-dim)">${x(p.nim)}</td>
+        <td style="font-family:var(--mono);font-size:12px;color:var(--text-dim)">${x(p.email || '—')}</td>
+        <td>${badgeHtml}</td>
+        <td>
+          <div class="action-cell">
+            <button class="btn-action btn-action-edit" onclick="editParticipant('${p.id}', '${x(p.full_name)}', '${x(p.nim)}', '${x(p.allowed_exams || 'word,excel,ppt')}')">✏️ Edit</button>
+            <button class="btn-action btn-action-delete" onclick="deleteParticipantConfirm('${p.id}', '${x(p.full_name)}')">🗑️ Hapus</button>
+          </div>
+        </td>
+      </tr>
+    `;
+  }).join('');
 }
 
-async function editParticipant(id, oldName, oldNim) {
+let _activeReportSession = null;
+
+async function viewReport(sessionId) {
+  showLoading(true);
+  try {
+    const reportData = await SupabaseClient.getSessionReport(sessionId);
+    if (!reportData) {
+      throw new Error('Data laporan tidak ditemukan atau kosong');
+    }
+    
+    _activeReportSession = reportData;
+    
+    const modalBody = document.getElementById('report-modal-body');
+    if (window.ReportGenerator) {
+      modalBody.innerHTML = ReportGenerator.buildHTML({
+        candidateName: reportData.candidate ? reportData.candidate.name : '—',
+        candidateNim: reportData.candidate ? reportData.candidate.nim : '—',
+        totalScore: reportData.total_score,
+        maxScore: reportData.max_score,
+        examType: reportData.exam_type,
+        level: reportData.level,
+        date: reportData.started_at,
+        answers: reportData.answers
+      });
+    } else {
+      modalBody.innerHTML = '<div style="padding:20px;color:red;">Error: ReportGenerator utility not found!</div>';
+    }
+    
+    const modal = document.getElementById('report-modal');
+    modal.classList.add('show');
+    if (window._reinitIcons) window._reinitIcons();
+  } catch (err) {
+    console.error('[DashboardUI] viewReport Error:', err);
+    Swal.fire({
+      icon: 'error',
+      title: 'Gagal Memuat Laporan',
+      text: err.message || 'Terjadi kesalahan saat memuat rincian laporan.'
+    });
+  } finally {
+    showLoading(false);
+  }
+}
+
+function closeReportModal() {
+  const modal = document.getElementById('report-modal');
+  modal.classList.remove('show');
+}
+
+function printModalReport() {
+  if (!_activeReportSession || !window.ReportGenerator) return;
+  const mapped = {
+    sessionId: _activeReportSession.id,
+    candidateName: _activeReportSession.candidate ? _activeReportSession.candidate.name : '—',
+    candidateNim: _activeReportSession.candidate ? _activeReportSession.candidate.nim : '—',
+    totalScore: _activeReportSession.total_score,
+    maxScore: _activeReportSession.max_score,
+    examType: _activeReportSession.exam_type,
+    level: _activeReportSession.level,
+    date: _activeReportSession.started_at,
+    answers: _activeReportSession.answers
+  };
+  ReportGenerator.printReport(mapped);
+}
+
+// Bind functions to window context
+window.viewReport = viewReport;
+window.closeReportModal = closeReportModal;
+window.printModalReport = printModalReport;
+
+async function editParticipant(id, oldName, oldNim, oldAllowedExams) {
+  const allowedList = oldAllowedExams ? oldAllowedExams.split(',').map(s => s.trim().toLowerCase()) : ['word', 'excel', 'ppt'];
+
   const { value: formValues } = await Swal.fire({
     title: '✏️ Edit Data Peserta',
     html: `
@@ -486,6 +617,24 @@ async function editParticipant(id, oldName, oldNim) {
         <div style="margin-bottom: 14px;">
           <label style="display: block; font-size: 11px; font-weight: 600; color: #8892a4; text-transform: uppercase; margin-bottom: 6px; font-family: 'Space Mono', monospace;">NIM</label>
           <input id="edit-swal-nim" class="swal2-input" value="${oldNim}" placeholder="Nomor Induk Mahasiswa" style="margin: 0; width: 100%; box-sizing: border-box; background: #1a1f2e; color: #e8edf5; border: 1px solid #252d3d; border-radius: 8px; padding: 10px; font-size: 14px;">
+        </div>
+        <div style="margin-bottom: 14px;">
+          <label style="display: block; font-size: 11px; font-weight: 600; color: #8892a4; text-transform: uppercase; margin-bottom: 6px; font-family: 'Space Mono', monospace;">Password Baru (Kosongkan jika tidak diubah)</label>
+          <input id="edit-swal-password" type="password" class="swal2-input" placeholder="Masukkan password baru (min. 6 karakter)" style="margin: 0; width: 100%; box-sizing: border-box; background: #1a1f2e; color: #e8edf5; border: 1px solid #252d3d; border-radius: 8px; padding: 10px; font-size: 14px;">
+        </div>
+        <div style="margin-bottom: 14px;">
+          <label style="display: block; font-size: 11px; font-weight: 600; color: #8892a4; text-transform: uppercase; margin-bottom: 6px; font-family: 'Space Mono', monospace;">Akses Ujian</label>
+          <div style="display: flex; gap: 16px; margin-top: 6px; color: #e8edf5;">
+            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+              <input type="checkbox" id="edit-swal-exam-word" value="word" ${allowedList.includes('word') ? 'checked' : ''} style="cursor: pointer; width: 16px; height: 16px;"> Word
+            </label>
+            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+              <input type="checkbox" id="edit-swal-exam-excel" value="excel" ${allowedList.includes('excel') ? 'checked' : ''} style="cursor: pointer; width: 16px; height: 16px;"> Excel
+            </label>
+            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+              <input type="checkbox" id="edit-swal-exam-ppt" value="ppt" ${allowedList.includes('ppt') ? 'checked' : ''} style="cursor: pointer; width: 16px; height: 16px;"> PPT
+            </label>
+          </div>
         </div>
       </div>
     `,
@@ -500,19 +649,36 @@ async function editParticipant(id, oldName, oldNim) {
     preConfirm: () => {
       const name = document.getElementById('edit-swal-name').value.trim();
       const nim = document.getElementById('edit-swal-nim').value.trim();
-      
+      const password = document.getElementById('edit-swal-password').value;
+
+      const allowed = [];
+      if (document.getElementById('edit-swal-exam-word').checked) allowed.push('word');
+      if (document.getElementById('edit-swal-exam-excel').checked) allowed.push('excel');
+      if (document.getElementById('edit-swal-exam-ppt').checked) allowed.push('ppt');
+
       if (!name) {
         Swal.showValidationMessage('Nama Lengkap wajib diisi!');
         return false;
       }
-      return { name, nim };
+      if (password && password.length < 6) {
+        Swal.showValidationMessage('Password minimal harus 6 karakter!');
+        return false;
+      }
+      if (allowed.length === 0) {
+        Swal.showValidationMessage('Pilih minimal satu akses ujian!');
+        return false;
+      }
+      return { name, nim, password, allowedExams: allowed.join(',') };
     }
   });
 
   if (formValues) {
     showLoading(true);
     try {
-      await SupabaseClient.updateParticipant(id, formValues.name, formValues.nim);
+      await SupabaseClient.updateParticipant(id, formValues.name, formValues.nim, formValues.allowedExams);
+      if (formValues.password) {
+        await SupabaseClient.updateParticipantPassword(id, formValues.password);
+      }
       
       Swal.fire({
         icon: 'success',
@@ -588,5 +754,124 @@ async function deleteParticipantConfirm(id, name) {
     }
   }
 }
+
+async function deleteExamConfirm(sessionId, studentName, examType) {
+  const result = await Swal.fire({
+    title: '🗑️ Hapus Hasil Ujian?',
+    text: `Apakah Anda yakin ingin menghapus hasil ujian ${examType} untuk peserta "${studentName}"? Tindakan ini akan menghapus riwayat ujian secara permanen dan tidak dapat dibatalkan!`,
+    icon: 'warning',
+    background: '#131720',
+    color: '#e8edf5',
+    showCancelButton: true,
+    confirmButtonColor: '#f87171',
+    cancelButtonColor: '#4a5568',
+    confirmButtonText: 'Ya, Hapus!',
+    cancelButtonText: 'Batal'
+  });
+
+  if (result.isConfirmed) {
+    showLoading(true);
+    try {
+      await SupabaseClient.deleteExamSession(sessionId);
+
+      Swal.fire({
+        icon: 'success',
+        title: 'Berhasil Dihapus',
+        text: `Hasil ujian ${examType} untuk "${studentName}" telah berhasil dihapus.`,
+        background: '#131720',
+        color: '#e8edf5',
+        confirmButtonColor: '#4ade80'
+      });
+
+      // Reload results
+      await loadResults();
+    } catch (err) {
+      console.error('[DashboardUI] Delete Exam Error:', err);
+      Swal.fire({
+        icon: 'error',
+        title: 'Gagal Menghapus',
+        text: err.message || 'Terjadi kesalahan saat menghapus hasil ujian.',
+        background: '#131720',
+        color: '#e8edf5',
+        confirmButtonColor: '#f87171'
+      });
+    } finally {
+      showLoading(false);
+    }
+  }
+}
+
+async function deleteAllExamsConfirm() {
+  const result = await Swal.fire({
+    title: '⚠️ Hapus Semua Ujian?',
+    text: 'Apakah Anda yakin ingin menghapus SELURUH riwayat hasil ujian semua peserta? Tindakan ini akan menghapus semua data kuis secara permanen dari sistem dan tidak dapat dibatalkan!',
+    icon: 'warning',
+    background: '#131720',
+    color: '#e8edf5',
+    showCancelButton: true,
+    confirmButtonColor: '#f87171',
+    cancelButtonColor: '#4a5568',
+    confirmButtonText: 'Ya, Hapus Semua!',
+    cancelButtonText: 'Batal'
+  });
+
+  if (result.isConfirmed) {
+    const confirmInput = await Swal.fire({
+      title: 'Konfirmasi Ulang',
+      text: 'Silakan ketik kata "HAPUS" untuk mengonfirmasi tindakan ini:',
+      input: 'text',
+      inputPlaceholder: 'HAPUS',
+      background: '#131720',
+      color: '#e8edf5',
+      showCancelButton: true,
+      confirmButtonColor: '#f87171',
+      cancelButtonColor: '#4a5568',
+      confirmButtonText: 'Konfirmasi',
+      cancelButtonText: 'Batal',
+      preConfirm: (value) => {
+        if (value.trim().toUpperCase() !== 'HAPUS') {
+          Swal.showValidationMessage('Kata konfirmasi tidak cocok!');
+          return false;
+        }
+        return true;
+      }
+    });
+
+    if (confirmInput.isConfirmed) {
+      showLoading(true);
+      try {
+        await SupabaseClient.deleteAllExamSessions();
+
+        Swal.fire({
+          icon: 'success',
+          title: 'Berhasil Dihapus',
+          text: 'Seluruh riwayat hasil ujian peserta telah dihapus dari sistem.',
+          background: '#131720',
+          color: '#e8edf5',
+          confirmButtonColor: '#4ade80'
+        });
+
+        // Reload results
+        await loadResults();
+      } catch (err) {
+        console.error('[DashboardUI] Delete All Exams Error:', err);
+        Swal.fire({
+          icon: 'error',
+          title: 'Gagal Menghapus',
+          text: err.message || 'Terjadi kesalahan saat menghapus seluruh hasil ujian.',
+          background: '#131720',
+          color: '#e8edf5',
+          confirmButtonColor: '#f87171'
+        });
+      } finally {
+        showLoading(false);
+      }
+    }
+  }
+}
+
+// Bind delete functions to window context
+window.deleteExamConfirm = deleteExamConfirm;
+window.deleteAllExamsConfirm = deleteAllExamsConfirm;
 
 init();

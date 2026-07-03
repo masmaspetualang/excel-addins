@@ -1,5 +1,5 @@
 /**
- * ExcelQuiz Pro — Login Page Logic
+ * ExamQuiz — Login Page Logic
  */
 
 // Redirect if already logged in
@@ -79,7 +79,16 @@ async function handleLogin(e) {
   } catch (err) {
     console.error('[LoginUI] Login Error:', err);
     let msg = err.message || 'Login gagal';
-    if (msg.includes('Invalid login')) msg = 'Email atau password salah.';
+    
+    if (msg.includes('Invalid login credentials') || msg.includes('Invalid login') || msg.includes('invalid_credentials')) {
+      msg = 'Email atau password salah. Silakan periksa kembali data Anda.';
+    } else if (msg.includes('Email not confirmed')) {
+      msg = 'Email Anda belum dikonfirmasi. Silakan verifikasi email Anda terlebih dahulu.';
+    } else if (msg.includes('rate limit') || msg.includes('Rate limit exceeded')) {
+      msg = 'Terlalu banyak percobaan login. Silakan tunggu beberapa menit sebelum mencoba lagi.';
+    } else if (msg.includes('network') || msg.includes('Failed to fetch')) {
+      msg = 'Gagal terhubung ke server/jaringan. Silakan periksa koneksi internet Anda.';
+    }
 
     Swal.fire({
       icon: 'error',

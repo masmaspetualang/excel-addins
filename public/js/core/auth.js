@@ -29,7 +29,8 @@
       id: data.id_pengguna,
       full_name: data.nama_lengkap,
       nim: data.nim,
-      role: data.peran
+      role: data.peran,
+      allowed_exams: data.allowed_exams || 'word,excel,ppt'
     };
   }
 
@@ -102,7 +103,7 @@
     return data;
   }
 
-  async function registerParticipantByAdmin(email, password, fullName, nim) {
+  async function registerParticipantByAdmin(email, password, fullName, nim, allowedExams) {
     console.log('[Auth] Admin registering participant:', email);
     const cfg = window.APP_CONFIG || {};
     if (!window.supabase || !cfg.SUPABASE_URL) throw new Error('Supabase belum dikonfigurasi');
@@ -136,7 +137,9 @@
         id_pengguna: data.user.id,
         nama_lengkap: fullName,
         nim: nim,
-        peran: 'participant'
+        peran: 'participant',
+        email: email,
+        allowed_exams: allowedExams || 'word,excel,ppt'
       });
       
       if (pError) {

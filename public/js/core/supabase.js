@@ -15,11 +15,11 @@
   function getClient() {
     if (_client) return _client;
     if (!window.supabase || !SUPABASE_URL || SUPABASE_URL.includes('YOUR_PROJECT')) {
-      console.warn('[ExcelQuiz] Supabase belum dikonfigurasi. Isi SUPABASE_URL dan SUPABASE_ANON_KEY di .env');
+      console.warn('[ExamQuiz] Supabase belum dikonfigurasi. Isi SUPABASE_URL dan SUPABASE_ANON_KEY di .env');
       return null;
     }
     _client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-      auth: { persistSession: true, storageKey: 'excelquiz-auth' }
+      auth: { persistSession: true, storageKey: 'examquiz-auth' }
     });
     return _client;
   }

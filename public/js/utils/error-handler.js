@@ -37,7 +37,13 @@
         container.style.display = 'flex';
         container.style.flexDirection = 'column';
         container.style.gap = '10px';
-        document.body.appendChild(container);
+        if (document.body) {
+          document.body.appendChild(container);
+        } else {
+          document.addEventListener('DOMContentLoaded', () => {
+            document.body.appendChild(container);
+          });
+        }
       }
 
       // Buat element toast baru

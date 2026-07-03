@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dashboard Nilai — ExcelQuiz Pro</title>
+  <title>Dashboard Nilai — ExamQuiz</title>
   <meta name="description" content="Dashboard laporan nilai ujian praktik Microsoft Office"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -12,14 +12,15 @@
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
   <!-- Use lucide-react as a standalone icon library via CDN -->
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/js/lib/lucide.js"></script>
+  <script src="/js/lib/supabase.js"></script>
+  <script src="/js/lib/sweetalert2.js"></script>
   <script src="/js/config/app.config.js"></script>
   <script src="/js/core/supabase.js"></script>
   <script src="/js/core/auth.js"></script>
   <script src="/js/modules/exam/exam-api.js"></script>
   <script src="/js/modules/dashboard/dashboard-api.js"></script>
+  <script src="/js/utils/report-generator.js"></script>
   <script src="/js/utils/api.js"></script>
   <script src="/js/utils/error-handler.js"></script>
 </head>
@@ -35,7 +36,7 @@
 <header class="dash-header">
   <div class="dash-logo">
     <div class="dash-logo-icon">EQ</div>
-    <div class="dash-logo-text">ExcelQuiz Pro</div>
+    <div class="dash-logo-text">ExamQuiz</div>
     <div class="dash-logo-badge">Admin</div>
   </div>
   <div class="dash-header-right">
@@ -157,6 +158,10 @@
         <i data-lucide="download" style="width:14px;height:14px;"></i>
         Export CSV
       </button>
+      <button class="btn-delete-all" onclick="deleteAllExamsConfirm()">
+        <i data-lucide="trash-2" style="width:14px;height:14px;"></i>
+        Hapus Semua Ujian
+      </button>
       <button class="btn-add-user" onclick="showAddParticipantModal()">
         <i data-lucide="user-plus" style="width:14px;height:14px;"></i>
         Tambah Peserta
@@ -192,11 +197,12 @@
             <th onclick="sortBy('pct')">% <span class="sort-arrow"></span></th>
             <th onclick="sortBy('status')">Status <span class="sort-arrow"></span></th>
             <th onclick="sortBy('started_at')">Tanggal <span class="sort-arrow"></span></th>
+            <th style="width: 180px; text-align: center;">Aksi</th>
           </tr>
         </thead>
         <tbody id="table-body">
           <tr>
-            <td colspan="9">
+            <td colspan="10">
               <div class="empty-state">
                 <div class="empty-state-icon">
                   <i data-lucide="clipboard-list" style="width:40px;height:40px;opacity:0.4;"></i>
@@ -230,13 +236,14 @@
             <th style="width: 80px;">No</th>
             <th>Nama Lengkap</th>
             <th>NIM</th>
-            <th>ID Pengguna (UUID)</th>
-            <th style="width: 150px; text-align: center;">Aksi</th>
+            <th>Email</th>
+            <th>Akses Ujian</th>
+            <th style="width: 180px; text-align: center;">Aksi</th>
           </tr>
         </thead>
         <tbody id="participant-table-body">
           <tr>
-            <td colspan="5">
+            <td colspan="6">
               <div class="empty-state">
                 <div class="empty-state-icon">
                   <i data-lucide="users" style="width:40px;height:40px;opacity:0.4;"></i>
@@ -251,6 +258,25 @@
   </div>
 
 </main>
+
+<!-- REPORT MODAL -->
+<div class="report-modal-overlay" id="report-modal" onclick="if(event.target===this) closeReportModal()">
+  <div class="report-modal-content">
+    <div class="report-modal-header">
+      <h3>Pratinjau Laporan Hasil Ujian</h3>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="btn-modal-print" onclick="printModalReport()">
+          <i data-lucide="printer" style="width:14px;height:14px;"></i>
+          Cetak / PDF
+        </button>
+        <button class="btn-modal-close" onclick="closeReportModal()">&times;</button>
+      </div>
+    </div>
+    <div class="report-modal-body" id="report-modal-body">
+      <!-- Report HTML dynamically populated by JS -->
+    </div>
+  </div>
+</div>
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>

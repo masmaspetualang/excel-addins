@@ -1,5 +1,5 @@
 # Dokumentasi Skema Database & Analisis Peran (Skripsi)
-## Sistem Ujian Praktik Aplikasi Perkantoran Interaktif (ExcelQuiz Pro)
+## Sistem Ujian Praktik Aplikasi Perkantoran Interaktif (ExamQuiz)
 
 Dokumen ini disusun untuk membantu penulisan bab perancangan database (skema basis data) dan analisis kebutuhan hak akses (peran/role) pada laporan skripsi Anda.
 

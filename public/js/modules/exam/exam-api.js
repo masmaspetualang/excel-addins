@@ -106,25 +106,38 @@
 
       // 4. Masukkan jawaban per soal (evaluasi_jawaban)
       if (answers && answers.length > 0) {
-        const insertPayload = answers.map((a, index) => {
-          // Cari id_soal yang sesuai berdasarkan indeks urutan
-          const dbQ = dbQuestions[index];
-          const dbQuestionId = dbQ ? dbQ.id_soal : null;
+        let insertPayload;
 
-          return {
+        if (dbQuestions && dbQuestions.length > 0) {
+          // Kasus normal: ada data butir_soal di DB — map berdasarkan indeks urutan
+          insertPayload = answers.map((a, index) => {
+            const dbQ = dbQuestions[index];
+            return {
+              id_sesi: sessionId,
+              id_soal: dbQ ? dbQ.id_soal : null,
+              skor_diperoleh: a.score,
+              catatan_sistem: `TITLE::${a.title || a.questionId || ('Soal ' + (index + 1))}|DETAIL::${a.detail || 'Pemeriksaan otomatis selesai'}`,
+              status_jawaban: a.score > 0 ? 'benar' : 'salah'
+            };
+          }).filter(item => item.id_soal !== null);
+        } else {
+          // Fallback: butir_soal belum di-seed untuk jenis ujian ini
+          // Simpan tanpa FK id_soal agar rincian tetap ada di laporan
+          console.warn('[saveExamResults] No butir_soal found for', session.jenis_aplikasi, session.kategori_ujian, '— saving without FK');
+          insertPayload = answers.map((a, index) => ({
             id_sesi: sessionId,
-            id_soal: dbQuestionId,
+            id_soal: null,
             skor_diperoleh: a.score,
-            catatan_sistem: a.detail || 'Pemeriksaan otomatis selesai',
+            catatan_sistem: `TITLE::${a.title || a.questionId || ('Soal ' + (index + 1))}|DETAIL::${a.detail || 'Pemeriksaan otomatis selesai'}`,
             status_jawaban: a.score > 0 ? 'benar' : 'salah'
-          };
-        }).filter(item => item.id_soal !== null); // Hanya masukkan jika id_soal ditemukan
+          }));
+        }
 
         if (insertPayload.length > 0) {
           const { error: insErr } = await sb.from('evaluasi_jawaban').insert(insertPayload);
           if (insErr) {
             console.error('Failed to insert answer breakdown:', insErr);
-            return false;
+            // Don't return false — still treat exam as saved successfully
           }
         }
       }
