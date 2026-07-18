@@ -12,10 +12,11 @@
 const fs   = require('fs');
 const path = require('path');
 
+const isVercel = Boolean(process.env.VERCEL);
 const LOG_DIR = path.join(__dirname, '../../logs');
 
-// Buat folder logs jika belum ada
-if (!fs.existsSync(LOG_DIR)) {
+// Buat folder logs jika belum ada (hanya jika bukan di Vercel)
+if (!isVercel && !fs.existsSync(LOG_DIR)) {
   fs.mkdirSync(LOG_DIR, { recursive: true });
 }
 
@@ -24,6 +25,7 @@ function formatLine(level, msg) {
 }
 
 function writeToFile(filename, line) {
+  if (isVercel) return; // Jangan tulis ke file di Vercel
   fs.appendFile(path.join(LOG_DIR, filename), line + '\n', () => {});
 }
 
