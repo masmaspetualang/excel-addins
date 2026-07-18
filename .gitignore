@@ -4,3 +4,5 @@ certs/
 .DS_Store
 .vscode/
 public/js/config/app.config.js
+public/manifest.xml
+
