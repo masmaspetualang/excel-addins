@@ -44,7 +44,11 @@ Office.onReady(async (info) => {
 function onAuthReady() {
   const displayName = (currentProfile && currentProfile.full_name) || (currentUser && currentUser.email) || 'User';
   document.getElementById('header-user').textContent = displayName.split(' ')[0];
-  document.getElementById('header-actions').style.display = 'flex';
+  const headerActions = document.getElementById('header-actions');
+  if (headerActions) {
+    headerActions.classList.remove('d-none');
+    headerActions.style.display = 'flex';
+  }
 
   if (currentProfile && currentProfile.role === 'admin') {
     window.location.href = '/admin';
@@ -404,28 +408,28 @@ function showResults(results, total) {
           Rincian Hasil Pengerjaan
         </div>
         ${categories.map((cat, i) => {
-          const catPct = cat.max > 0 ? Math.round((cat.score / cat.max) * 100) : 0;
-          let statusClass = 'fail';
-          let icon = '❌';
-          if (catPct >= 70) {
-            statusClass = 'pass';
-            icon = '✓';
-          } else if (cat.score > 0) {
-            statusClass = 'partial';
-            icon = '⚠';
-          }
+      const catPct = cat.max > 0 ? Math.round((cat.score / cat.max) * 100) : 0;
+      let statusClass = 'fail';
+      let icon = '❌';
+      if (catPct >= 70) {
+        statusClass = 'pass';
+        icon = '✓';
+      } else if (cat.score > 0) {
+        statusClass = 'partial';
+        icon = '⚠';
+      }
 
-          const subItemsHTML = cat.items.map(item => {
-            let itemColor = 'var(--danger)';
-            let itemIcon = '❌';
-            if (item.score >= item.max) {
-              itemColor = 'var(--success)';
-              itemIcon = '✓';
-            } else if (item.score > 0) {
-              itemColor = 'var(--warning)';
-              itemIcon = '⚠';
-            }
-            return `
+      const subItemsHTML = cat.items.map(item => {
+        let itemColor = 'var(--danger)';
+        let itemIcon = '❌';
+        if (item.score >= item.max) {
+          itemColor = 'var(--success)';
+          itemIcon = '✓';
+        } else if (item.score > 0) {
+          itemColor = 'var(--warning)';
+          itemIcon = '⚠';
+        }
+        return `
               <div style="margin-top: 4px; padding-left: 8px; border-left: 2px solid ${itemColor === 'var(--success)' ? 'rgba(46,158,107,0.3)' : (itemColor === 'var(--warning)' ? 'rgba(224,160,64,0.3)' : 'rgba(224,82,82,0.3)')};">
                 <div style="display: flex; justify-content: space-between; font-size: 11px;">
                   <span style="font-weight: 500; color: var(--text-dim);">${item.title}</span>
@@ -434,9 +438,9 @@ function showResults(results, total) {
                 <div style="font-size: 9px; color: var(--text-faint); margin-top: 1px; font-family: var(--mono);">${item.detail || 'Tidak dikerjakan'}</div>
               </div>
             `;
-          }).join('');
+      }).join('');
 
-          return `
+      return `
             <div class="breakdown-item" style="margin-bottom: 8px; display: block; padding: 10px 12px;">
               <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
                 <div class="breakdown-status ${statusClass}">${icon}</div>
@@ -450,7 +454,7 @@ function showResults(results, total) {
               </div>
             </div>
           `;
-        }).join('')}
+    }).join('')}
       </div>
     `;
     reportArea.innerHTML = breakdownHTML;
@@ -522,7 +526,7 @@ window.handleLpLogin = async function () {
 
 window.handleSignOut = function () {
   SupabaseClient.signOut().then(() => {
-    window.location.href = '/login';
+    window.location.href = '/app';
   });
 };
 

@@ -4,18 +4,18 @@ const test = require('node:test');
 const assert = require('node:assert');
 
 // Mock browser globals untuk menghindari error "window is not defined"
-global.window = {
-  OfficeCheckers: {}
-};
+global.window = {};
 
-// Baca file checkers.js secara dinamis
-const checkersPath = path.join(__dirname, '../../public/js/modules/exam/checkers.js');
-const checkersCode = fs.readFileSync(checkersPath, 'utf8');
+const checkersDir = path.join(__dirname, '../../public/features/participant-exam/checkers');
+const filesToLoad = ['helpers.js', 'excel.js', 'word.js', 'ppt.js', 'index.js'];
 
-// Evaluasi kode checkers.js dalam scope global virtual
-const sandbox = {};
-const evaluateCode = new Function('exports', checkersCode + '\nreturn OfficeCheckers;');
-const OfficeCheckers = evaluateCode(sandbox);
+filesToLoad.forEach(file => {
+  const code = fs.readFileSync(path.join(checkersDir, file), 'utf8');
+  const runCode = new Function('window', code);
+  runCode(global.window);
+});
+
+const OfficeCheckers = global.window.OfficeCheckers;
 
 test('Unit Test: OfficeCheckers._isRed', (t) => {
   // Test warna merah standar (hex 6 digit)

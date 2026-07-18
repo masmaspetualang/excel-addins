@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 app.use(corsMiddleware);
-app.use(rateLimitMiddleware);
+app.use('/api', rateLimitMiddleware);
 
 function servePage(relativePath) {
   return (_req, res) => res.sendFile(path.join(publicDir, relativePath));
@@ -61,7 +61,7 @@ app.get('/api/participants-with-email', async (_req, res) => {
     try {
       const { createSupabaseAdmin } = require('./lib/supabase-admin');
       supabase = createSupabaseAdmin();
-      
+
       const { data, error: authErr } = await supabase.auth.admin.listUsers({ perPage: 1000 });
       if (authErr) {
         console.warn('[API] Warning: Failed to list auth users via admin client:', authErr.message);

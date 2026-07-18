@@ -15,28 +15,28 @@
   ],
   "routes": [
     {
-      "src": "/js/config/app.config.js",
+      "src": "/shared/app-configuration/app.config.js",
       "dest": "/api/app-config"
     },
     {
       "src": "/app",
-      "dest": "/pages/participant/taskpane.html"
+      "dest": "/features/participant-exam/taskpane.html"
     },
     {
       "src": "/login",
-      "dest": "/pages/participant/login.html"
+      "dest": "/features/participant-login/login.html"
     },
     {
       "src": "/admin/login",
-      "dest": "/pages/admin/admin-login.html"
+      "dest": "/features/admin-login/admin-login.html"
     },
     {
       "src": "/admin/commands",
-      "dest": "/pages/admin/commands.html"
+      "dest": "/features/admin-dashboard/commands.html"
     },
     {
       "src": "/admin",
-      "dest": "/pages/admin/dashboard.html"
+      "dest": "/features/admin-dashboard/dashboard.html"
     },
     {
       "src": "/pages/participant/taskpane.html",
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "source": "/js/config/app.config.js",
+      "source": "/shared/app-configuration/app.config.js",
       "headers": [
         {
           "key": "Cache-Control",

@@ -2761,3 +2761,1862 @@
 [2026-07-03T09:43:15.618Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
 [2026-07-03T09:43:15.618Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
 [2026-07-03T09:43:15.618Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:58:18.029Z] [REQ] 304 GET /admin — ::1
+[2026-07-03T09:58:18.074Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:58:18.075Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:58:18.077Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:58:18.080Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:58:18.081Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:58:18.084Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:58:18.090Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:58:18.090Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:58:18.091Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:58:18.090Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T09:58:18.092Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:58:18.092Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-07-03T09:58:18.093Z] [REQ] 304 GET /styles/dashboard.css — ::1
+[2026-07-03T09:58:20.174Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T09:58:20.177Z] [REQ] 304 GET /js/lib/lucide.js — ::1
+[2026-07-03T09:58:20.177Z] [REQ] 304 GET /js/lib/supabase.js — ::1
+[2026-07-03T09:58:20.178Z] [REQ] 304 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T09:58:20.178Z] [REQ] 304 GET /js/utils/error-handler.js — ::1
+[2026-07-03T09:58:20.178Z] [REQ] 304 GET /js/core/auth.js — ::1
+[2026-07-03T09:58:20.180Z] [REQ] 304 GET /js/core/supabase.js — ::1
+[2026-07-03T09:58:20.180Z] [REQ] 304 GET /js/utils/api.js — ::1
+[2026-07-03T09:58:20.180Z] [REQ] 304 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T09:58:20.180Z] [REQ] 304 GET /js/modules/dashboard/dashboard.js — ::1
+[2026-07-03T09:58:20.181Z] [REQ] 304 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T09:58:20.181Z] [REQ] 304 GET /js/utils/report-generator.js — ::1
+[2026-07-03T09:58:22.232Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T10:07:03.506Z] [REQ] 404 GET /admin — ::1
+[2026-07-03T10:07:06.059Z] [REQ] 404 GET /admin — ::1
+[2026-07-03T10:07:08.119Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T10:07:10.172Z] [REQ] 200 GET /js/config/app.config.js — ::1
+[2026-07-03T10:07:10.172Z] [WARN] 404 — GET /js/lib/supabase.js
+[2026-07-03T10:07:10.173Z] [WARN] 404 — GET /js/lib/sweetalert2.js
+[2026-07-03T10:07:10.174Z] [REQ] 404 GET /js/lib/supabase.js — ::1
+[2026-07-03T10:07:10.174Z] [REQ] 404 GET /js/lib/sweetalert2.js — ::1
+[2026-07-03T10:07:10.174Z] [WARN] 404 — GET /js/core/supabase.js
+[2026-07-03T10:07:10.175Z] [REQ] 404 GET /js/core/supabase.js — ::1
+[2026-07-03T10:07:10.175Z] [WARN] 404 — GET /js/core/auth.js
+[2026-07-03T10:07:10.176Z] [WARN] 404 — GET /js/modules/exam/exam-api.js
+[2026-07-03T10:07:10.176Z] [WARN] 404 — GET /js/modules/dashboard/dashboard-api.js
+[2026-07-03T10:07:10.177Z] [REQ] 404 GET /js/core/auth.js — ::1
+[2026-07-03T10:07:10.177Z] [REQ] 404 GET /js/modules/exam/exam-api.js — ::1
+[2026-07-03T10:07:10.177Z] [REQ] 404 GET /js/modules/dashboard/dashboard-api.js — ::1
+[2026-07-03T10:07:10.178Z] [WARN] 404 — GET /js/utils/api.js
+[2026-07-03T10:07:10.179Z] [REQ] 404 GET /js/utils/api.js — ::1
+[2026-07-03T10:07:10.179Z] [WARN] 404 — GET /js/utils/error-handler.js
+[2026-07-03T10:07:10.179Z] [REQ] 404 GET /js/utils/error-handler.js — ::1
+[2026-07-03T10:07:31.516Z] [REQ] 404 GET /admin — ::1
+[2026-07-03T10:07:57.677Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:07:57.678Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:07:59.187Z] [REQ] 404 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:08:23.053Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-03T10:08:23.054Z] [INFO] App:     https://localhost:3000/app
+[2026-07-03T10:08:23.054Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-03T10:08:23.054Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-03T10:08:49.907Z] [REQ] 200 GET /admin — ::1
+[2026-07-03T10:08:49.937Z] [REQ] 200 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-03T10:08:49.943Z] [REQ] 200 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:08:49.944Z] [REQ] 200 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:08:49.945Z] [REQ] 200 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:08:49.945Z] [REQ] 200 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:08:49.949Z] [REQ] 200 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:08:49.954Z] [REQ] 200 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-03T10:08:49.954Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:08:49.956Z] [REQ] 200 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:08:49.956Z] [REQ] 200 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:08:49.956Z] [REQ] 200 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:08:49.957Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-03T10:08:50.999Z] [REQ] 200 GET /admin/login — ::1
+[2026-07-03T10:08:51.024Z] [REQ] 200 GET /shared/global-styles/login.css — ::1
+[2026-07-03T10:08:51.026Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:08:51.027Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:08:51.028Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:08:51.028Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:08:51.029Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:08:51.029Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:08:51.030Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:08:51.164Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T10:08:51.165Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T10:09:23.800Z] [REQ] 200 GET /admin — ::1
+[2026-07-03T10:09:23.838Z] [REQ] 200 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-03T10:09:23.847Z] [REQ] 200 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:09:23.854Z] [REQ] 200 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-03T10:09:23.856Z] [REQ] 200 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:09:23.856Z] [REQ] 200 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:09:23.858Z] [REQ] 200 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:09:23.860Z] [REQ] 200 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:09:23.863Z] [REQ] 200 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:09:23.863Z] [REQ] 200 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:09:23.863Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:09:23.864Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-03T10:09:23.864Z] [REQ] 200 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:09:25.895Z] [REQ] 200 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:09:25.896Z] [REQ] 200 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-03T10:09:25.897Z] [REQ] 200 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:09:25.898Z] [REQ] 200 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:09:25.901Z] [REQ] 200 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:09:25.902Z] [REQ] 200 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:09:25.903Z] [REQ] 200 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:09:25.904Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:09:25.906Z] [REQ] 200 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:09:25.907Z] [REQ] 200 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:09:25.915Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-03T10:09:27.152Z] [REQ] 200 GET /admin/login — ::1
+[2026-07-03T10:09:27.198Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:09:27.198Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:09:27.198Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:09:27.198Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:09:27.199Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:09:27.200Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:09:27.200Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:09:27.200Z] [REQ] 200 GET /shared/global-styles/login.css — ::1
+[2026-07-03T10:09:27.209Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:09:27.210Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:09:27.211Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:09:27.212Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:09:27.213Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:09:27.214Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:09:27.214Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:09:41.540Z] [REQ] 304 GET /admin — ::1
+[2026-07-03T10:09:41.581Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:09:41.593Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:09:41.596Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:09:41.599Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:09:41.600Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:09:41.601Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:09:41.601Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:09:41.602Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-03T10:09:41.602Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:09:41.602Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:09:41.603Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-03T10:09:41.603Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-03T10:09:43.908Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:09:43.908Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:09:43.909Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:09:43.911Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:09:43.911Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:09:43.912Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:09:43.912Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-03T10:09:43.913Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:09:43.913Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:09:43.913Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:09:43.913Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-03T10:09:46.702Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T10:10:17.609Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T10:10:31.495Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T10:10:40.661Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-03T10:10:48.537Z] [WARN] 404 — GET /assets/logo/LogoUMY.svg
+[2026-07-03T10:10:48.537Z] [REQ] 404 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T10:10:48.967Z] [WARN] 404 — GET /assets/logo/LogoUMY.svg
+[2026-07-03T10:10:48.967Z] [REQ] 404 GET /assets/logo/LogoUMY.svg — ::1
+[2026-07-03T10:11:22.553Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:11:22.553Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:11:24.451Z] [REQ] 200 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:11:24.477Z] [REQ] 200 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:11:24.479Z] [REQ] 200 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:11:24.480Z] [REQ] 200 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:11:24.480Z] [REQ] 200 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:11:24.481Z] [REQ] 200 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:11:24.482Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:11:24.484Z] [REQ] 200 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:11:24.486Z] [REQ] 200 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:11:24.487Z] [REQ] 200 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:11:24.489Z] [REQ] 200 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:11:24.491Z] [REQ] 200 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:11:24.491Z] [REQ] 200 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:11:24.491Z] [REQ] 200 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:11:24.493Z] [REQ] 200 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:11:24.494Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:11:24.495Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:11:24.496Z] [REQ] 200 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:11:24.497Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:11:24.566Z] [WARN] 404 — GET /js/modules/exam/exams.json
+[2026-07-03T10:11:24.566Z] [REQ] 404 GET /js/modules/exam/exams.json — ::1
+[2026-07-03T10:11:24.601Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T10:11:24.601Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T10:12:26.381Z] [REQ] 304 GET /admin/login — ::1
+[2026-07-03T10:12:26.414Z] [REQ] 304 GET /shared/global-styles/login.css — ::1
+[2026-07-03T10:12:26.417Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:12:26.424Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:12:26.424Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:12:26.426Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:12:26.427Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:12:26.427Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:12:26.428Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:12:36.710Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.711Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:12:36.712Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.712Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.711Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.712Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:12:36.713Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:12:36.713Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:12:36.718Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.719Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.719Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:12:36.720Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:12:36.732Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:12:36.733Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:12:36.734Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.734Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.735Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.735Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.735Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:12:36.736Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:12:36.739Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:12:36.740Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:12:36.750Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.751Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:12:36.752Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.752Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:12:36.752Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.751Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.753Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:12:36.753Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:12:36.757Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:12:36.758Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:12:36.775Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.776Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:12:36.777Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.777Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:12:36.778Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:36.780Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:12:36.779Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:36.780Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:12:36.782Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:12:36.782Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:12:40.840Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:12:40.840Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:12:42.336Z] [REQ] 200 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:12:42.372Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:12:42.372Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:12:42.384Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:12:42.384Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:12:42.387Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:12:42.387Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:12:42.387Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:12:42.387Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:12:42.389Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:12:42.389Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:12:42.391Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:12:42.391Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:12:42.393Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:12:42.394Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:12:42.398Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:12:42.400Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:12:42.401Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:12:42.402Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:12:42.570Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:13:05.558Z] [REQ] 200 GET /print-report.html?sessionId=08b997cc-5845-4e69-b03b-4c1a93e9dd39&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-07-03T10:13:05.614Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:13:05.659Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T10:13:05.660Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T10:13:05.848Z] [REQ] 200 GET /api/session-report/08b997cc-5845-4e69-b03b-4c1a93e9dd39 — ::1
+[2026-07-03T10:13:05.856Z] [REQ] 200 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-03T10:13:11.570Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:13:11.587Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:13:11.587Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:13:11.591Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:13:11.592Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:13:11.593Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:13:11.593Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:13:11.593Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:13:11.595Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:13:11.595Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:13:11.595Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:13:11.596Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:13:11.597Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:13:11.597Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:13:11.606Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:13:11.607Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:13:11.607Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:13:11.607Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:13:11.607Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:13:11.639Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:13:33.249Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:13:33.250Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:13:34.816Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:13:34.835Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:13:34.835Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:13:34.837Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:13:34.838Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:13:34.839Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:13:34.841Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:13:34.841Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:13:34.842Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:13:34.845Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:13:34.845Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:13:34.845Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:13:34.847Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:13:34.847Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:13:34.849Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:13:34.849Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:13:34.849Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:13:34.850Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:13:34.850Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:13:34.930Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:13:34.964Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T10:13:34.965Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T10:14:16.777Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:14:16.777Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:14:18.247Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:14:18.263Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:14:18.264Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:14:18.265Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:14:18.267Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:14:18.270Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:14:18.271Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:14:18.271Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:14:18.273Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:14:18.273Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:14:18.273Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:14:18.273Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:14:18.274Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:14:18.274Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:14:18.275Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:14:18.276Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:14:18.277Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:14:18.277Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:14:18.277Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:14:18.356Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:14:52.248Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:14:52.265Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:14:52.265Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:14:52.270Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:14:52.270Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:14:52.272Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:14:52.272Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:14:52.272Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:14:52.273Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:14:52.273Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:14:52.273Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:14:52.275Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:14:52.275Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:14:52.275Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:14:52.276Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:14:52.277Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:14:52.277Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:14:52.277Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:14:52.277Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:14:52.322Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:15:13.378Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.379Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:15:13.379Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.379Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.379Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:15:13.379Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.379Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:15:13.379Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:15:13.382Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.382Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:15:13.382Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.382Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:15:13.386Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:15:13.386Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.386Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:15:13.386Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:15:13.385Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.386Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:15:13.387Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.387Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.388Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:15:13.389Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:15:13.391Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:15:13.392Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.392Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:15:13.392Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.393Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.393Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.393Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:15:13.393Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:15:13.395Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:15:13.395Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:15:13.398Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-03T10:15:13.398Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.399Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-03T10:15:13.399Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.399Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-03T10:15:13.400Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-03T10:15:13.400Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:13.400Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:13.401Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-03T10:15:13.401Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-03T10:15:16.738Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-03T10:15:16.738Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-03T10:15:18.252Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:15:18.271Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:15:18.271Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:15:18.274Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:15:18.276Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:15:18.279Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:15:18.279Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:15:18.280Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:15:18.280Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:15:18.280Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:15:18.281Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:15:18.282Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:15:18.282Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:15:18.282Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:15:18.284Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:15:18.284Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:15:18.284Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:15:18.284Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:15:18.284Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:15:18.349Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:15:40.393Z] [REQ] 200 GET /print-report.html?sessionId=b1e9b689-a852-49de-b65f-5f6c49494488&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-07-03T10:15:40.462Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:15:40.499Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T10:15:40.499Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T10:15:40.680Z] [REQ] 200 GET /api/session-report/b1e9b689-a852-49de-b65f-5f6c49494488 — ::1
+[2026-07-03T10:15:40.685Z] [REQ] 429 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-03T10:15:45.519Z] [REQ] 429 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:17:24.107Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-03T10:17:24.108Z] [INFO] App:     https://localhost:3000/app
+[2026-07-03T10:17:24.108Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-03T10:17:24.109Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-03T10:17:34.653Z] [REQ] 200 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:17:34.676Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:17:34.676Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:17:34.681Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:17:34.681Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:17:34.682Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:17:34.682Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:17:34.682Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:17:34.683Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:17:34.688Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:17:34.688Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:17:34.688Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:17:34.689Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:17:34.689Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:17:34.688Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:17:34.692Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:17:34.692Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:17:34.693Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:17:34.693Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:17:34.750Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-03T10:18:05.833Z] [REQ] 200 GET /print-report.html?sessionId=632d0dd0-df9e-4a5c-93da-3e466aee9264&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-07-03T10:18:05.898Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:18:06.009Z] [WARN] 404 — GET /favicon.ico
+[2026-07-03T10:18:06.010Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-03T10:18:06.284Z] [REQ] 200 GET /api/session-report/632d0dd0-df9e-4a5c-93da-3e466aee9264 — ::1
+[2026-07-03T10:18:06.292Z] [REQ] 200 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-03T10:18:17.250Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-03T10:18:17.263Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-03T10:18:17.263Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-03T10:18:17.271Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-03T10:18:17.272Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-03T10:18:17.272Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-03T10:18:17.272Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-03T10:18:17.272Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-03T10:18:17.275Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-03T10:18:17.275Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-03T10:18:17.278Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-03T10:18:17.278Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-03T10:18:17.278Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-03T10:18:17.278Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-03T10:18:17.281Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-03T10:18:17.281Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-03T10:18:17.282Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-03T10:18:17.282Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-03T10:18:17.282Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-03T10:18:17.319Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-04T11:52:12.438Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-04T11:52:12.439Z] [INFO] App:     https://localhost:3000/app
+[2026-07-04T11:52:12.439Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-04T11:52:12.439Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-04T11:52:17.223Z] [REQ] 304 GET /admin — ::1
+[2026-07-04T11:52:17.267Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-04T11:52:17.270Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-04T11:52:17.277Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-04T11:52:17.277Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-04T11:52:17.282Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-04T11:52:17.282Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-04T11:52:17.285Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-04T11:52:17.286Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-04T11:52:17.286Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-04T11:52:17.287Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-04T11:52:17.289Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-04T11:52:17.289Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-04T11:52:19.363Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-04T11:52:19.364Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-04T11:52:19.364Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-04T11:52:19.364Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-04T11:52:19.367Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-04T11:52:19.368Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-04T11:52:19.368Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-04T11:52:19.367Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-04T11:52:19.368Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-04T11:52:19.371Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-04T11:52:19.371Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-04T11:58:50.701Z] [REQ] 304 GET /admin — ::1
+[2026-07-04T11:58:50.772Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-04T11:58:50.774Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-04T11:58:50.778Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-04T11:58:50.778Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-04T11:58:50.779Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-04T11:58:50.779Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-04T11:58:50.783Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-04T11:58:50.783Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-04T11:58:50.785Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-04T11:58:50.786Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-04T11:58:50.786Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-04T11:58:50.787Z] [REQ] 200 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-04T11:58:52.868Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-04T11:58:52.868Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-04T11:58:52.868Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-04T11:58:52.870Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-04T11:58:52.870Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-04T11:58:52.872Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-04T11:58:52.873Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-04T11:58:52.873Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-04T11:58:52.873Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-04T11:58:52.874Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-04T11:58:52.874Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-04T12:50:44.665Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-04T12:50:44.668Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.671Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.670Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-04T12:50:44.668Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-04T12:50:44.671Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-04T12:50:44.671Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.672Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.673Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.674Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.674Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-04T12:50:44.675Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-04T12:50:44.677Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.678Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-04T12:50:44.679Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-04T12:50:44.678Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.679Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.680Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.680Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-04T12:50:44.681Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-04T12:50:44.681Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-04T12:50:44.681Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-04T12:50:44.684Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-04T12:50:44.684Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-04T12:50:44.685Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.684Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.686Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.686Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-04T12:50:44.686Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.686Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-04T12:50:44.687Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-04T12:50:44.687Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-04T12:50:44.690Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.690Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.691Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-04T12:50:44.691Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:44.692Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-04T12:50:44.692Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:44.692Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-04T12:50:44.693Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-04T12:50:44.694Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-04T12:50:44.693Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-04T12:50:49.134Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-04T12:50:49.135Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-04T12:50:50.755Z] [REQ] 304 GET /app?_host_Info=Excel$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-04T12:50:50.775Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-04T12:50:50.775Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-04T12:50:50.776Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-04T12:50:50.777Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-04T12:50:50.778Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-04T12:50:50.779Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-04T12:50:50.781Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-04T12:50:50.782Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-04T12:50:50.784Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-04T12:50:50.785Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-04T12:50:50.786Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-04T12:50:50.786Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-04T12:50:50.786Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-04T12:50:50.786Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-04T12:50:50.788Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-04T12:50:50.789Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-04T12:50:50.789Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-04T12:50:50.789Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-04T12:50:51.373Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-04T12:50:51.421Z] [WARN] 404 — GET /favicon.ico
+[2026-07-04T12:50:51.422Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-05T03:03:06.880Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-05T03:03:06.882Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-05T03:03:06.881Z] [INFO] App:     https://localhost:3000/app
+[2026-07-05T03:03:06.882Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-05T03:03:12.661Z] [REQ] 304 GET /admin — ::1
+[2026-07-05T03:03:12.762Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-05T03:03:12.774Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-05T03:03:12.778Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-05T03:03:12.779Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-05T03:03:12.782Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-05T03:03:12.782Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-05T03:03:12.783Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-05T03:03:12.785Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-05T03:03:12.786Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T03:03:12.787Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-05T03:03:12.788Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-05T03:03:12.788Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-05T03:03:15.124Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-05T03:03:15.124Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-05T03:03:15.125Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-05T03:03:15.125Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-05T03:03:15.125Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-05T03:03:15.126Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-05T03:03:15.129Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T03:03:15.129Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-05T03:03:15.131Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-05T03:03:15.130Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-05T03:03:15.131Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-05T03:03:33.559Z] [REQ] 200 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-05T03:03:38.859Z] [REQ] 304 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-05T03:04:10.266Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-05T03:04:10.267Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-05T03:04:12.085Z] [REQ] 200 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-05T03:04:12.114Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-05T03:04:12.116Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-05T03:04:12.117Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-05T03:04:12.121Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-05T03:04:12.128Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-05T03:04:12.129Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-05T03:04:12.129Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-05T03:04:12.129Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-05T03:04:12.132Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-05T03:04:12.133Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-05T03:04:12.143Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-05T03:04:12.144Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-05T03:04:12.144Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-05T03:04:12.144Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-05T03:04:12.146Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T03:04:12.147Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-05T03:04:12.149Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-05T03:04:12.149Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-05T03:04:12.990Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-05T03:04:13.079Z] [WARN] 404 — GET /favicon.ico
+[2026-07-05T03:04:13.080Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-05T03:04:34.546Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-05T03:04:34.547Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-05T03:04:36.547Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-05T03:04:36.578Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-05T03:04:36.578Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-05T03:04:36.583Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-05T03:04:36.589Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-05T03:04:36.589Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-05T03:04:36.595Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-05T03:04:36.595Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-05T03:04:36.597Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-05T03:04:36.600Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-05T03:04:36.600Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-05T03:04:36.602Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-05T03:04:36.602Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-05T03:04:36.604Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-05T03:04:36.604Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-05T03:04:36.604Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-05T03:04:36.605Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T03:04:36.606Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-05T03:04:36.606Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-05T03:04:36.725Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-05T03:04:36.760Z] [WARN] 404 — GET /favicon.ico
+[2026-07-05T03:04:36.761Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-05T03:05:01.765Z] [REQ] 200 GET /print-report.html?sessionId=03da7fa8-0673-4a57-808f-bf5a9a347d45&_host_Info=Word$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-07-05T03:05:01.783Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T03:05:02.067Z] [WARN] 404 — GET /favicon.ico
+[2026-07-05T03:05:02.068Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-05T03:05:02.438Z] [REQ] 200 GET /api/session-report/03da7fa8-0673-4a57-808f-bf5a9a347d45 — ::1
+[2026-07-05T03:05:02.479Z] [REQ] 304 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-05T17:28:14.787Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-05T17:28:14.789Z] [INFO] App:     https://localhost:3000/app
+[2026-07-05T17:28:14.789Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-05T17:28:14.789Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-05T17:28:19.900Z] [REQ] 304 GET /admin — ::1
+[2026-07-05T17:28:19.965Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-05T17:28:19.971Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-05T17:28:19.975Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-05T17:28:19.977Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-05T17:28:19.977Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-05T17:28:19.977Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-05T17:28:19.978Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-05T17:28:19.980Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-05T17:28:19.981Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-05T17:28:19.982Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T17:28:19.982Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-05T17:28:19.982Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-05T17:28:22.336Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-05T17:28:22.336Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-05T17:28:22.336Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-05T17:28:22.337Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-05T17:28:22.337Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-05T17:28:22.337Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-05T17:28:22.340Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-05T17:28:22.340Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-05T17:28:22.340Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-05T17:28:22.340Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-05T17:28:22.341Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-05T17:28:24.954Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-05T17:28:51.783Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-05T17:28:56.038Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-05T17:30:03.804Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-06T03:19:08.696Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-06T03:19:08.698Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-06T03:19:08.698Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-06T03:19:08.698Z] [INFO] App:     https://localhost:3000/app
+[2026-07-06T03:23:42.295Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:42.298Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:42.299Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:42.297Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.298Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.300Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.300Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:42.300Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.302Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.303Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:42.303Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.304Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:42.307Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.307Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:42.308Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.308Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:42.309Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.310Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:42.311Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:42.310Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.311Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:42.312Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:42.315Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:42.316Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:42.317Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:42.317Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:42.317Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.318Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.318Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.319Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.320Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:42.320Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:42.323Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.324Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.323Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:42.324Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:42.325Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:42.325Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:42.326Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:42.326Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:42.327Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:42.327Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:55.552Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.554Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.553Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.554Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.553Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:55.554Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:55.554Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:55.555Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:55.556Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.557Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.557Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:55.558Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:55.612Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.613Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.613Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:55.613Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:55.614Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:55.614Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.614Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:55.614Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.615Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:55.616Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:55.618Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.619Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.619Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:55.620Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:55.620Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.621Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.621Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:55.620Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:55.622Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:55.623Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:23:55.697Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:23:55.697Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:23:55.698Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.698Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.699Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:23:55.700Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:23:55.699Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:23:55.700Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:23:55.700Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:23:55.701Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:24:06.991Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:06.992Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:06.992Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:06.993Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:06.992Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:24:06.992Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:24:06.993Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:24:06.993Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:24:06.994Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:06.995Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:06.995Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:24:06.996Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:24:06.998Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:06.999Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:06.999Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:24:06.999Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:24:07.000Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:24:07.001Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:07.001Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:07.001Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:24:07.002Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:24:07.002Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:24:07.005Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:07.006Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:24:07.006Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:07.006Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:24:07.007Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:07.008Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:24:07.008Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:24:07.008Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:07.009Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:24:07.009Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:24:07.012Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:07.012Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:07.013Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:07.013Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:07.014Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-06T03:24:07.014Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-06T03:24:07.014Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-06T03:24:07.015Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-06T03:24:07.015Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-06T03:24:07.016Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-06T03:24:43.839Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T03:24:43.839Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T03:24:45.349Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-06T03:24:45.382Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T03:24:45.383Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T03:24:45.383Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T03:24:45.384Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T03:24:45.385Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T03:24:45.385Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T03:24:45.388Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T03:24:45.388Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T03:24:45.388Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T03:24:45.393Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T03:24:45.393Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T03:24:45.394Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T03:24:45.396Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T03:24:45.396Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T03:24:45.397Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T03:24:45.398Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T03:24:45.399Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T03:24:45.400Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T03:24:47.591Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T03:24:48.560Z] [WARN] 404 — GET /favicon.ico
+[2026-07-06T03:24:48.561Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-06T03:25:12.406Z] [REQ] 304 GET /app?_host_Info=Word$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-06T03:25:12.451Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T03:25:12.452Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T03:25:12.460Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T03:25:12.464Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T03:25:12.465Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T03:25:12.465Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T03:25:12.466Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T03:25:12.466Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T03:25:12.469Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T03:25:12.475Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T03:25:12.475Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T03:25:12.475Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T03:25:12.476Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T03:25:12.475Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T03:25:12.477Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T03:25:12.478Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T03:25:12.479Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T03:25:12.479Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T03:25:12.500Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T03:25:27.305Z] [REQ] 200 GET /admin — ::1
+[2026-07-06T03:25:27.353Z] [REQ] 200 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-06T03:25:27.380Z] [REQ] 200 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T03:25:27.387Z] [REQ] 200 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T03:25:27.390Z] [REQ] 200 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T03:25:27.394Z] [REQ] 200 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T03:25:27.407Z] [REQ] 200 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T03:25:27.411Z] [REQ] 200 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-06T03:25:27.416Z] [REQ] 200 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T03:25:27.416Z] [REQ] 200 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T03:25:27.421Z] [REQ] 200 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T03:25:27.422Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-06T03:25:27.431Z] [REQ] 200 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T03:25:28.026Z] [REQ] 200 GET /admin/login — ::1
+[2026-07-06T03:25:28.103Z] [REQ] 200 GET /shared/global-styles/login.css — ::1
+[2026-07-06T03:25:28.105Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T03:25:28.105Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T03:25:28.107Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T03:25:28.112Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T03:25:28.113Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T03:25:28.114Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T03:25:28.114Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T03:25:42.139Z] [REQ] 304 GET /admin — ::1
+[2026-07-06T03:25:42.196Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-06T03:25:42.197Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T03:25:42.210Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T03:25:42.211Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T03:25:42.215Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T03:25:42.218Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T03:25:42.223Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T03:25:42.230Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-06T03:25:42.231Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T03:25:42.230Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-06T03:25:42.231Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T03:25:42.228Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T03:25:44.374Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T03:25:44.375Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T03:25:44.375Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T03:25:44.375Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T03:25:44.376Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T03:25:44.378Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T03:25:44.378Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-06T03:25:44.379Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T03:25:44.379Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T03:25:44.382Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T03:25:44.382Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-06T03:52:56.617Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-06T05:36:24.737Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-06T05:36:40.041Z] [REQ] 200 GET /app — ::1
+[2026-07-06T05:36:40.074Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:36:40.087Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:36:40.090Z] [REQ] 200 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:36:40.091Z] [REQ] 200 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T05:36:40.092Z] [REQ] 200 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:36:40.094Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:36:40.098Z] [REQ] 200 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:36:40.098Z] [REQ] 200 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:36:40.102Z] [REQ] 200 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:36:40.105Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:36:40.105Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:36:40.107Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:36:40.107Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:36:40.109Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:36:40.110Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:36:40.112Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:36:40.113Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:36:40.113Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:36:40.596Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T05:36:49.181Z] [REQ] 200 GET /app — ::1
+[2026-07-06T05:36:49.269Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:36:49.292Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:36:49.298Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:36:49.300Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:36:49.301Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:36:49.301Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:36:49.302Z] [REQ] 200 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T05:36:49.302Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:36:49.308Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:36:49.332Z] [REQ] 200 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:36:49.332Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:36:49.332Z] [REQ] 200 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:36:49.333Z] [REQ] 200 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:36:49.333Z] [REQ] 200 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:36:49.333Z] [REQ] 200 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:36:49.336Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:36:49.336Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:36:49.337Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:36:49.803Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T05:36:51.332Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:36:51.333Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:36:51.333Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:36:51.334Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:36:51.336Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:36:51.336Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:36:51.337Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:36:51.338Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:36:51.339Z] [REQ] 200 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:36:51.341Z] [REQ] 200 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:36:51.342Z] [REQ] 200 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:36:51.343Z] [REQ] 200 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:36:51.344Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:36:51.345Z] [REQ] 200 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:36:51.346Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:36:51.347Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:36:51.349Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:37:40.765Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T05:37:40.766Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T05:37:42.665Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-06T05:37:42.685Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:37:42.687Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:37:42.692Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T05:37:42.697Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:37:42.697Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:37:42.698Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:37:42.697Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:37:42.700Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:37:42.701Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:37:42.703Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:37:42.703Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:37:42.704Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:37:42.704Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:37:42.705Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:37:42.706Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:37:42.727Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:37:42.729Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:37:42.730Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:37:42.872Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T05:38:48.234Z] [REQ] 200 GET /print-report.html?sessionId=f83200d8-5192-4f2f-b3b3-7fe62fd0cc0a&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-07-06T05:38:48.312Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:38:48.365Z] [WARN] 404 — GET /favicon.ico
+[2026-07-06T05:38:48.365Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-06T05:38:48.591Z] [REQ] 200 GET /api/session-report/f83200d8-5192-4f2f-b3b3-7fe62fd0cc0a — ::1
+[2026-07-06T05:38:48.600Z] [REQ] 304 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-06T05:39:07.697Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-06T05:39:07.722Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:39:07.722Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:39:07.735Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T05:39:07.735Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:39:07.739Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:39:07.739Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:39:07.740Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:39:07.741Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:39:07.741Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:39:07.741Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:39:07.742Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:39:07.749Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:39:07.750Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:39:07.758Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:39:07.759Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:39:07.759Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:39:07.759Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:39:07.763Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:39:07.795Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T05:45:49.890Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-06T05:45:49.890Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-06T05:45:51.185Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-06T05:45:51.215Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:45:51.215Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:45:51.220Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T05:45:51.224Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:45:51.224Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:45:51.227Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:45:51.226Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:45:51.229Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:45:51.229Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:45:51.230Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:45:51.230Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:45:51.231Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:45:51.232Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:45:51.233Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:45:51.234Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:45:51.234Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:45:51.235Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:45:51.236Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:45:51.309Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T05:50:33.783Z] [REQ] 200 GET /print-report.html?sessionId=565c2bf9-c8f2-469f-bcbf-3c8cd2f433bf&_host_Info=Powerpoint$Win32$16.01$en-US$telemetry$isDialog$$0 — ::1
+[2026-07-06T05:50:33.840Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:50:33.872Z] [WARN] 404 — GET /favicon.ico
+[2026-07-06T05:50:33.873Z] [REQ] 404 GET /favicon.ico — ::1
+[2026-07-06T05:50:34.132Z] [REQ] 200 GET /api/session-report/565c2bf9-c8f2-469f-bcbf-3c8cd2f433bf — ::1
+[2026-07-06T05:50:34.138Z] [REQ] 304 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-06T05:53:43.178Z] [REQ] 304 GET /app?_host_Info=Powerpoint$Win32$16.01$en-US$$$$0 — ::1
+[2026-07-06T05:53:43.202Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-06T05:53:43.202Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-06T05:53:43.210Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-06T05:53:43.214Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-06T05:53:43.214Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-06T05:53:43.215Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-06T05:53:43.215Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-06T05:53:43.215Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-06T05:53:43.216Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-06T05:53:43.216Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-06T05:53:43.217Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-06T05:53:43.219Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-06T05:53:43.219Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-06T05:53:43.224Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-06T05:53:43.224Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-06T05:53:43.225Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-06T05:53:43.226Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-06T05:53:43.226Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-06T05:53:43.258Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-06T05:54:20.159Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-06T05:58:36.700Z] [REQ] 304 GET /shared/brand-assets/LogoUMY.svg — ::1
+[2026-07-09T04:11:18.633Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-09T04:11:18.635Z] [INFO] App:     https://localhost:3000/app
+[2026-07-09T04:11:18.635Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-09T04:11:18.635Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-09T04:11:26.071Z] [REQ] 304 GET /admin — ::1
+[2026-07-09T04:11:26.114Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T04:11:26.117Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:11:26.119Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:11:26.128Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:11:26.129Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:11:26.134Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:11:26.136Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:11:26.137Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:11:26.137Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:11:26.137Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:11:26.137Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:11:26.138Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:11:28.180Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:11:28.181Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:11:28.182Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:11:28.183Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:11:28.184Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:11:28.185Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:11:28.187Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:11:28.189Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:11:28.191Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:11:28.196Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:11:28.198Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:11:30.052Z] [REQ] 200 GET /admin/login?error=unauthorized — ::1
+[2026-07-09T04:11:30.151Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:11:30.156Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:11:30.157Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:11:30.157Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:11:30.157Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:11:30.159Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:11:30.160Z] [REQ] 304 GET /shared/global-styles/login.css — ::1
+[2026-07-09T04:11:30.160Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:11:30.184Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:11:30.186Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:11:30.187Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:11:30.189Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:11:30.191Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:11:30.191Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:11:30.192Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:11:52.307Z] [REQ] 304 GET /admin — ::1
+[2026-07-09T04:11:52.355Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:11:52.359Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:11:52.366Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:11:52.366Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:11:52.366Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:11:52.369Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:11:52.369Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:11:52.371Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:11:52.371Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:11:52.371Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:11:52.371Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:11:52.371Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T04:11:54.429Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:11:54.430Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:11:54.430Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:11:54.431Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:11:54.432Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:11:54.432Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:11:54.433Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:11:54.434Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:11:54.434Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:11:54.434Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:11:54.435Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:14:23.649Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-09T04:14:23.650Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-09T04:14:23.651Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.651Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-09T04:14:23.650Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.651Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.652Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.651Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-09T04:14:23.655Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.656Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.655Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-09T04:14:23.656Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-09T04:14:23.663Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.663Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.663Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.664Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.665Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-09T04:14:23.665Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-09T04:14:23.666Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-09T04:14:23.666Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-09T04:14:23.667Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-09T04:14:23.667Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-09T04:14:23.725Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.726Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.726Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-09T04:14:23.726Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-09T04:14:23.729Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-09T04:14:23.728Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.727Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-09T04:14:23.730Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.731Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-09T04:14:23.731Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-09T04:14:23.737Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.736Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.737Z] [WARN] 404 — GET /assets/icon-16.png
+[2026-07-09T04:14:23.738Z] [WARN] 404 — GET /assets/icon-64.png
+[2026-07-09T04:14:23.738Z] [REQ] 404 GET /assets/icon-16.png — ::1
+[2026-07-09T04:14:23.739Z] [REQ] 404 GET /assets/icon-64.png — ::1
+[2026-07-09T04:14:23.739Z] [WARN] 404 — GET /assets/icon-32.png
+[2026-07-09T04:14:23.740Z] [REQ] 404 GET /assets/icon-32.png — ::1
+[2026-07-09T04:14:23.740Z] [WARN] 404 — GET /assets/icon-80.png
+[2026-07-09T04:14:23.741Z] [REQ] 404 GET /assets/icon-80.png — ::1
+[2026-07-09T04:44:53.405Z] [REQ] 200 GET /admin — ::1
+[2026-07-09T04:44:53.460Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:44:53.462Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:44:53.468Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:44:53.469Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:44:53.468Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:44:53.474Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:44:53.474Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:44:53.474Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:44:53.477Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:44:53.477Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:44:53.478Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T04:44:53.478Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:44:55.567Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:44:55.568Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:44:55.567Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:44:55.568Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:44:55.569Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:44:55.571Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:44:55.571Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:44:55.571Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:44:55.571Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:44:55.571Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:44:55.572Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:45:42.955Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-09T04:45:52.656Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-09T04:46:07.954Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:46:07.954Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:46:07.954Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:46:07.956Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:46:07.956Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:46:07.956Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:46:07.957Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:48:36.509Z] [REQ] 200 GET /admin — ::1
+[2026-07-09T04:48:36.543Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:48:36.552Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:48:36.554Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:48:36.554Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:48:36.555Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:48:36.557Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:48:36.556Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:48:36.557Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:48:36.558Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:48:36.558Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:48:36.559Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T04:48:36.560Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:48:38.614Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:48:38.615Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:48:38.615Z] [REQ] 200 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:48:38.616Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:48:38.617Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:48:38.617Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:48:38.618Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:48:38.618Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:48:38.619Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:48:38.620Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:48:38.621Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:49:40.265Z] [REQ] 200 GET /admin — ::1
+[2026-07-09T04:49:40.316Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:49:40.319Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:49:40.326Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:49:40.327Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:49:40.328Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:49:40.327Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:49:40.332Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:49:40.332Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:49:40.332Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:49:40.332Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T04:49:40.333Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:49:40.333Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T04:49:42.391Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T04:49:42.392Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T04:49:42.392Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T04:49:42.394Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T04:49:42.394Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T04:49:42.396Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T04:49:42.397Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T04:49:42.397Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T04:49:42.397Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T04:49:42.398Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T04:49:42.399Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T07:59:50.790Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-09T07:59:50.791Z] [INFO] App:     https://localhost:3000/app
+[2026-07-09T07:59:50.791Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-09T07:59:50.792Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-09T07:59:58.919Z] [REQ] 304 GET /admin — ::1
+[2026-07-09T07:59:58.993Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T07:59:59.001Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T07:59:59.003Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T07:59:59.004Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T07:59:59.006Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T07:59:59.006Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T07:59:59.006Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T07:59:59.008Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T07:59:59.008Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T07:59:59.009Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T07:59:59.009Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T07:59:59.010Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T08:00:01.235Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T08:00:01.235Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T08:00:01.235Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T08:00:01.236Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T08:00:01.236Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T08:00:01.235Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T08:00:01.238Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T08:00:01.239Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T08:00:01.239Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T08:00:01.239Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T08:00:01.240Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T08:13:13.830Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-09T08:13:13.831Z] [INFO] App:     https://localhost:3000/app
+[2026-07-09T08:13:13.832Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-09T08:13:13.832Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-09T08:13:19.255Z] [REQ] 304 GET /admin — ::1
+[2026-07-09T08:13:19.361Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-09T08:13:19.377Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T08:13:19.377Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T08:13:19.378Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T08:13:19.385Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T08:13:19.390Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T08:13:19.390Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T08:13:19.391Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T08:13:19.391Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T08:13:19.393Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T08:13:19.394Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T08:13:19.634Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T08:13:21.715Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T08:13:21.716Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T08:13:21.715Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T08:13:21.715Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T08:13:21.719Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T08:13:21.719Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T08:13:21.719Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T08:13:21.720Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T08:13:21.719Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T08:13:21.723Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T08:13:21.724Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-09T08:13:23.047Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-09T08:13:23.048Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-09T08:13:23.049Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-09T08:13:23.052Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-09T08:13:23.053Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-09T08:13:23.054Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-09T08:13:23.055Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-09T08:13:23.055Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-09T08:13:23.056Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-09T08:13:23.057Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-09T08:13:23.058Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-18T13:19:46.359Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-18T13:19:46.361Z] [INFO] App:     https://localhost:3000/app
+[2026-07-18T13:19:46.361Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-18T13:19:46.361Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-18T13:19:56.268Z] [REQ] 304 GET /admin — ::1
+[2026-07-18T13:19:56.356Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-18T13:19:56.375Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:19:56.381Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:19:56.382Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:19:56.384Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:19:56.573Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:19:56.573Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:19:56.574Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:19:56.577Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:19:56.577Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-18T13:19:56.577Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:19:56.579Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-18T13:19:58.627Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:19:58.628Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:19:58.628Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:19:58.628Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:19:58.632Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:19:58.632Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:19:58.634Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:19:58.634Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:19:58.634Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-18T13:19:58.635Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:19:58.636Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-18T13:20:00.070Z] [REQ] 200 GET /app — ::1
+[2026-07-18T13:20:00.133Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:20:00.138Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:20:00.139Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:20:00.143Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:20:00.143Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:20:00.144Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:20:00.147Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:20:00.151Z] [REQ] 200 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:20:00.152Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:20:00.151Z] [REQ] 200 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:20:00.152Z] [REQ] 200 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:20:00.153Z] [REQ] 200 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:20:00.157Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:20:00.157Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:20:00.157Z] [REQ] 200 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:20:00.159Z] [REQ] 200 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:20:00.160Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:20:00.161Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:20:00.200Z] [REQ] 200 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:20:00.202Z] [REQ] 200 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:20:00.203Z] [REQ] 200 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:20:00.204Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:20:00.205Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:20:00.206Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:20:00.206Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:20:00.208Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:20:00.208Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:20:00.209Z] [REQ] 200 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:20:00.210Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:20:00.213Z] [REQ] 200 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:20:00.216Z] [REQ] 200 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:20:00.219Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:20:00.220Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:20:00.221Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:20:00.222Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:20:00.547Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:20:55.280Z] [REQ] 200 GET /admin/login — ::1
+[2026-07-18T13:20:55.329Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:20:55.330Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:20:55.330Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:20:55.332Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:20:55.332Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:20:55.333Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:20:55.333Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:20:55.385Z] [REQ] 200 GET /shared/global-styles/login.css — ::1
+[2026-07-18T13:20:57.433Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:20:57.436Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:20:57.437Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:20:57.438Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:20:57.438Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:20:57.442Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:20:57.444Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:26:28.418Z] [REQ] 304 GET /admin — ::1
+[2026-07-18T13:26:28.599Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:26:28.604Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:26:28.608Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:26:28.608Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:26:28.610Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:26:28.615Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:26:28.618Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:26:28.618Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:26:28.619Z] [REQ] 304 GET /features/admin-dashboard/dashboard.css — ::1
+[2026-07-18T13:26:28.621Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-18T13:26:28.621Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-18T13:26:28.622Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:26:30.698Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:26:30.698Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:26:30.702Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:26:30.705Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:26:30.712Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:26:30.725Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:26:30.725Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:26:30.726Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:26:30.729Z] [REQ] 304 GET /features/admin-dashboard/dashboard.js — ::1
+[2026-07-18T13:26:30.732Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:26:30.734Z] [REQ] 304 GET /features/admin-dashboard/dashboard-api.js — ::1
+[2026-07-18T13:26:45.179Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:26:45.236Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:26:45.245Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:26:45.257Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:26:45.260Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:26:45.261Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:26:45.269Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:26:45.273Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:26:45.285Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:26:45.289Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:26:45.289Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:26:45.289Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:26:45.290Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:26:45.290Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:26:45.294Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:26:45.301Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:26:45.303Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:26:45.305Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:26:45.304Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:26:45.790Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:26:47.328Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:26:47.328Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:26:47.329Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:26:47.329Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:26:47.329Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:26:47.333Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:26:47.334Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:26:47.335Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:26:47.336Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:26:47.336Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:26:47.336Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:26:47.338Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:26:47.339Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:26:47.340Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:26:47.341Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:26:47.341Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:26:47.340Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:28:37.294Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:28:37.366Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:28:37.369Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:28:37.374Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:28:37.380Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:28:37.381Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:28:37.388Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:28:37.389Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:28:37.389Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:28:37.389Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:28:37.393Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:28:37.397Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:28:37.398Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:28:37.398Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:28:37.398Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:28:37.399Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:28:37.401Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:28:37.403Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:28:37.403Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:28:37.743Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:28:39.543Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:28:39.544Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:28:39.545Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:28:39.545Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:28:39.548Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:28:39.554Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:28:39.555Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:28:39.557Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:28:39.557Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:28:39.557Z] [REQ] 200 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:28:39.560Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:28:39.565Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:28:39.569Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:28:39.569Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:28:39.570Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:28:39.570Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:28:39.571Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:28:53.964Z] [REQ] 200 GET /api/participants-with-email — ::1
+[2026-07-18T13:31:11.973Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:31:12.036Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:31:12.040Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:31:12.044Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:31:12.049Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:31:12.050Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:31:12.055Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:31:12.061Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:31:12.061Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:31:12.062Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:31:12.062Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:31:12.065Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:31:12.066Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:31:12.068Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:31:12.069Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:31:12.069Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:31:12.068Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:31:12.071Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:31:12.072Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:31:12.327Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:31:14.155Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:31:14.155Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:31:14.157Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:31:14.158Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:31:14.159Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:31:14.160Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:31:14.161Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:31:14.162Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:31:14.163Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:31:14.163Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:31:14.165Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:31:14.168Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:31:14.168Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:31:14.170Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:31:14.174Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:31:14.175Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:31:14.176Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:33:08.521Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:33:08.590Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:33:08.595Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:33:08.600Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:33:08.607Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:33:08.633Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:33:08.640Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:33:08.643Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:33:08.647Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:33:08.648Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:33:08.648Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:33:08.650Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:33:08.651Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:33:08.651Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:33:08.654Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:33:08.654Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:33:08.655Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:33:08.656Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:33:08.658Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:33:09.302Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:33:10.670Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:33:10.670Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:33:10.672Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:33:10.673Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:33:10.673Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:33:10.674Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:33:10.675Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:33:10.676Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:33:10.678Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:33:10.679Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:33:10.682Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:33:10.684Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:33:10.683Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:33:10.686Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:33:10.687Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:33:10.687Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:33:10.688Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:33:24.264Z] [WARN] 404 — GET /logout
+[2026-07-18T13:33:24.266Z] [REQ] 404 GET /logout — ::1
+[2026-07-18T13:34:13.165Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-18T13:34:13.167Z] [INFO] App:     https://localhost:3000/app
+[2026-07-18T13:34:13.168Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-18T13:34:13.168Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-18T13:34:17.648Z] [WARN] 404 — GET /logout
+[2026-07-18T13:34:17.652Z] [REQ] 404 GET /logout — ::1
+[2026-07-18T13:34:19.307Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:34:20.715Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:34:20.717Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:34:20.718Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:34:20.720Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:34:20.733Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:34:20.734Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:34:20.735Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:34:20.735Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:34:20.742Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:34:20.745Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:34:20.747Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:34:20.747Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:34:20.748Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:34:20.748Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:34:20.753Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:34:20.754Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:34:20.757Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:34:29.495Z] [WARN] 404 — GET /logout
+[2026-07-18T13:34:29.497Z] [REQ] 404 GET /logout — ::1
+[2026-07-18T13:35:14.428Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:35:14.882Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:35:14.883Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:35:14.882Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:35:14.883Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:35:14.887Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:35:14.888Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:35:14.888Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:35:14.889Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:35:14.890Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:35:14.894Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:35:14.898Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:35:14.898Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:35:14.899Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:35:14.899Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:35:14.900Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:35:14.904Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:35:14.909Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:35:24.324Z] [WARN] 404 — GET /logout
+[2026-07-18T13:35:24.326Z] [REQ] 404 GET /logout — ::1
+[2026-07-18T13:35:32.038Z] [WARN] 404 — GET /logout
+[2026-07-18T13:35:32.043Z] [REQ] 404 GET /logout — ::1
+[2026-07-18T13:35:41.039Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:35:41.146Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:35:41.146Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:35:41.147Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:35:41.147Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:35:41.148Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:35:41.154Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:35:41.154Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:35:41.154Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:35:41.157Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:35:41.158Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:35:41.162Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:35:41.165Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:35:41.165Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:35:41.166Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:35:41.169Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:35:41.166Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:35:41.170Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:36:17.142Z] [WARN] 404 — GET /logout
+[2026-07-18T13:36:17.143Z] [REQ] 404 GET /logout — ::1
+[2026-07-18T13:37:44.534Z] [INFO] Excel Quiz Add-in Server running at https://localhost:3000
+[2026-07-18T13:37:44.536Z] [INFO] App:     https://localhost:3000/app
+[2026-07-18T13:37:44.537Z] [INFO] Manifest: https://localhost:3000/manifest.xml
+[2026-07-18T13:37:44.537Z] [INFO] Admin:   https://localhost:3000/admin
+[2026-07-18T13:37:48.598Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:37:48.681Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:37:48.682Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:37:48.693Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:37:48.694Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:37:48.703Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:37:48.703Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:37:48.704Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:37:48.704Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:37:48.702Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:37:48.707Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:37:48.710Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:37:48.710Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:37:48.711Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:37:48.711Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:37:48.711Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:37:48.713Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:37:48.716Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:37:48.719Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:37:49.108Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:37:50.852Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:37:50.853Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:37:50.853Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:37:50.855Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:37:50.858Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:37:50.859Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:37:50.863Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:37:50.866Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:37:50.867Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:37:50.868Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:37:50.870Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:37:50.871Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:37:50.875Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:37:50.876Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:37:50.878Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:37:50.877Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:37:50.880Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:38:11.803Z] [REQ] 200 GET /login — ::1
+[2026-07-18T13:38:11.853Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:38:11.857Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:38:11.861Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:38:11.866Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:38:11.869Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:38:11.872Z] [REQ] 304 GET /shared/global-styles/login.css — ::1
+[2026-07-18T13:38:11.873Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:38:11.874Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:38:11.875Z] [REQ] 200 GET /features/participant-login/login.js — ::1
+[2026-07-18T13:38:13.941Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:38:13.942Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:38:13.944Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:38:13.947Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:38:13.948Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:38:13.948Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:38:13.953Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:38:13.955Z] [REQ] 200 GET /features/participant-login/login.js — ::1
+[2026-07-18T13:38:32.424Z] [REQ] 304 GET /admin/login — ::1
+[2026-07-18T13:38:32.501Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:38:32.521Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:38:32.532Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:38:32.533Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:38:32.534Z] [REQ] 304 GET /shared/global-styles/login.css — ::1
+[2026-07-18T13:38:32.535Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:38:32.534Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:38:32.535Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:38:34.561Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:38:34.562Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:38:34.563Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:38:34.564Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:38:34.565Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:38:34.567Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:38:34.569Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:38:53.952Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:38:54.082Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:38:54.085Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:38:54.092Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:38:54.093Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:38:54.099Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:38:54.100Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:38:54.100Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:38:54.101Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:38:54.100Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:38:54.105Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:38:54.110Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:38:54.110Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:38:54.111Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:38:54.111Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:38:54.111Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:38:54.113Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:38:54.116Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:38:54.117Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:38:54.434Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:38:56.220Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:38:56.220Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:38:56.221Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:38:56.221Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:38:56.221Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:38:56.223Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:38:56.226Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:38:56.227Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:38:56.228Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:38:56.226Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:38:56.227Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:38:56.230Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:38:56.232Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:38:56.232Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:38:56.233Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:38:56.233Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:38:56.234Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:39:12.611Z] [REQ] 304 GET /login — ::1
+[2026-07-18T13:39:12.665Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:39:12.669Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:39:12.679Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:39:12.679Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:39:12.680Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:39:12.681Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:39:12.682Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:39:12.684Z] [REQ] 304 GET /shared/global-styles/login.css — ::1
+[2026-07-18T13:39:12.684Z] [REQ] 304 GET /features/participant-login/login.js — ::1
+[2026-07-18T13:39:14.728Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:39:14.732Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:39:14.732Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:39:14.739Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:39:14.744Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:39:14.760Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:39:14.764Z] [REQ] 304 GET /features/participant-login/login.js — ::1
+[2026-07-18T13:39:14.765Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:40:09.338Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:40:09.464Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:40:09.474Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:40:09.495Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:40:09.496Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:40:09.502Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:40:09.503Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:40:09.505Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:40:09.506Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:40:09.519Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:40:09.519Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:40:09.524Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:40:09.525Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:40:09.531Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:40:09.531Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:40:09.534Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:40:09.535Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:40:09.536Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:40:09.538Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:40:10.237Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:40:11.852Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:40:11.853Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:40:11.853Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:40:11.855Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:40:11.855Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:40:11.857Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:40:11.858Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:40:11.859Z] [REQ] 200 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:40:11.860Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:40:11.861Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:40:11.863Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:40:11.863Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:40:11.865Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:40:11.865Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:40:11.867Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:40:11.867Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:40:11.869Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:40:25.619Z] [REQ] 304 GET /app — ::1
+[2026-07-18T13:40:25.719Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:40:25.737Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:40:25.739Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:40:25.735Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:40:25.754Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:40:25.756Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:40:25.758Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:40:25.760Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:40:25.760Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:40:25.763Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:40:25.764Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:40:25.769Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:40:25.773Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:40:25.774Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:40:25.777Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1
+[2026-07-18T13:40:25.778Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:40:25.779Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:40:25.784Z] [REQ] 304 GET /features/participant-exam/taskpane.css — ::1
+[2026-07-18T13:40:26.463Z] [REQ] 200 GET /features/participant-exam/exams.json — ::1
+[2026-07-18T13:40:27.819Z] [REQ] 304 GET /shared/external-libraries/supabase-sdk.js — ::1
+[2026-07-18T13:40:27.819Z] [REQ] 304 GET /shared/authentication-services/auth-handler.js — ::1
+[2026-07-18T13:40:27.820Z] [REQ] 304 GET /shared/external-libraries/lucide.js — ::1
+[2026-07-18T13:40:27.822Z] [REQ] 304 GET /shared/authentication-services/supabase-client.js — ::1
+[2026-07-18T13:40:27.822Z] [REQ] 304 GET /shared/error-handling/error-handler.js — ::1
+[2026-07-18T13:40:27.824Z] [REQ] 304 GET /shared/app-configuration/app.config.js — ::1
+[2026-07-18T13:40:27.824Z] [REQ] 304 GET /features/participant-exam/checkers/helpers.js — ::1
+[2026-07-18T13:40:27.826Z] [REQ] 304 GET /shared/api-utilities/api-helper.js — ::1
+[2026-07-18T13:40:27.826Z] [REQ] 304 GET /features/participant-exam/exam-api.js — ::1
+[2026-07-18T13:40:27.828Z] [REQ] 304 GET /features/participant-exam/checkers/excel.js — ::1
+[2026-07-18T13:40:27.828Z] [REQ] 304 GET /features/participant-exam/checkers/word.js — ::1
+[2026-07-18T13:40:27.830Z] [REQ] 304 GET /features/participant-exam/checkers/ppt.js — ::1
+[2026-07-18T13:40:27.831Z] [REQ] 304 GET /features/participant-exam/checkers/index.js — ::1
+[2026-07-18T13:40:27.833Z] [REQ] 304 GET /features/participant-exam/exams-loader.js — ::1
+[2026-07-18T13:40:27.835Z] [REQ] 304 GET /shared/external-libraries/sweetalert2.js — ::1
+[2026-07-18T13:40:27.835Z] [REQ] 304 GET /features/participant-exam/taskpane.js — ::1
+[2026-07-18T13:40:27.834Z] [REQ] 304 GET /shared/report-generation/report-generator.js — ::1

@@ -7,7 +7,7 @@
 window.ReportGenerator = (function () {
 
   const PASSING_SCORE = 70;
-  const LOGO_PATH = '/assets/logo/LogoUMY.svg';
+  const LOGO_PATH = '/shared/brand-assets/LogoUMY.svg';
 
   /**
    * Formats date to "DD Bulan YYYY" Indonesian format.

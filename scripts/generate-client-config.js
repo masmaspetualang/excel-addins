@@ -10,7 +10,7 @@ const supabaseUrl = process.env.SUPABASE_URL || '';
 const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || '';
 const isVercel = Boolean(process.env.VERCEL);
 
-const outDir = path.join(__dirname, '../public/js/config');
+const outDir = path.join(__dirname, '../public/shared/app-configuration');
 const outFile = path.join(outDir, 'app.config.js');
 
 if (!supabaseUrl || !supabaseAnonKey) {

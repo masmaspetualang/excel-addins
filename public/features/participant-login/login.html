@@ -10,17 +10,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/styles/login.css" />
-  <!-- Supabase CDN -->
-  <script src="/js/lib/supabase.js"></script>
-  <script src="/js/config/app.config.js"></script>
-  <script src="/js/core/supabase.js"></script>
-  <script src="/js/core/auth.js"></script>
-  <script src="/js/modules/exam/exam-api.js"></script>
-  <script src="/js/modules/dashboard/dashboard-api.js"></script>
-  <script src="/js/utils/api.js"></script>
-  <script src="/js/utils/error-handler.js"></script>
-  <script src="/js/lib/sweetalert2.js"></script>
+  <link rel="stylesheet" href="/shared/global-styles/login.css" />
+  <!-- Supabase & Core Services -->
+  <script src="/shared/external-libraries/supabase-sdk.js"></script>
+  <script src="/shared/app-configuration/app.config.js"></script>
+  <script src="/shared/authentication-services/supabase-client.js"></script>
+  <script src="/shared/authentication-services/auth-handler.js"></script>
+  <script src="/shared/api-utilities/api-helper.js"></script>
+  <script src="/shared/error-handling/error-handler.js"></script>
+  <script src="/shared/external-libraries/sweetalert2.js"></script>
 </head>
 
 <body>
@@ -83,7 +81,7 @@
 
   </div><!-- /wrapper -->
 
-  <script src="/js/modules/login/login.js"></script>
+  <script src="/features/participant-login/login.js"></script>
 </body>
 
 </html>

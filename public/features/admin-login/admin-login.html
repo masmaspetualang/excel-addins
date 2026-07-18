@@ -6,16 +6,14 @@
   <title>Admin Login — ExamQuiz</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/login.css"/>
-  <script src="/js/lib/supabase.js"></script>
-  <script src="/js/lib/sweetalert2.js"></script>
-  <script src="/js/config/app.config.js"></script>
-  <script src="/js/core/supabase.js"></script>
-  <script src="/js/core/auth.js"></script>
-  <script src="/js/modules/exam/exam-api.js"></script>
-  <script src="/js/modules/dashboard/dashboard-api.js"></script>
-  <script src="/js/utils/api.js"></script>
-  <script src="/js/utils/error-handler.js"></script>
+  <link rel="stylesheet" href="/shared/global-styles/login.css"/>
+  <script src="/shared/external-libraries/supabase-sdk.js"></script>
+  <script src="/shared/external-libraries/sweetalert2.js"></script>
+  <script src="/shared/app-configuration/app.config.js"></script>
+  <script src="/shared/authentication-services/supabase-client.js"></script>
+  <script src="/shared/authentication-services/auth-handler.js"></script>
+  <script src="/shared/api-utilities/api-helper.js"></script>
+  <script src="/shared/error-handling/error-handler.js"></script>
   <style>
     /* Admin login uses gold accent — override brand button */
     #admin-logo-icon {

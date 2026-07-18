@@ -6,25 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ExamQuiz</title>
   <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
-  <script src="/js/lib/supabase.js"></script>
+  <script src="/shared/external-libraries/supabase-sdk.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
     rel="stylesheet">
   <!-- Lucide Icons -->
-  <script src="/js/lib/lucide.js"></script>
-  <link rel="stylesheet" href="/styles/taskpane.css">
-  <script src="/js/config/app.config.js"></script>
-  <script src="/js/core/supabase.js?v=1.1.0"></script>
-  <script src="/js/core/auth.js?v=1.1.0"></script>
-  <script src="/js/modules/exam/exam-api.js?v=1.1.0"></script>
-  <script src="/js/modules/dashboard/dashboard-api.js?v=1.1.0"></script>
-  <script src="/js/utils/api.js?v=1.1.0"></script>
-  <script src="/js/utils/error-handler.js?v=1.1.0"></script>
-  <script src="/js/modules/exam/checkers.js?v=1.1.0"></script>
-  <script src="/js/modules/exam/exams-loader.js?v=1.2.0"></script>
-  <script src="/js/utils/report-generator.js?v=1.0.0"></script>
-  <script src="/js/lib/sweetalert2.js"></script>
+  <script src="/shared/external-libraries/lucide.js"></script>
+  <link rel="stylesheet" href="/features/participant-exam/taskpane.css">
+  <script src="/shared/app-configuration/app.config.js"></script>
+  <script src="/shared/authentication-services/supabase-client.js"></script>
+  <script src="/shared/authentication-services/auth-handler.js"></script>
+  <script src="/features/participant-exam/exam-api.js"></script>
+  <script src="/shared/api-utilities/api-helper.js"></script>
+  <script src="/shared/error-handling/error-handler.js"></script>
+  <!-- Modular checkers -->
+  <script src="/features/participant-exam/checkers/helpers.js"></script>
+  <script src="/features/participant-exam/checkers/excel.js"></script>
+  <script src="/features/participant-exam/checkers/word.js"></script>
+  <script src="/features/participant-exam/checkers/ppt.js"></script>
+  <script src="/features/participant-exam/checkers/index.js"></script>
+  <script src="/features/participant-exam/exams-loader.js"></script>
+  <script src="/shared/report-generation/report-generator.js"></script>
+  <script src="/shared/external-libraries/sweetalert2.js"></script>
 </head>
 
 <body>
@@ -275,7 +279,7 @@
   <!-- TOAST -->
   <div class="toast" id="toast"></div>
 
-  <script src="/js/modules/exam/taskpane.js?v=1.2.0"></script>
+  <script src="/features/participant-exam/taskpane.js"></script>
   <script>
     // Initialize Lucide icons after DOM is ready
     lucide.createIcons();

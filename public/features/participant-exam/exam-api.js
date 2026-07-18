@@ -148,11 +148,27 @@
     }
   }
 
+  async function getExamFiles() {
+    const sb = Supabase.getClient();
+    if (!sb) return [];
+    const { data, error } = await sb.from('berkas_template').select('*').order('jenis_aplikasi');
+    if (error) throw error;
+    return (data || []).map(f => ({
+      id: f.id_berkas,
+      exam_type: f.jenis_aplikasi,
+      display_name: f.nama_tampilan,
+      file_path: f.tautan_berkas,
+      is_available: f.status_aktif,
+      updated_at: f.waktu_pembaruan
+    }));
+  }
+
   // Extend window.SupabaseClient
   window.SupabaseClient = window.SupabaseClient || {};
   Object.assign(window.SupabaseClient, {
     loadQuestions,
     createExamSession,
-    saveExamResults
+    saveExamResults,
+    getExamFiles
   });
 })();

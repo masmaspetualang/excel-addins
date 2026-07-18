@@ -21,6 +21,11 @@ setInterval(() => {
 }, WINDOW_MS);
 
 function rateLimitMiddleware(req, res, next) {
+  // Bypass rate limiting in local development
+  if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+    return next();
+  }
+
   const ip  = req.headers['x-forwarded-for'] || req.socket?.remoteAddress || 'unknown';
   const now = Date.now();
 

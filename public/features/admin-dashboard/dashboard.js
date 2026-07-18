@@ -5,7 +5,7 @@
 let allResults = [];
 let filtered = [];
 let currentPage = 1;
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 5;
 let sortKey = 'started_at';
 let sortDir = 'desc';
 
@@ -152,11 +152,13 @@ async function loadResults() {
         max_score: r.max_score || 100,
         pct: r.max_score > 0 ? Math.round((r.total_score / r.max_score) * 100) : 0,
         status: r.status || 'in_progress',
-        started_at: r.started_at
+        started_at: r.started_at,
+        finished_at: r.finished_at
       };
     });
 
     updateStats();
+    populateGelombangDropdown();
     filterAndRender();
   } catch (err) {
     console.error(err);
@@ -179,16 +181,65 @@ function updateStats() {
   document.getElementById('stat-ppt').textContent = allResults.filter(r => getExamType(r.exam_type) === 'ppt').length;
 }
 
+function getLocalDateString(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function populateGelombangDropdown() {
+  const select = document.getElementById('filter-date');
+  if (!select) return;
+  
+  const prevVal = select.value;
+  select.innerHTML = '<option value="">Semua Gelombang</option>';
+  
+  const dates = new Set();
+  allResults.forEach(r => {
+    if (r.started_at) {
+      const dStr = getLocalDateString(r.started_at);
+      if (dStr) dates.add(dStr);
+    }
+  });
+  
+  const sortedDates = Array.from(dates).sort((a, b) => a.localeCompare(b));
+  
+  sortedDates.forEach((dStr, index) => {
+    const formatted = new Date(dStr).toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' });
+    const opt = document.createElement('option');
+    opt.value = dStr;
+    opt.textContent = `Gelombang ${index + 1} (${formatted})`;
+    select.appendChild(opt);
+  });
+  
+  if (sortedDates.includes(prevVal)) {
+    select.value = prevVal;
+  } else {
+    select.value = '';
+  }
+}
+
 function filterAndRender() {
   const search = document.getElementById('search-input').value.toLowerCase();
   const fType = document.getElementById('filter-type').value;
   const fStat = document.getElementById('filter-status').value;
+  const fDate = document.getElementById('filter-date').value;
 
   filtered = allResults.filter(r => {
     const examType = r.exam_type === 'powerpoint' ? 'ppt' : r.exam_type;
+    
+    let dateMatch = true;
+    if (fDate && r.started_at) {
+      dateMatch = (getLocalDateString(r.started_at) === fDate);
+    }
+
     return (r.name.toLowerCase().includes(search) || r.nim.toLowerCase().includes(search)) &&
       (!fType || examType === fType) &&
-      (!fStat || r.status === fStat);
+      (!fStat || r.status === fStat) &&
+      dateMatch;
   });
 
   filtered.sort((a, b) => {
@@ -217,7 +268,7 @@ function renderTable() {
   const page = filtered.slice(start, start + PAGE_SIZE);
 
   if (!filtered.length) {
-    tbody.innerHTML = '<tr><td colspan="10"><div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">Tidak ada data</div></div></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="11"><div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">Tidak ada data</div></div></td></tr>';
     return;
   }
 
@@ -238,7 +289,9 @@ function renderTable() {
     const typeInfo = typeMap[r.exam_type] || { class: '', label: '—' };
     const statusInfo = statusMap[r.status] || { class: '', label: '—' };
     const col = r.pct >= 70 ? 'var(--accent)' : r.pct >= 50 ? 'var(--accent3)' : 'var(--danger)';
-    const dt = r.started_at ? new Date(r.started_at).toLocaleString('id-ID', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—';
+    
+    const startDt = r.started_at ? new Date(r.started_at).toLocaleString('id-ID', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—';
+    const endDt = r.finished_at ? new Date(r.finished_at).toLocaleString('id-ID', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—';
     
     // Action column: report and delete
     const hasReport = r.status === 'lulus' || r.status === 'tidak_lulus';
@@ -261,7 +314,8 @@ function renderTable() {
       <td class="score-cell" style="color:${col}">${r.total_score}<span style="color:var(--text-faint);font-size:11px"> / ${r.max_score}</span></td>
       <td style="font-family:var(--mono);font-weight:700;color:${col}">${r.pct}%</td>
       <td><span class="status-badge ${statusInfo.class}">${statusInfo.label}</span></td>
-      <td style="font-size:11px;color:var(--text-dim);font-family:var(--mono)">${dt}</td>
+      <td style="font-size:11px;color:var(--text-dim);font-family:var(--mono)">${startDt}</td>
+      <td style="font-size:11px;color:var(--text-dim);font-family:var(--mono)">${endDt}</td>
       <td>
         <div class="action-cell">
           ${reportBtn}
@@ -276,14 +330,26 @@ function renderTable() {
 function renderPagination() {
   const total = Math.ceil(filtered.length / PAGE_SIZE);
   const pag = document.getElementById('pagination');
-  if (total <= 1) { pag.innerHTML = `<span class="page-info">${filtered.length} data</span>`; return; }
-  let html = `<span class="page-info">${filtered.length} data</span>
-    <button class="page-btn" onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>←</button>`;
+  const start = filtered.length > 0 ? (currentPage - 1) * PAGE_SIZE + 1 : 0;
+  const end = Math.min(currentPage * PAGE_SIZE, filtered.length);
+  const infoText = `Menampilkan ${start} - ${end} dari ${filtered.length} data`;
+
+  if (total <= 1) {
+    pag.innerHTML = `<span class="page-info">${infoText}</span>`;
+    return;
+  }
+  let html = `<span class="page-info">${infoText}</span>
+    <button class="page-btn" onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} title="Sebelumnya">
+      <i data-lucide="chevron-left" style="width:14px;height:14px;vertical-align:middle;"></i>
+    </button>`;
   for (let i = 1; i <= total; i++) {
     html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">${i}</button>`;
   }
-  html += `<button class="page-btn" onclick="changePage(${currentPage + 1})" ${currentPage === total ? 'disabled' : ''}>→</button>`;
+  html += `<button class="page-btn" onclick="changePage(${currentPage + 1})" ${currentPage === total ? 'disabled' : ''} title="Berikutnya">
+      <i data-lucide="chevron-right" style="width:14px;height:14px;vertical-align:middle;"></i>
+    </button>`;
   pag.innerHTML = html;
+  if (window._reinitIcons) window._reinitIcons();
 }
 
 function changePage(p) {
@@ -295,12 +361,13 @@ function changePage(p) {
 }
 
 function exportCSV() {
-  const headers = ['No', 'Nama', 'NIM', 'Jenis Ujian', 'Level', 'Skor', 'Max Skor', 'Persentase', 'Status', 'Tanggal'];
+  const headers = ['No', 'Nama', 'NIM', 'Jenis Ujian', 'Level', 'Skor', 'Max Skor', 'Persentase', 'Status', 'Waktu Mulai', 'Waktu Selesai'];
   const rows = filtered.map((r, i) => [
     i + 1, r.name, r.nim, r.exam_type.toUpperCase(), r.level,
     r.total_score, r.max_score, r.pct + '%',
     r.status === 'lulus' ? 'Lulus' : r.status === 'tidak_lulus' ? 'Tidak Lulus' : 'Berjalan',
-    r.started_at ? new Date(r.started_at).toLocaleString('id-ID') : ''
+    r.started_at ? new Date(r.started_at).toLocaleString('id-ID') : '',
+    r.finished_at ? new Date(r.finished_at).toLocaleString('id-ID') : ''
   ]);
   const csv = [headers, ...rows].map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
   const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8' });
@@ -316,7 +383,7 @@ async function handleSignOut() {
 
 function showLoading(v) { document.getElementById('loading-overlay').classList.toggle('show', v); }
 function showEmptyState(msg) {
-  document.getElementById('table-body').innerHTML = `<tr><td colspan="10"><div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">${x(msg)}</div></div></td></tr>`;
+  document.getElementById('table-body').innerHTML = `<tr><td colspan="11"><div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">${x(msg)}</div></div></td></tr>`;
 }
 function showToast(msg, type) {
   const t = document.getElementById('toast');

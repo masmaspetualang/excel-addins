@@ -3,11 +3,11 @@
  * Dipakai Express lokal; Vercel memakai vercel.json dengan mapping yang sama.
  */
 const FILES = {
-  app: 'pages/participant/taskpane.html',
-  login: 'pages/participant/login.html',
-  admin: 'pages/admin/dashboard.html',
-  adminLogin: 'pages/admin/admin-login.html',
-  adminCommands: 'pages/admin/commands.html',
+  app: 'features/participant-exam/taskpane.html',
+  login: 'features/participant-login/login.html',
+  admin: 'features/admin-dashboard/dashboard.html',
+  adminLogin: 'features/admin-login/admin-login.html',
+  adminCommands: 'features/admin-dashboard/commands.html',
 };
 
 const URLS = {

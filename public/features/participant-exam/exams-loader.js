@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const EXAMS_JSON_URL = '/js/modules/exam/exams.json';
+  const EXAMS_JSON_URL = '/features/participant-exam/exams.json';
 
   function bindCheckerFunctions(examMap) {
     if (!examMap || !window.OfficeCheckers) return;

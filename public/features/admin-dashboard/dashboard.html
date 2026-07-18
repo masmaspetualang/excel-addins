@@ -7,22 +7,21 @@
   <meta name="description" content="Dashboard laporan nilai ujian praktik Microsoft Office"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/dashboard.css"/>
+  <link rel="stylesheet" href="/features/admin-dashboard/dashboard.css"/>
   <!-- React Icons via CDN (unpkg) -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
   <!-- Use lucide-react as a standalone icon library via CDN -->
-  <script src="/js/lib/lucide.js"></script>
-  <script src="/js/lib/supabase.js"></script>
-  <script src="/js/lib/sweetalert2.js"></script>
-  <script src="/js/config/app.config.js"></script>
-  <script src="/js/core/supabase.js"></script>
-  <script src="/js/core/auth.js"></script>
-  <script src="/js/modules/exam/exam-api.js"></script>
-  <script src="/js/modules/dashboard/dashboard-api.js"></script>
-  <script src="/js/utils/report-generator.js"></script>
-  <script src="/js/utils/api.js"></script>
-  <script src="/js/utils/error-handler.js"></script>
+  <script src="/shared/external-libraries/lucide.js"></script>
+  <script src="/shared/external-libraries/supabase-sdk.js"></script>
+  <script src="/shared/external-libraries/sweetalert2.js"></script>
+  <script src="/shared/app-configuration/app.config.js"></script>
+  <script src="/shared/authentication-services/supabase-client.js"></script>
+  <script src="/shared/authentication-services/auth-handler.js"></script>
+  <script src="/features/admin-dashboard/dashboard-api.js"></script>
+  <script src="/shared/report-generation/report-generator.js"></script>
+  <script src="/shared/api-utilities/api-helper.js"></script>
+  <script src="/shared/error-handling/error-handler.js"></script>
 </head>
 <body>
 
@@ -154,6 +153,9 @@
         <option value="lulus">Lulus</option>
         <option value="tidak_lulus">Tidak Lulus</option>
       </select>
+      <select class="filter-select" id="filter-date" onchange="filterAndRender()" title="Filter Gelombang">
+        <option value="">Semua Gelombang</option>
+      </select>
       <button class="btn-export" onclick="exportCSV()">
         <i data-lucide="download" style="width:14px;height:14px;"></i>
         Export CSV
@@ -161,10 +163,6 @@
       <button class="btn-delete-all" onclick="deleteAllExamsConfirm()">
         <i data-lucide="trash-2" style="width:14px;height:14px;"></i>
         Hapus Semua Ujian
-      </button>
-      <button class="btn-add-user" onclick="showAddParticipantModal()">
-        <i data-lucide="user-plus" style="width:14px;height:14px;"></i>
-        Tambah Peserta
       </button>
     </div>
 
@@ -196,13 +194,14 @@
             <th onclick="sortBy('total_score')">Skor <span class="sort-arrow"></span></th>
             <th onclick="sortBy('pct')">% <span class="sort-arrow"></span></th>
             <th onclick="sortBy('status')">Status <span class="sort-arrow"></span></th>
-            <th onclick="sortBy('started_at')">Tanggal <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('started_at')">Mulai <span class="sort-arrow"></span></th>
+            <th onclick="sortBy('finished_at')">Selesai <span class="sort-arrow"></span></th>
             <th style="width: 180px; text-align: center;">Aksi</th>
           </tr>
         </thead>
         <tbody id="table-body">
           <tr>
-            <td colspan="10">
+            <td colspan="11">
               <div class="empty-state">
                 <div class="empty-state-icon">
                   <i data-lucide="clipboard-list" style="width:40px;height:40px;opacity:0.4;"></i>
@@ -281,7 +280,7 @@
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
-<script src="/js/modules/dashboard/dashboard.js"></script>
+<script src="/features/admin-dashboard/dashboard.js"></script>
 <script>
   // Initialize Lucide icons
   lucide.createIcons();
