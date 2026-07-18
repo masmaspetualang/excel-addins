@@ -4,7 +4,10 @@
  */
 require('dotenv').config();
 
-const REQUIRED = ['PORT', 'HOST', 'SUPABASE_URL', 'SUPABASE_ANON_KEY'];
+const isVercel = Boolean(process.env.VERCEL);
+const REQUIRED = isVercel
+  ? ['SUPABASE_URL', 'SUPABASE_ANON_KEY']
+  : ['PORT', 'HOST', 'SUPABASE_URL', 'SUPABASE_ANON_KEY'];
 
 const missing = REQUIRED.filter((key) => !process.env[key]);
 if (missing.length > 0) {
